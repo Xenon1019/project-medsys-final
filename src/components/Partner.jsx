@@ -74,17 +74,20 @@ export default function Partner() {
       <section className="connect-with-team myCont mb-24">
         <h1 className="heading font-bold text-4xl p-7 pt-16 text-[#560215] text-center">Connect with our team and Explore the Possibilites of Partnering </h1>
         <div className="form">
-          <div className="inner grid grid-cols-2 gap-10">
-            <input className='border-solid border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Name*' />
-            <input className='border-solid border outline-none px-5 py-1 border-slate-400' type="email" placeholder='Email Address*' />
-            <input className='border-solid border outline-none px-5 py-1 border-slate-400' type="phone" placeholder='Mobile Number*' />
-            <input className='border-solid border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Subject*' />
+          <div className="inner max-w-4xl m-auto grid grid-cols-2 gap-5">
+            <input className='border-solid rounded border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Name*' />
+            <input className='border-solid rounded border outline-none px-5 py-1 border-slate-400' type="email" placeholder='Email Address*' />
+            <input className='border-solid rounded border outline-none px-5 py-1 border-slate-400' type="phone" placeholder='Mobile Number*' />
+            <input className='border-solid rounded border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Subject*' />
           </div>
+          <div className="m-auto max-w-4xl">
           <textarea className='w-full mt-8 border-solid border outline-none px-5 py-1 border-slate-400' name="message" id="" cols="30" placeholder='Message*' rows="5"></textarea>
           <input className='w-full mt-4 border-solid border outline-none px-5 py-1 border-slate-400' placeholder='Security Code*' type="text" />
+          </div>
+
           {/* Button  */}
           <div className="form-btn flex justify-center pt-4">
-            <button className='text-white w-28 h-8 bg-[#560217] rounded-sm hover:bg-rose-800'>Send</button>
+            <button style={{fontSize:"20px"}} className='text-white w-40 h-9 bg-[#560217] rounded-sm hover:bg-rose-800'>Send</button>
           </div>
         </div>
       </section>

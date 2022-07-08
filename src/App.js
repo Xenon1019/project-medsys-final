@@ -21,7 +21,6 @@ import FSSAIstate from "./components/pages/fssaiState/FSSAIstate";
 import FSSAIannual from "./components/pages/fssaiAnnual/FSSAIannual";
 import IECRegistration from "./components/pages/IEC Registration/IECRegistration";
 import DrugLicense from "./components/pages/drugLicense/DrugLicense";
-import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import Dsc from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
