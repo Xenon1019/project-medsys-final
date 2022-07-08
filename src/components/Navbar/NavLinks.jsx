@@ -10,13 +10,13 @@ const NavLinks = () => {
       {links.map((link) => (
         <div>
           <div className=" text-left md:cursor-pointer hover:bg-rose-900 group">
-          <h2
-              className=" flex justify-between items-center text-lg sm:text-base text-rose-200 p-7 sm:px-3 group uppercase font-semibold"
+          <h1
+              className=" flex justify-between items-center p-7 sm:px-3 group uppercase font-semibold"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
-            >{link.name}</h2>
+            >{link.name}</h1>
             {link.submenu && (
               <div>
                 <div className="absolute top-15 hidden group-hover:md:block hover:md:block">
@@ -26,12 +26,12 @@ const NavLinks = () => {
                   <div className="bg-[#560216] border border-rose-900 drop-shadow p-4 grid grid-flow-col-dense gap-5 rounded-md">
                     {link.sublinks.map((mysublinks) => (
                       <div className="h-full">
-                        <h1 className="text-lg text-rose-400 font-semibold">
+                        <h1 className="text-lg font-semibold">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className=" my-2">
-                            <Link to={slink.link} className="text-rose-200 hover:text-rose-50">
+                          <li className="text-rose-200 my-2">
+                            <Link to={slink.link} className="hover:text-rose-50">
                               {slink.name}
                             </Link>
                           </li>
@@ -45,8 +45,8 @@ const NavLinks = () => {
           </div>
           {/* Mobile menus */}
           <div
-            className= {`
-            ${heading === link.name ? "sm:hidden" : "hidden"}
+            className={`
+            ${heading === link.name ? "md:hidden" : "hidden"}
           `}
           >
             {/* sublinks */}
@@ -59,7 +59,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 text-lg flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 flex justify-between items-center md:pr-0 pr-5"
                   >
                     {slinks.Head}
 
@@ -79,7 +79,7 @@ const NavLinks = () => {
                     }`}
                   >
                     {slinks.sublink.map((slink) => (
-                      <li className="py-3 text-sm pl-14">
+                      <li className="py-3 pl-14">
                         <Link to={slink.link}>{slink.name}</Link>
                       </li>
                     ))}

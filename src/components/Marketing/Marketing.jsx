@@ -15,7 +15,7 @@ import img12 from "./Web Development.png";
 
 function App() {
   const backgroundImageStyle = {
-    backgroundImage: `url("${mainImage}")`,
+    background: `url("${mainImage}") no-repeat center center/cover`,
     backgroundSize: "cover",
   };
 
@@ -82,7 +82,7 @@ function App() {
   return (
     <div className="App">
       <div
-        className=" text-white h-screen flex items-center justify-center "
+        className=" text-white w-full h-[550px]  flex items-center justify-center "
         style={backgroundImageStyle}
       >
         <h2 className="sm:text-6xl text-5xl uppercase font-bold text-center w-11/12">

@@ -1,0 +1,12 @@
+.table-spy div a{
+    text-decoration: underline !important;
+    color: #560216 !important;
+    font-weight: 550 !important;
+}
+.arrow::before {
+    content: "\00BB";
+    color: #560216;
+    font-size: 30px;
+    /* margin-left: 60px; */
+    /* padding-right: 7px; */
+  }
