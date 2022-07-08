@@ -1,0 +1,35 @@
+#private-info{
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+.ICI li p{
+    color: #000 !important;
+}
+
+#table1 th{
+    color: white;
+}
+#table1 td{
+    border: 1px solid #560216;
+}
+
+#private-info h1{
+    font-size: 2rem;
+    color: #560216;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding-left: 30px;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.content-scroll-view a{
+    text-decoration: underline;
+    color: #560216 !important;
+    font-weight: 550;
+}
+
+.necessity-image img{
+    width: 50px;
+    height: 50px;
+}
