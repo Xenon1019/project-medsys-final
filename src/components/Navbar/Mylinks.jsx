@@ -34,7 +34,7 @@ export const links = [
           { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
-          { name: "PASARA License", link: "/" },
+          { name: "PASARA License", link: "/psara" },
           { name: "APEDA License", link: "/" },
           { name: "RERA Agent/Developer", link: "/" },
         ],
@@ -73,8 +73,7 @@ export const links = [
         sublink: [
           { name: "Trust Registration", link: "/" },
           { name: "Society Registration", link: "/" },
-          
-          { name: "Section 8 Company", link: "/" },
+          { name: "Section 8 Company", link: "/section-registration" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
       },
@@ -114,7 +113,7 @@ export const links = [
       {
           sublink: [
           { name: "Trademark Registration", link: "/" },
-          { name: "Patent Registration", link: "/" },
+          { name: "Patent Registration", link: "/patent-registration" },
           { name: "Copyright Registration", link: "/copyright" },
           { name: "Design Registration", link: "/" },
         ],
