@@ -27,6 +27,8 @@ import PSARA from "./components/pages/PSARA/PSARA";
 import Patent from "./components/pages/Patent Registration/Patent";
 import Section from "./components/pages/Section Registration/Section";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
+import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
+import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 
 import {
   BrowserRouter,
@@ -64,6 +66,8 @@ function App() {
           <Route path="/patent-registration" element={ <Patent />}> </Route>
           <Route path="/section-registration" element={ <Section />}> </Route>
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
+          <Route path="/society-registration" element={ <SocietyReg /> }></Route>
+          <Route path="/private-company" element={ <PrivateCompany /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
