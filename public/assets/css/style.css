@@ -1,6 +1,6 @@
 /* Font  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap'); */
 
 :root {
     --primary: #e3dddd;
@@ -25,8 +25,8 @@ html {
 
 body {
     background-color: #ffe4e6;
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -79,7 +79,7 @@ section.popular-products .wrapper .item {
 
 section.popular-products .wrapper .item img {
     width: 230px;
-    height: 150px;
+    /* height: 130px; */
     object-fit: contain;
 }
 
@@ -104,6 +104,9 @@ section.popular-products .wrapper .item h1 {
     font-size: 1.6rem;
 }
 
+section.popular-products .wrapper .item:nth-child(2) h1 {
+    padding-bottom: 5px;
+}
 
 section.popular-products .wrapper .item h6 {
     font-size: 15px;
@@ -325,7 +328,9 @@ section.partner .partner-inner .left button {
 }
 
 section.partner .partner-inner .left button:hover {
-    background:rgb(190, 40, 40);
+    background:transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 /* ====================Profile================== */

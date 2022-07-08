@@ -6,7 +6,7 @@ export default function TermsConditions() {
         <>
             <img src="/assets//img/t&c.png" alt="" style={{width:"100%"}} />
             <h1 className="section-heading">Terms & Conditions</h1>
-            <div className="container policies">
+            <div className="container policies w-11/12">
                 <h2>ABOUT US</h2>
                 <h6>Welcome to <a href="/">www.medsysconsultancy.com</a> </h6>
                 <p>Medsys is an online business registration portal for newbie startups, MSME's & NGOs in India. Medsys

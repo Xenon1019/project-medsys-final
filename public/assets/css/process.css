@@ -26,6 +26,8 @@ section.header-below {
 .header-below .inner h1 {
     font-size: 4rem;
     color: white;
+    margin-bottom: 1rem;
+    /* margin-left: 23rem; */
 }
 
 .header-below .inner h6 {
@@ -318,7 +320,7 @@ section.new-product {
 }
 
 section.new-product .inner h6 {
-    color: white;
+    color: rgb(240, 217, 15);
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -341,8 +343,7 @@ section.new-product .inner a button {
     width: 107px;
     font-size: 13px;
     margin-top: 1rem;
-    color: white;
-    background: maroon;
+    color: #504c4c;
     font-weight: bold;
     border: none;
     text-align: center;
@@ -352,7 +353,7 @@ section.new-product .inner a button {
 }
 
 section.new-product .inner a button:hover {
-    background-color: rgb(172, 48, 48);
+    background-color: brown;
     color: white;
 }
 

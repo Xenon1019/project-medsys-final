@@ -39,7 +39,7 @@ export default function Partner() {
       </section>
       {/* ++++++++++++++++++++++++++++ Join Partnership ++++++++++++++++++++++++ */}
       <section className="partner-experience myCont">
-        <h1 className="heading font-bold text-4xl p-7 text-[#560215] text-center">Our partners have experienced</h1>
+        <h1 className="heading font-bold text-4xl p-7 text-center">Our partners have experienced</h1>
         <div className="wrapper flex justify-between">
           {/* experience item  */}
           <div className='inner'>
@@ -66,13 +66,13 @@ export default function Partner() {
         </div>
         <h3 className='text-2xl text-center font-bold pt-5'>Come, Join Us</h3>
         <div className="button flex justify-center pt-4">
-          <button className="bg-[#560217] text-white hover:bg-rose-800">Become a partner</button>
+          <button>Become a partner</button>
         </div>
       </section>
 
       {/* ++++++++++++++++++++++++++++ Connect with team ++++++++++++++++++++++++ */}
       <section className="connect-with-team myCont mb-24">
-        <h1 className="heading font-bold text-4xl p-7 pt-16 text-[#560215] text-center">Connect with our team and Explore the Possibilites of Partnering </h1>
+        <h1 className="heading font-bold text-4xl p-7 pt-16 text-center">Connect with our team and Explore the Possibilites of Partnering </h1>
         <div className="form">
           <div className="inner grid grid-cols-2 gap-10">
             <input className='border-solid border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Name*' />
@@ -84,7 +84,7 @@ export default function Partner() {
           <input className='w-full mt-4 border-solid border outline-none px-5 py-1 border-slate-400' placeholder='Security Code*' type="text" />
           {/* Button  */}
           <div className="form-btn flex justify-center pt-4">
-            <button className='text-white w-28 h-8 bg-[#560217] rounded-sm hover:bg-rose-800'>Send</button>
+            <button className='text-white w-28 h-8 bg-[#560217] rounded-sm'>Send</button>
           </div>
         </div>
       </section>

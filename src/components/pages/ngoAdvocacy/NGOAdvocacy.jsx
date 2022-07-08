@@ -71,7 +71,7 @@ function Header() {
 }
 
 function NGOAdvocacy() {
-    TabTitle('');
+    TabTitle('NGO Advocacy - medsysconsultancy.com');
 
     return (<>
         <Header />

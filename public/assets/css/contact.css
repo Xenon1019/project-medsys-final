@@ -46,16 +46,12 @@ section.form .wrapper .left{
 }
 
 section.form .wrapper .left h5 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     position: relative;
     margin-bottom: 2rem;
     padding-left: 10px;
-    border-bottom: 1px solid ;
-    width: fit-content;
-    text-align: left;
-    color: #560215;
 }
 
 section.form .wrapper .left form{
@@ -63,17 +59,33 @@ section.form .wrapper .left form{
     flex-direction: column;
 }
 
+section.form .wrapper .left span{
+    color: white;
+}
+
+section.form .wrapper .left h5::before {
+    content: '';
+    width: 54px;
+    position: absolute;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    z-index: -1;
+    height: 25px;
+    bottom: -3px;
+    left: -2px;
+    background: linear-gradient(to right, #560216, #b6405c);
+}
 
 section.form .wrapper .left h1{
     font-size: 2.5rem;
     margin-bottom: 0.8rem;
-    color: #560215;
+    color: black;
 }
 
 section.form .wrapper .left p{
     line-height: 1.7;
     font-size: 20px;
-    color: #560215;
+    color: black;
     position: relative;
 }
 
@@ -310,7 +322,7 @@ section.map-below{
     align-items: center;
     width:235px;
     display: flex;
-    background-color: #5c0606;
+    background-color: #141485;
     font-size: 15px;
     padding: 8px 5px;
     letter-spacing: 1px;
@@ -333,7 +345,7 @@ section.map-below{
 
 .right .address .google-review .google-review-inner a:hover p{
     background-color:white;
-    color: #5c0606;
+    color: #141485;
 }
 
 section.contact .contact-mid .left img{

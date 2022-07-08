@@ -1,0 +1,18 @@
+#ngo-darpan-info{
+    background-color: white;
+    margin-top: 0;
+    padding-bottom: 0.1rem;
+}
+
+#ngo-darpan-info h1{
+    color: #560216;
+    margin-left: 5%;
+    font-size: 2rem;
+    padding-top: 2em;
+    padding-bottom: 0.7em;
+}
+
+#ngo-darpan-info ul li b{
+    color: #9D3E55;
+}
+
