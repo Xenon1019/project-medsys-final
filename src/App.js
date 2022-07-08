@@ -24,6 +24,7 @@ import Dsc from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
+import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 
 import {
   BrowserRouter,
@@ -61,6 +62,7 @@ function App() {
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
+          <Route path="/society-registration" element={ <SocietyReg /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

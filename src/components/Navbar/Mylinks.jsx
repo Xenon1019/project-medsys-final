@@ -72,7 +72,7 @@ export const links = [
         Head: "Registration",
         sublink: [
           { name: "Trust Registration", link: "/" },
-          { name: "Society Registration", link: "/" },
+          { name: "Society Registration", link: "/society-registration" },
           
           { name: "Section 8 Company", link: "/" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
