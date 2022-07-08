@@ -23,7 +23,9 @@ import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
 import DSC from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
-
+import PSARA from "./components/pages/PSARA/PSARA";
+import Patent from "./components/pages/Patent Registration/Patent";
+import Section from "./components/pages/Section Registration/Section";
 import {
   BrowserRouter,
   Routes,
@@ -59,6 +61,9 @@ function App() {
           <Route path="/dsc" element={ <DSC /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
+          <Route path="/psara" element={ <PSARA />}> </Route>
+          <Route path="/patent-registration" element={ <Patent />}> </Route>
+          <Route path="/section-registration" element={ <Section />}> </Route>
         </Routes>
         <Footer />
       </BrowserRouter>
