@@ -115,7 +115,7 @@ export const links = [
           { name: "Trademark Registration", link: "/" },
           { name: "Patent Registration", link: "/patent-registration" },
           { name: "Copyright Registration", link: "/copyright" },
-          { name: "Design Registration", link: "/" },
+          { name: "Design Registration", link: "/design" },
         ],
       },
     ],

@@ -29,7 +29,7 @@ const Navbar = () => {
           <NavLinks />
           <li>
             <Link to="/marketingSolutions" className="pr-2 px-3 inline-block uppercase font-semibold">
-              Marketing Solutions
+              Marketing Solution
             </Link>
           </li>
           <li>
