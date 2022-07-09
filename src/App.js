@@ -1,4 +1,5 @@
 "react-router-dom";
+import { TabTitle } from "./components/Utillity";
 import Footer from "./components/footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
@@ -10,8 +11,9 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
+
+// ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
-import { TabTitle } from "./components/Utillity";
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";

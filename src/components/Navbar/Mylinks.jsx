@@ -73,7 +73,6 @@ export const links = [
         sublink: [
           { name: "Trust Registration", link: "/" },
           { name: "Society Registration", link: "/" },
-          
           { name: "Section 8 Company", link: "/" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
