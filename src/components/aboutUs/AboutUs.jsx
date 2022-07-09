@@ -1,5 +1,4 @@
-import mainImage from "./3.png";
-// About us page
+import mainImage from "./bg1.png";
 import React, { useState } from "react";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import img1 from "./Budding_Entrepreneurs.png";
@@ -15,7 +14,7 @@ import vision from "./1.png";
 import mission from "./2.png";
 function App() {
   const backgroundImageStyle = {
-    background: `url("${mainImage}") no-repeat center center/cover`,
+    background: `url("${mainImage}")no-repeat center center/cover`,
   };
 
   const imgupcoming1 = {
@@ -105,12 +104,12 @@ function App() {
   return (
     <div className="App">
       <div
-        className=" text-white h-screen flex items-center justify-center "
+        className=" text-white h-[550px] w-full flex items-center justify-center "
         style={backgroundImageStyle}
       >
-        <h2 className="sm:text-6xl text-5xl uppercase font-bold text-center w-11/12">
+        {/* <h2 className="sm:text-6xl text-5xl uppercase font-bold text-center w-11/12">
           Medsys Consultancy Services
-        </h2>
+        </h2> */}
       </div>
 
       <div className="bg-[#f6d5dd]">
@@ -119,7 +118,7 @@ function App() {
             <h2 className="text-5xl text-[#560216] font-bold mx=auto">
               About Us
             </h2>
-            <div className="bg-[#560216] w-1/4 h-1.5"></div>
+            {/* <div className="bg-[#560216] w-1/4 h-1.5"></div> */}
           </div>
 
           <div className="flex items-center justify-center sm:w-1/2 mx-auto">
@@ -145,17 +144,16 @@ function App() {
         <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Vision</h2>
-            <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div>
+            {/* <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div> */}
           </div>
         </div>
-
         <div className="flex items-center justify-center">
           <div>
             <div
               className="w-36 h-36 bg-no-repeat mx-auto"
               style={OurVision}
             ></div>
-            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5">
+            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5 mb-7">
               We provide innovative, quality-driven services to our clients to
               improve, optimize their performance and support them to scale up
               their solutions to address the complex challenges of surviving in
@@ -163,11 +161,14 @@ function App() {
             </p>
           </div>
         </div>
-
-        <div className="flex items-center justify-center mt-11">
+      </div>
+      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
+    
+      <div className="bg-[#560216] py-9 px-3">
+        <div className="flex items-center justify-center mt-7">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
-            <div className=" bg-rose-100 mt-1 w-1/2 h-1.5"></div>
+            {/* <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div> */}
           </div>
         </div>
 
@@ -189,7 +190,7 @@ function App() {
       <div className="bg-[#f6d5dd] py-9 px-2">
         <div className="px-4 sm:px-9">
           <h2 className=" text-5xl text-[#560216]">Who are we?</h2>
-          <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div>
+          {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
         </div>
         <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto mt-6">
           <p className="text-rose-900 text-xl font-medium my-auto pr-6">
@@ -211,7 +212,7 @@ function App() {
           <h2 className="text-5xl text-[#560216] flex justify-end">
             Why Medsys?
           </h2>
-          <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5 ml-auto"></div>
+          {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5 ml-auto"></div> */}
         </div>
         <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto mt-6">
           <div
@@ -231,14 +232,14 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#560216]">
+      <div className="bg-[#560216] py-2 px-3">
         <div className="p-1 sm:p-11 py-16">
           <div className="flex items-center justify-center">
-            <div className="flex flex-col items-center justify-center">
-              <h2 className="text-4xl sm:text-5xl text-rose-100 font-bold mx-auto">
+            <div className="pb-9 flex flex-col items-center justify-center">
+              <h2 className="text-4xl sm:text-5xl text-rose-100 font-bold mx-auto ">
                 Upcoming Goals
               </h2>
-              <div className="bg-rose-100 mt-3 w-1/2 h-1.5"></div>
+              {/* <div className="bg-rose-100 mt-3 w-1/2 h-1.5"></div> */}
             </div>
           </div>
 
@@ -274,14 +275,17 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
+        <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
 
+      <div className="bg-[#560216] py-2 px-3">
         <div className="p-1 sm:p-11 py-16">
           <div className="flex items-center justify-center">
-            <div className="flex flex-col items-center justify-center">
+            <div className="pb-9 flex flex-col items-center justify-center">
               <h2 className="text-4xl sm:text-5xl text-rose-100 font-bold mx-auto">
                 Our Growth Parameter
               </h2>
-              <div className="bg-rose-100 mt-3 w-1/2 h-1.5"></div>
+              {/* <div className="bg-rose-100 mt-3 w-1/2 h-1.5"></div> */}
             </div>
           </div>
 
@@ -380,13 +384,18 @@ function App() {
         </div>
       </div>
 
+      <div className="p-36 bg-gradient-to-r from-[#4a4545] to-[#560216] hover:from-[#550216] hover:to-[#4a4545] ">
+        <h1 className="text-center tracking-widest text-5xl sm:text-6xl text-rose-100 font-bold mx-auto">Turn Your Ideas Into Reality With MEDSYS</h1>
+      </div>
+      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
+
       <div className="bg-[#560216]">
-        <div className="px-8 py-16">
+        <div className="px-8 py-14">
           <div className="w-3/4">
             <h2 className="italic text-5xl text-white">
               Message from founder !!
             </h2>
-            <div className="bg-white mt-3 w-1/4 h-1.5"></div>
+            {/* <div className="bg-white mt-3 w-1/4 h-1.5"></div> */}
           </div>
           {/* <div className=" m-3 py-2 text-5xl text-white"> */}
           <div className="ml-3 mt-7">
@@ -395,7 +404,7 @@ function App() {
 
           {/* </div> */}
           <div className="flex justify-center ml-3 py-3">
-            <p className="flex justify-center text-white text-lg sm:text-xl sm:w-4/5 leading-7">
+            <p className="flex justify-center text-white text-lg sm:text-2xl sm:w-4/5 leading-7">
               He is an entrepreneur, business consultant and Founder of Medsys
               Consultancy Services LLP looking after the Business and Marketing
               aspects of the firm. Also, he is the founder of Medlife Pharma
@@ -415,23 +424,28 @@ function App() {
 
           <div className="flex flex-col justify-end px-3 m-3">
             <div className="flex justify-end py-1">
-              <h1 className="text-white text-3xl">~Bhushan Shirude</h1>
+              <h1 className="text-white text-3xl mr-9">~Bhushan Shirude</h1>
               <br></br>
             </div>
-            <div className="flex justify-end py-2">
-              <h1 className="text-white text-2xl">Founder and CEO</h1>
+            <div className="flex justify-end py-1">
+              <h1 className="text-white text-2xl mr-9">Founder and CEO</h1>
               <br></br>
             </div>
           </div>
         </div>
       </div>
 
-      <section className="profile container mt-8 w-11/12 sm:w-4/5">
+      {/* <section className="profile container mt-8 w-11/12 sm:w-4/5">
         <div className="inner mx-auto text-center">
-            <h1 className="sm:text-5xl text-4xl px-9 py-16 text-rose-400">Turn Your Ideas Into Reality With MEDSYS</h1>
+          <h1 className="sm:text-5xl text-4xl px-9 py-16 text-rose-400">
+            Turn Your Ideas Into Reality With MEDSYS
+          </h1>
         </div>
-      </section>
+      </section> */}
+      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
+
     </div>
+    
   );
 }
 

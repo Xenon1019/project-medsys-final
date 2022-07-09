@@ -77,15 +77,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-white">
+                <Link to="/privacypolicy" className="text-white">
                   Blog
                 </Link>
               </li>
-              {/* <li>
-                <Link to="/refundpolicy" className="text-white">
-                  Refund Policy
-                </Link>
-              </li> */}
+              
             </ul>
           </div>
           <div className="footer_menu mb-auto">
@@ -97,9 +93,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">
-                  Customer Review
-                </a>
+              <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">Customer Review</a>
+                
               </li>
 
               <li>

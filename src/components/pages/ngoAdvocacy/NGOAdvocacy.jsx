@@ -63,7 +63,7 @@ function Header() {
         </div>
 
         <div className="top-footer">
-            <p>For more information regarding ISO Certification Filing</p>
+            <p>Get in touch with us acquire various licenses, registrations, and certifications</p>
             <button type="submit"><a href="tel:+91 70204 38881">Call Now!</a></button>
         </div>
     </>);

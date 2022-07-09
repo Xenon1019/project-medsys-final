@@ -37,27 +37,31 @@ export default function Home() {
             
             {/* <!-- =================popular-products====================== --> */}
             <section className="container popular-products">
-                <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">Popular products</h1>
+                <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">Popular Products</h1>
                 <div className="wrapper">
                     <div className="item">
                         <div><img src="/assets/img/Business Setup.svg" alt="" /></div>
-                        <h1>Business Setup</h1>
-                        <img className="inner-img" src="/assets/img/Business Setup.png" alt="" />
+                        <h1 className='font-bold'>Business Setup</h1>
+                        <h6>File tax return in under 7 minutes</h6>
+                        <img className="inner-img border rounded-lg" src="/assets/img/Business Setup.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/NGO Management.svg" alt="" /></div>
-                        <h1>NGO Management</h1>
-                        <img className="inner-img" src="/assets/img/NGO Management.png" alt="" />
+                        <h1 className='font-bold'>NGO Management</h1>
+                        <h6 className='pb-0'>ITR & GST filling, business & legal compliance</h6>
+                        <img className="inner-img border rounded-lg" src="/assets/img/NGO Management.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/Trademark & IP.svg" alt="" /></div>
-                        <h1>Trandemark and IP</h1>
-                        <img className="inner-img" src="/assets/img/Trademark & IP.png" alt="" />
+                        <h1 className='font-bold'>Trandemark and IP</h1>
+                        <h6>Bulk invoice in Tally or any ERP</h6>
+                        <img className="inner-img border rounded-lg" src="/assets/img/Trademark & IP.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/Digital Branding.svg" alt="" /></div>
-                        <h1>Digital Branding</h1>
-                        <img className="inner-img" src="/assets/img/Digital Branding.png" alt="" />
+                        <h1 className='font-bold'>Digital Branding</h1>
+                        <h6>G1-G9 fillings made 3x faster</h6>
+                        <img className="inner-img border rounded-lg" src="/assets/img/Digital Branding.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -247,7 +251,7 @@ export default function Home() {
                         <h1>Let's Partner Up!</h1>
                         <p style={{ fontWeight: "bold" }}>Become our partner and drive your business to the next level.</p>
                         <h6>Connect with us now!</h6>
-                        <button className='hover:bg-rose-800'>Download Partner Success Stories</button>
+                        <button className='border rounded-md mx-auto'>Download Partner Success Stories</button>
                     </div>
                     <div className="right">
                         <img src="/assets/img/LetsPartnerImg/1.svg" alt="" />

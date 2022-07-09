@@ -88,7 +88,7 @@ export default function Contact(props) {
                                     Mumbai 400706</p>
                             </div>
                             <div className="item">
-                                <h2>Registere Address:</h2>
+                                <h2>Register Address:</h2>
                                 <p>693, Medlife House, At/Post: Bahal, Tal: Chalisgaon, Dist: Jalgaon - 424101</p>
                             </div>
                         </div>
@@ -104,10 +104,10 @@ export default function Contact(props) {
                                 </div>
                                 <div className="inner-right">
                                     <h2 style={{ marginLeft: "3px" }}>Review Us Now:</h2>
-                                    <a href="https://g.page/r/CcL_UBb54VReEBI/review">
+                                    <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer">
                                         <div className="right">
                                             <img src="/assets/img/google-icon.png" alt="" />
-                                            <p>If you think we did great, <br />please click here to leave a <br />Google review for us!
+                                            <p className='bg-rose-800'>If you think we did great, <br />please click here to leave a <br />Google review for us!
                                             </p>
                                         </div>
                                     </a>

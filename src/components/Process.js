@@ -15,7 +15,7 @@ export default function Process() {
             </section>
             {/* <!-- =====================How we work======================= --> */}
             <section className="max-w-6xl m-auto work">
-        <h1 className="heading text-3xl font-bold">How We work</h1>
+        <h1 className="heading">How We work</h1>
         <div className="timeline-area">
             <div className="single-timeline">
                 <div className="timeline-item">
@@ -30,13 +30,13 @@ export default function Process() {
                     <div className="timeline-pin"></div>
                 </div>
                 <div className="timeline-info">
-                    <h4 className="date text-3xl font-bold">01</h4>
+                    <h4 className="date">01</h4>
                 </div>
                 <div className="timeline-img"></div>
             </div>
             <div className="single-timeline">
                 <div className="timeline-info">
-                    <h4 className="date text-3xl font-bold">02</h4>
+                    <h4 className="date">02</h4>
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-content">
@@ -63,13 +63,13 @@ export default function Process() {
                     <div className="timeline-pin"></div>
                 </div>
                 <div className="timeline-info">
-                    <h4 className="date text-3xl font-bold">03</h4>
+                    <h4 className="date">03</h4>
                 </div>
                 <div className="timeline-img"></div>
             </div>
             <div className="single-timeline">
                 <div className="timeline-info">
-                    <h4 className="date text-3xl font-bold">04</h4>
+                    <h4 className="date">04</h4>
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-content">
@@ -96,7 +96,7 @@ export default function Process() {
                     <div className="timeline-pin"></div>
                 </div>
                 <div className="timeline-info">
-                    <h4 className="date font-bold text-3xl">05</h4>
+                    <h4 className="date">05</h4>
                 </div>
                 <div className="timeline-img"></div>
             </div>
@@ -128,6 +128,7 @@ export default function Process() {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }

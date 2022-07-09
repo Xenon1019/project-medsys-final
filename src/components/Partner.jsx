@@ -39,7 +39,7 @@ export default function Partner() {
       </section>
       {/* ++++++++++++++++++++++++++++ Join Partnership ++++++++++++++++++++++++ */}
       <section className="partner-experience myCont">
-        <h1 className="heading font-bold text-4xl p-7 text-[#560215] text-center">Our partners have experienced</h1>
+        <h1 className="heading font-bold text-4xl p-7 text-center">Our partners have experienced</h1>
         <div className="wrapper flex justify-between">
           {/* experience item  */}
           <div className='inner'>
@@ -66,13 +66,13 @@ export default function Partner() {
         </div>
         <h3 className='text-2xl text-center font-bold pt-5'>Come, Join Us</h3>
         <div className="button flex justify-center pt-4">
-          <button className="bg-[#560217] text-white hover:bg-rose-800">Become a partner</button>
+          <button>Become a partner</button>
         </div>
       </section>
 
       {/* ++++++++++++++++++++++++++++ Connect with team ++++++++++++++++++++++++ */}
       <section className="connect-with-team myCont mb-24">
-        <h1 className="heading font-bold text-4xl p-7 pt-16 text-[#560215] text-center">Connect with our team and Explore the Possibilites of Partnering </h1>
+        <h1 className="heading font-bold text-4xl p-7 pt-16 text-center">Connect with our team and Explore the Possibilites of Partnering </h1>
         <div className="form">
           <div className="inner max-w-4xl m-auto grid grid-cols-2 gap-5">
             <input className='border-solid rounded border outline-none px-5 py-1 border-slate-400' type="text" placeholder='Name*' />

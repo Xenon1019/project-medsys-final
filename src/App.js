@@ -26,15 +26,18 @@ import DrugLicense from "./components/pages/drugLicense/DrugLicense";
 import Dsc from "./components/pages/dsc/DSC"
 import ISOCertification from "./components/pages/isoCertification/ISOCertification";
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
+import PSARA from "./components/pages/PSARA/PSARA";
+import Patent from "./components/pages/Patent Registration/Patent";
+import Section from "./components/pages/Section Registration/Section";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
+import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
+import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-
-
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (
@@ -43,7 +46,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/career" element={<Career />}></Route>
@@ -64,7 +66,12 @@ function App() {
           <Route path="/dsc" element={ <Dsc /> }></Route>
           <Route path="/iso-certification" element={ <ISOCertification /> }></Route>
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
+          <Route path="/psara" element={ <PSARA />}> </Route>
+          <Route path="/patent-registration" element={ <Patent />}> </Route>
+          <Route path="/section-registration" element={ <Section />}> </Route>
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
+          <Route path="/society-registration" element={ <SocietyReg /> }></Route>
+          <Route path="/private-company" element={ <PrivateCompany /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
