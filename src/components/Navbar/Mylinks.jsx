@@ -11,7 +11,7 @@ export const links = [
           { name: "Startup Proposal", link: "/" },
           { name: "Pitch Deck", link: "/" },
           { name: "Fund Raising", link: "/" },
-          { name: "Startup Schemes/grants", link: "/startup-schemes" },
+          { name: "Startup Schemes/grants", link: "/" },
           { name: "GeM Registration", link: "/" },
         ],
       },
@@ -112,7 +112,7 @@ export const links = [
     sublinks: [
       {
           sublink: [
-          { name: "Trademark Registration", link: "/trademark" },
+          { name: "Trademark Registration", link: "/" },
           { name: "Patent Registration", link: "/patent-registration" },
           { name: "Copyright Registration", link: "/copyright" },
           { name: "Design Registration", link: "/design" },
