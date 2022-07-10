@@ -13,7 +13,7 @@ export default function Blog() {
     <div className="max-width-1 m-auto">
         <hr/>
     </div>
-    {/* <div className="m-auto content max-width-1 my-2">
+    <div className="m-auto content max-width-1 my-2">
         <div className="content-left">
             <h1>The heaven for bloggers</h1>
             <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
@@ -27,7 +27,7 @@ export default function Blog() {
         <div className="content-right">
             <img src={Img}alt="iBlog" className='max-w-fit'/>
         </div>
-    </div> */}
+    </div>
 
     <div className="max-width-1 m-auto">
         <hr/>

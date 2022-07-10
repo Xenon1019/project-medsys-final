@@ -15,10 +15,10 @@ export default function BlogPost() {
             <div className="max-width-1 m-auto">
                 <hr />
             </div>
-            <div className="post-img mb-8">
+            <div className="post-img">
                 <img src={imgHeader} alt="" />
             </div>
-            {/* <div className="m-auto content max-width-1 my-2">
+            <div className="m-auto content max-width-1 my-2">
                 <div className="content-left">
                     <h1 className="text-3xl pb-6 text-center text-mainColor font-bold">The heaven for bloggers</h1>
                     <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
@@ -32,7 +32,7 @@ export default function BlogPost() {
                 <div className="content-right">
                     <img src={Img} alt="iBlog" className='max-w-fit' />
                 </div>
-            </div> */}
+            </div>
             <div className="max-width-1 m-auto">
                 <hr />
             </div>
@@ -58,7 +58,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
@@ -149,13 +149,13 @@ export default function BlogPost() {
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         </a>
 
-                        <div>Bhushan shirude</div>
+                        <div>Author Name</div>
                         <span>07 January | 6 min read</span>
                     </div>
                 </div>
 
             </div>
-            {/* <div className="m-auto blog-post-content max-width-2 my-2">
+            <div className="m-auto blog-post-content max-width-2 my-2">
                 <h1 className="font1 text-3xl pb-6 text-center text-mainColor font-bold">The heaven for bloggers</h1>
                 <div className="blogpost-meta">
                     <div className="author-info">
@@ -195,9 +195,9 @@ export default function BlogPost() {
                     The process of encoding converts information from a source into symbols for communication or storage. Decoding is the reverse process, converting code symbols back into a form that the recipient understands, such as English or/and Spanish.
 
                     One reason for coding is to enable communication in places where ordinary plain language, spoken or written, is difficult or impossible. For example, semaphore, where the configuration of flags held by a signaler or the arms of a semaphore tower encodes parts of the message, typically individual letters and numbers. Another person standing a great distance away can interpret the flags and reproduce the words sent.</p>
-            </div> */}
+            </div>
 
-            <div className="max-width-1 m-auto mt-9"><hr /></div>
+            <div className="max-width-1 m-auto"><hr /></div>
             <div className="home-articles max-width-1 m-auto font2">
                 <h2 className="text-3xl pb-6 text-center text-mainColor font-bold">People who read this also read</h2>
                 <div className="row">
@@ -210,7 +210,7 @@ export default function BlogPost() {
                         <div className="home-article-content font1 center">
                             <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
 
-                            <div>Bhushan shirude</div>
+                            <div>Author Name</div>
                             <span>07 January | 6 min read</span>
                         </div>
                     </div>
@@ -221,7 +221,7 @@ export default function BlogPost() {
                         <div className="home-article-content font1 center">
                             <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
 
-                            <div>Bhushan shirude</div>
+                            <div>Author Name</div>
                             <span>07 January | 6 min read</span>
                         </div>
                     </div>
@@ -232,7 +232,7 @@ export default function BlogPost() {
                         <div className="home-article-content font1 center">
                             <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
 
-                            <div>Bhushan shirude</div>
+                            <div>Author Name</div>
                             <span>07 January | 6 min read</span>
                         </div>
                     </div>
