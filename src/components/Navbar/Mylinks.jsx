@@ -22,7 +22,7 @@ export const links = [
           { name: "Limited Liability Partnership - LLP", link: "/" },
           { name: "One Person Company - OPC", link: "/" },
           { name: "NIDHI Company", link: "/" },
-          { name: "Producer Company", link: "/" },
+          { name: "Producer Company", link: "/producer" },
           { name: "Partnership Firm", link: "/" },
           { name: "Sole Proprietorship", link: "/" },
         ],

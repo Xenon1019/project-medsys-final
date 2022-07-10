@@ -85,8 +85,8 @@ const Section = () => {
 
             <div className='flex bg-[#f6d5dd] h-full w-full'>
                 <div className='w-3/12'>
-                    <div className='flex flex-col sticky top-20 '>
-                        <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+                    <div className='flex flex-col sticky top-40 ml-4 my-12'>
+                        <div className='bg-white rounded-xl  p-2 '>
                             <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
                             <hr className='bg-[#560216]' />
                             <Scrollspy items={[
@@ -94,20 +94,19 @@ const Section = () => {
                                 'Requirements',
                                 'Documents',
                                 'Advantages',
-                                'How',
-                                'Faq'
-                            ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Requirements'>Requirements</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages Of MSME</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                                'FAQs',
+                            ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Requirements'>Requirements</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages Of MSME</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
                             </Scrollspy>
                         </div>
-                        <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+                        <button className='bg-[#560216] text-white ml-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
                     </div>
                 </div>
-                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-4 '>
 
                     <div className='my-12' id="Overview">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -122,40 +121,40 @@ const Section = () => {
                         <iframe className='h-[32rem] w-full' title='bohemian' src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
                     </div> */}
 
-                    <div className='my-12' id="Role">
+                    <div className='my-12' id="Requirements">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Requirements for online registration of Sec 8 companies</h2>
                         <p>For registering a Section 8 company, the following criteria must be fulfilled:</p>
                         <ul className='my-2'>
                             <p className='text-[#9D3E55] mr-2 text-lg font-semibold'>Provisional Patent:</p>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Governed by:</span>Companies Act, 2013.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Members:</span>Minimum of 2 Directors/Shareholders.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Important Documents:</span>MoA, AoA and financial statements.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Board:</span>Directors.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Property management:</span>All the properties belonging to a company are vested in the name of the company. These can be sold in conformity to the provisions mentioned in the Companies Act, 2013. The Act says the sale can be done with prior consent of the Company Board of Directors, when they pass a resolution regarding the same.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Closure or winding up:</span>The property and funds of the society, upon its dissolution ( as per the society by-laws) and settlement of all liabilities & debts, may not be equally distributed among the company members. Rather, the same can be transferred or given to some other company, preferably with similar objects.</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Annual compliance:</span>The company must ensure its annual compliance by filing its annual returns and annual accounts with the RoC.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Governed by:</span>Companies Act, 2013.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Members:</span>Minimum of 2 Directors/Shareholders.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Important Documents:</span>MoA, AoA and financial statements.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Board:</span>Directors.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Property management:</span>All the properties belonging to a company are vested in the name of the company. These can be sold in conformity to the provisions mentioned in the Companies Act, 2013. The Act says the sale can be done with prior consent of the Company Board of Directors, when they pass a resolution regarding the same.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Closure or winding up:</span>The property and funds of the society, upon its dissolution ( as per the society by-laws) and settlement of all liabilities & debts, may not be equally distributed among the company members. Rather, the same can be transferred or given to some other company, preferably with similar objects.</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>Annual compliance:</span>The company must ensure its annual compliance by filing its annual returns and annual accounts with the RoC.</li>
                         </ul>
                     </div>
 
-                    <div className='my-12' id="Role">
+                    <div className='my-12' id="Documents">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Documents Required</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">DSC and DIN of the Directors.</li>
-                            <li className="my-4 arrow">Objectives and proposed work of the company.</li>
-                            <li className="my-4 arrow">Financial statements like assets and liabilities, the projection for five years etc.</li>
-                            <li className="my-4 arrow">Directors personal documents.</li>
-                            <li className="my-4 arrow">Registered office address documents viz. rental agreement or sale deed in the name of the company, utility bills not older than two months.</li>
+                            <li className="arrow">DSC and DIN of the Directors.</li>
+                            <li className="arrow">Objectives and proposed work of the company.</li>
+                            <li className="arrow">Financial statements like assets and liabilities, the projection for five years etc.</li>
+                            <li className="arrow">Directors personal documents.</li>
+                            <li className="arrow">Registered office address documents viz. rental agreement or sale deed in the name of the company, utility bills not older than two months.</li>
                         </ul>
                     </div>
-                    <div className='my-12' id="Role">
+                    <div className='my-12' id="Advantages">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Advantages Of MSME</h2>
                         <p>The following are the advantages of incorporating a Section 8 company over other modes of registering an NGO:</p>
                         <ul className=''>
-                            <li className="my-4 arrow">It has organised operations and greater flexibility.</li>
-                            <li className="my-4 arrow">Avoids meticulous registration process and no physical presence required.</li>
-                            <li className="my-4 arrow">No requirement of a minimum paid-up capital.</li>
-                            <li className="my-4 arrow">Seamless procurement of tax benefits under section 12AA and 80G of the Income Tax Act.</li>
-                            <li className="my-4 arrow">Any partnership firm can be a member in its individual capacity and obtain Directorship.</li>
+                            <li className="arrow">It has organised operations and greater flexibility.</li>
+                            <li className="arrow">Avoids meticulous registration process and no physical presence required.</li>
+                            <li className="arrow">No requirement of a minimum paid-up capital.</li>
+                            <li className="arrow">Seamless procurement of tax benefits under section 12AA and 80G of the Income Tax Act.</li>
+                            <li className="arrow">Any partnership firm can be a member in its individual capacity and obtain Directorship.</li>
                         </ul>
                         <img src={sectionImg} alt="" />
                     </div>
@@ -164,7 +163,7 @@ const Section = () => {
 
 
 
-                    <div className='my-12' id="fAQs">
+                    <div className='my-12' id="FAQs">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
                         <Accordion>
                             <AccordionItem>

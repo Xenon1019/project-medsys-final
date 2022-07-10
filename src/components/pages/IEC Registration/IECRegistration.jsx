@@ -74,28 +74,28 @@ const IECRegistration = () => {
 
             <div className='flex bg-[#f6d5dd] h-full w-full'>
                 <div className='w-3/12'>
-                    <div className='flex flex-col sticky top-20 '>
-                        <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+                    <div className='flex flex-col sticky top-40 ml-4 my-12'>
+                        <div className='bg-white rounded-xl  p-2 '>
                             <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
                             <hr className='bg-[#560216]' />
                             <Scrollspy items={[
-                                'overview',
-                                'benefits',
+                                'Overview',
+                                'Benefits',
                                 'Documents',
-                                'how',
-                                'faq'
-                            ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#overview'>Overview</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#benefits'>Benefits</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#documents'>Documents Required</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#how'>How Will We Help You?</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                                'How',
+                                'FAQs'
+                            ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Benefits'>Benefits</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#How'>How Will We Help You?</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
                             </Scrollspy>
                         </div>
-                        <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+                        <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
                     </div>
                 </div>
-                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-2 '>
 
                     <div className='my-12' id="Overview">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -110,7 +110,7 @@ const IECRegistration = () => {
                     </div>
 
 
-                    <div className='my-12' id="benefits">
+                    <div className='my-12' id="Benefits">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>Benefits</h2>
                         <div>
                             <div className='flex items-center my-4'>
@@ -143,132 +143,132 @@ const IECRegistration = () => {
                             </div>
                         </div>
 
+                    </div>
 
 
-                        <div className='my-12' id="importance">
-                            <h2 className='text-3xl text-[#560216] font-bold my-8'>Documents Required</h2>
+                    <div className='my-12' id="Documents">
+                        <h2 className='text-3xl text-[#560216] font-bold my-8'>Documents Required</h2>
 
-                            <ul className='list-disc'>
-                                <li className='my-4 arrow'>PAN Card Of Applicant (Company, LLP, Trust etc.)</li>
-                                <li className='my-4 arrow'>Residential Proof Of All Director/Partner/Proprietor (Electricity Bill/ Rent Agreement/ Sales Deed)</li>
-                                <li className='my-4 arrow'>Identity Proof Of All Directors/Partners/Proprietors (Aadhaar Card/ Driving License/ Voter Id)</li>
+                        <ul className='list-disc'>
+                            <li className='arrow'>PAN Card Of Applicant (Company, LLP, Trust etc.)</li>
+                            <li className='arrow'>Residential Proof Of All Director/Partner/Proprietor (Electricity Bill/ Rent Agreement/ Sales Deed)</li>
+                            <li className='arrow'>Identity Proof Of All Directors/Partners/Proprietors (Aadhaar Card/ Driving License/ Voter Id)</li>
 
-                                <div className='flex '>
+                            <div className='flex '>
 
-                                    <div className='w-3/12 flex flex-col '>
-                                        <div className='border border-black h-16 pl-2 pt-2 bg-[#560216] text-white'>Type of Applicant</div>
-                                        <h2 className='border border-[#560216] text-[#9D3E55] h-16 pl-2 pt-2'>Documents Required	</h2>
+                                <div className='w-3/12 flex flex-col '>
+                                    <div className='border border-black h-16 pl-2 pt-2 bg-[#560216] text-white'>Type of Applicant</div>
+                                    <h2 className='border border-[#560216] text-[#9D3E55] h-16 pl-2 pt-2'>Documents Required	</h2>
 
-                                    </div>
-                                    <div className='w-3/12 flex flex-col '>
-                                        <div className='border border-black h-16 pl-2 pt-2 bg-[#560216] text-white'>Company</div>
-                                        <h2 className=' border border-[#560216] h-16 pl-2 pt-2 ' >Certificate of Registration + MOA & AOA</h2>
-
-                                    </div>
-                                    <div className='w-3/12 flex flex-col '>
-                                        <div className='border h-16 border-black pl-2 pt-2 bg-[#560216] text-white'>Limited Liability Partnership (LLP)</div>
-                                        <h2 className=' border h-16 border-[#560216] pl-2 pt-2 '>Certificate of Registration + LLP agreement</h2>
-
-                                    </div>
-                                    <div className='w-3/12 flex flex-col '>
-                                        <div className='border h-16 border-black pl-2 pt-2 bg-[#560216] text-white'>Partnership Firm</div>
-                                        <h2 className=' border h-16 border-[#560216] pl-2 pt-2 '>Partnership Agreement</h2>
-                                    </div>
                                 </div>
+                                <div className='w-3/12 flex flex-col '>
+                                    <div className='border border-black h-16 pl-2 pt-2 bg-[#560216] text-white'>Company</div>
+                                    <h2 className=' border border-[#560216] h-16 pl-2 pt-2 ' >Certificate of Registration + MOA & AOA</h2>
 
-                                <div className='flex justify-between items-center bg-white h-20 px-8 rounded-2xl' >
-                                    <h2 className='text-xl font-bold text-[#560216]'>Related Read:How To Choose Between A Private Ltd. Company And LLP?</h2>
-                                    <button className='bg-[#560216] text-white text-center px-3 py-1 rounded-full text-lg hover:bg-green-600'>CLICK HERE</button>
                                 </div>
+                                <div className='w-3/12 flex flex-col '>
+                                    <div className='border h-16 border-black pl-2 pt-2 bg-[#560216] text-white'>Limited Liability Partnership (LLP)</div>
+                                    <h2 className=' border h-16 border-[#560216] pl-2 pt-2 '>Certificate of Registration + LLP agreement</h2>
 
-                                <li className='my-4 arrow'>Cancelled Cheque Or Bank Certificate In From ANF – 2a(i)</li>
-                                <h2 className="text-lg text-[#9D3E55] font-bold">In case of a foreign investment in the entity, in addition to above documents following documents shall also be required</h2>
-                                <li className='my-4 arrow'>Scanned Copy Of Report On Money Invested Filed With The RBI​</li>
-                                <li className='my-4 arrow'>Scanned Copy Of Form FC-GPR​</li>
-                                <li className='my-4 arrow'>If Specific Permission Granted To The Entity, Then Scanned Copy Of The Permission​</li>
+                                </div>
+                                <div className='w-3/12 flex flex-col '>
+                                    <div className='border h-16 border-black pl-2 pt-2 bg-[#560216] text-white'>Partnership Firm</div>
+                                    <h2 className=' border h-16 border-[#560216] pl-2 pt-2 '>Partnership Agreement</h2>
+                                </div>
+                            </div>
 
+                            <div className='flex justify-between items-center bg-white h-20 px-8 rounded-2xl' >
+                                <h2 className='text-xl font-bold text-[#560216]'>Related Read:How To Choose Between A Private Ltd. Company And LLP?</h2>
+                                <button className='bg-[#560216] text-white text-center px-3 py-1 rounded-full text-lg hover:bg-green-600'>CLICK HERE</button>
+                            </div>
 
-                            </ul>
-
-                            <img src={iecLogo} alt="" />
-
-                        </div>
-
-                        <div className='my-12' id="importance">
-                            <h2 className='text-3xl text-[#560216] font-bold my-8'>How Will We Help You?</h2>
-
-                            <ul className='list-disc'>
-                                <li className='my-4 arrow'> Submit a request by clicking here.</li>
-                                <li className='my-4 arrow'>Our team will contact you with a simple checklist</li>
-                                <li className='my-4 arrow'>Fill in the checklist</li>
-                                <li className='my-4 arrow'>Submit the documents</li>
-                                <li className='my-4 arrow'> Documents shall be verified by our expert team</li>
-                                <li className='my-4 arrow'> Application for IEC is filed with the authority</li>
-                                <li className='my-4 arrow'> IEC certificate granted</li>
-                                <p>Throughout the process, our dedicated manager will keep you updated on the progress of the application.</p>
-                            </ul>
-                        </div>
+                            <li className='my-4 arrow'>Cancelled Cheque Or Bank Certificate In From ANF – 2a(i)</li>
+                            <h2 className="text-lg text-[#9D3E55] font-bold">In case of a foreign investment in the entity, in addition to above documents following documents shall also be required</h2>
+                            <li className='arrow'>Scanned Copy Of Report On Money Invested Filed With The RBI​</li>
+                            <li className='arrow'>Scanned Copy Of Form FC-GPR​</li>
+                            <li className='arrow'>If Specific Permission Granted To The Entity, Then Scanned Copy Of The Permission​</li>
 
 
+                        </ul>
 
+                        <img src={iecLogo} alt="" />
+
+                    </div>
+
+                    <div className='my-12' id="How">
+                        <h2 className='text-3xl text-[#560216] font-bold my-8'>How Will We Help You?</h2>
+
+                        <ul className='list-disc'>
+                            <li className='arrow'> Submit a request by clicking here.</li>
+                            <li className='arrow'>Our team will contact you with a simple checklist</li>
+                            <li className='arrow'>Fill in the checklist</li>
+                            <li className='arrow'>Submit the documents</li>
+                            <li className='arrow'> Documents shall be verified by our expert team</li>
+                            <li className='arrow'> Application for IEC is filed with the authority</li>
+                            <li className='arrow'> IEC certificate granted</li>
+                            <p>Throughout the process, our dedicated manager will keep you updated on the progress of the application.</p>
+                        </ul>
                     </div>
 
 
 
 
-                    <div className='my-12' id="fAQs">
+
+
+
+                    <div className='my-12' id="FAQs">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
                         <Accordion>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    a.How many days will it take to get my IEC certificate?
+                                        a.How many days will it take to get my IEC certificate?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Once you submit your documents, we shall verify the documents and if everything seems proper we shall file the application. This normally takes 2-3 days. Once the application is filed, it normally takes 5-6 working days for the department to process the application & issue an IEC certificate.
+                                        Once you submit your documents, we shall verify the documents and if everything seems proper we shall file the application. This normally takes 2-3 days. Once the application is filed, it normally takes 5-6 working days for the department to process the application & issue an IEC certificate.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    b. I have 5 different branches of my business. Do I need to separately take an IEC certificate for each branch?
+                                        b. I have 5 different branches of my business. Do I need to separately take an IEC certificate for each branch?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    IEC certificate is issued for a particular Pan No. So if all the branches have the same PAN number then you don’t need to separately get an IEC certificate for all the branches. Rather you can have the name of all the branches in the same certificate.
-                                  </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                    c. Are there any compliances after the IEC certificate is obtained?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                   <p>There is no compliance to be fulfilled after the registration of your IEC code.</p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                    d. Can I update my IEC code after registration?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                    Yes, you can update your IEC code by submitting all necessary documents to the authority.
+                                        IEC certificate is issued for a particular Pan No. So if all the branches have the same PAN number then you don’t need to separately get an IEC certificate for all the branches. Rather you can have the name of all the branches in the same certificate.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    e. Can I cancel my IEC certificate?
+                                        c. Are there any compliances after the IEC certificate is obtained?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>There is no compliance to be fulfilled after the registration of your IEC code.</p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        d. Can I update my IEC code after registration?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        Yes, you can update your IEC code by submitting all necessary documents to the authority.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        e. Can I cancel my IEC certificate?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -278,7 +278,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    f. Still Confused?
+                                        f. Still Confused?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>

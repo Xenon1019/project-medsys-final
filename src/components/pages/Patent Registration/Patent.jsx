@@ -69,8 +69,8 @@ const Patent = () => {
 
             <div className='flex bg-[#f6d5dd] h-full w-full'>
                 <div className='w-3/12'>
-                    <div className='flex flex-col sticky top-20 '>
-                        <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+                    <div className='flex flex-col sticky top-40 ml-4 my-12'>
+                        <div className='bg-white rounded-xl  p-2 '>
                             <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
                             <hr className='bg-[#560216]' />
                             <Scrollspy items={[
@@ -80,19 +80,19 @@ const Patent = () => {
                                 'Process',
                                 'How',
                                 'Faq'
-                            ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Role'>Role of Private Security Agency</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#How'>How Will We Help You?</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                            ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#How'>How Will We Help You?</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
                             </Scrollspy>
                         </div>
-                        <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+                        <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
                     </div>
                 </div>
-                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-4 '>
 
                     <div className='my-12' id="Overview">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -106,31 +106,31 @@ const Patent = () => {
                         <iframe className='h-[32rem] w-full' title='bohemian' src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
                     </div> */}
 
-                    <div className='my-12' id="Role">
+                    <div className='my-12' id="Advantages">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Advantages</h2>
                         <p>The following are some of the advantages of filing a patent in India:</p>
                         <ul className=''>
-                            <li className="my-4 arrow">A patent is a form of encouragement for innovations and inventions. Once an applicant is granted the patent, he or she becomes the exclusive owner of the invention or the idea</li>
-                            <li className="my-4 arrow">Filing a patent in India is important for a business as the patent restricts its competitors from copying, selling, or importing its intellectual property without prior permission. This way the patent holder can protect their patent rights in support of the existing laws of the land</li>
-                            <li className="my-4 arrow">Patents can be sold and licensed like other forms of property</li>
-                            <li className="my-4 arrow">A patent is just like any other intellectual property and can be transferred by the inventor</li>
-                            <li className="my-4 arrow">A patented product is likely to improve brand perception and potentially enable your business to charge a premium</li>
-                            <li className="my-4 arrow">With exclusive patient rights, the owner of the patent controls the use of the invention for twenty years or longer.</li>
+                            <li className="arrow">A patent is a form of encouragement for innovations and inventions. Once an applicant is granted the patent, he or she becomes the exclusive owner of the invention or the idea</li>
+                            <li className="arrow">Filing a patent in India is important for a business as the patent restricts its competitors from copying, selling, or importing its intellectual property without prior permission. This way the patent holder can protect their patent rights in support of the existing laws of the land</li>
+                            <li className="arrow">Patents can be sold and licensed like other forms of property</li>
+                            <li className="arrow">A patent is just like any other intellectual property and can be transferred by the inventor</li>
+                            <li className="arrow">A patented product is likely to improve brand perception and potentially enable your business to charge a premium</li>
+                            <li className="arrow">With exclusive patient rights, the owner of the patent controls the use of the invention for twenty years or longer.</li>
                         </ul>
                     </div>
 
-                    <div className='my-12' id="Role">
+                    <div className='my-12' id="Documents">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Documents Required</h2>
                         <p>Application form in duplicate (Form 1)</p>
                         <ul className=''>
-                            <li className="my-4 arrow">The provisional or complete specification in duplicate. If the provisional specification is filed, it must be followed by the complete specification within 12 months (Form 2)</li>
-                            <li className="my-4 arrow">Drawing in duplicate (if necessary)</li>
-                            <li className="my-4 arrow">Abstract of the invention in duplicate</li>
-                            <li className="my-4 arrow">Information & undertaking listing the number, filing date, & current status of each foreign patent application (if such exist) in duplicate (Form 3)</li>
-                            <li className="my-4 arrow">Priority document (if the priority date is claimed) in convention application, when directed by the Controller</li>
-                            <li className="my-4 arrow">Declaration of inventor-ship where the provisional specification is followed by complete specification or in case of convention/PCT national phase application (Form 5)</li>
-                            <li className="my-4 arrow">Power of attorney (if filed through any patent agent)</li>
-                            <li className="my-4 arrow">Fees (to be paid in cash/by cheque/by demand draft).</li>
+                            <li className="arrow">The provisional or complete specification in duplicate. If the provisional specification is filed, it must be followed by the complete specification within 12 months (Form 2)</li>
+                            <li className="arrow">Drawing in duplicate (if necessary)</li>
+                            <li className="arrow">Abstract of the invention in duplicate</li>
+                            <li className="arrow">Information & undertaking listing the number, filing date, & current status of each foreign patent application (if such exist) in duplicate (Form 3)</li>
+                            <li className="arrow">Priority document (if the priority date is claimed) in convention application, when directed by the Controller</li>
+                            <li className="arrow">Declaration of inventor-ship where the provisional specification is followed by complete specification or in case of convention/PCT national phase application (Form 5)</li>
+                            <li className="arrow">Power of attorney (if filed through any patent agent)</li>
+                            <li className="arrow">Fees (to be paid in cash/by cheque/by demand draft).</li>
                         </ul>
                     </div>
 
@@ -140,36 +140,36 @@ const Patent = () => {
                     </div>
 
 
-                    <div className='my-12' id="process">
+                    <div className='my-12' id="Process">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>Process Flow</h2>
                         <ul className='my-2'>
                             <p className='text-[#9D3E55] mr-2 text-lg font-semibold'>Provisional Patent:</p>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:1</span>Prepare Invention Disclosure Form (IDF)</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:2</span>Consolidate your invention</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:3</span>Search Uniqueness</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:4</span>Prepare Patent Specification</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:5</span>Patent exception</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:6</span>File a Patent Application</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:1</span>Prepare Invention Disclosure Form (IDF)</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:2</span>Consolidate your invention</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:3</span>Search Uniqueness</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:4</span>Prepare Patent Specification</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:5</span>Patent exception</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:6</span>File a Patent Application</li>
                         </ul>
                         <ul className='my-2'>
                             <p className='text-[#9D3E55] mr-2 text-lg font-semibold'>Permanent Patent:</p>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:1</span>Search for the patent</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:2</span>Prepare a patentability report</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:3</span>Request for patent examination</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:4</span>Patent exception</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:5</span>Patent exception</li>
-                            <li className='my-4'><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:6</span>Draft a proper response for patent exceptions & grant patent</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:1</span>Search for the patent</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:2</span>Prepare a patentability report</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:3</span>Request for patent examination</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:4</span>Patent exception</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:5</span>Patent exception</li>
+                            <li className=''><span className='text-[#9D3E55] mr-2 arrow text-lg font-semibold'>  Step:6</span>Draft a proper response for patent exceptions & grant patent</li>
                         </ul>
                     </div>
 
 
-                    <div className='my-12' id="process">
+                    <div className='my-12' id="How">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>How Will We Help You?</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">Submit a service request by clicking here</li>
-                            <li className="my-4 arrow">Our team will be there with you, to understand the necessary details about the business & provide you with a simple checklist.</li>
-                            <li className="my-4 arrow">Once you fill-up the checklist & provide us with the required documents, our team shall verify them.</li>
-                            <li className="my-4 arrow">In case of any query(s) from the department, our experts shall respond to them on your behalf.</li>
+                            <li className="arrow">Submit a service request by clicking here</li>
+                            <li className="arrow">Our team will be there with you, to understand the necessary details about the business & provide you with a simple checklist.</li>
+                            <li className="arrow">Once you fill-up the checklist & provide us with the required documents, our team shall verify them.</li>
+                            <li className="arrow">In case of any query(s) from the department, our experts shall respond to them on your behalf.</li>
                         </ul>
                     </div>
 
@@ -177,7 +177,7 @@ const Patent = () => {
 
 
 
-                    <div className='my-12' id="fAQs">
+                    <div className='my-12' id="FAQs">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
                         <Accordion>
                             <AccordionItem>
