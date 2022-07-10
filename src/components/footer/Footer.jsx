@@ -77,7 +77,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/privacypolicy" className="text-white">
+                <Link to="/blog" className="text-white">
                   Blog
                 </Link>
               </li>

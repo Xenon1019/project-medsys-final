@@ -8,32 +8,28 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-[#560215] md:sticky md:top-0 z-50">
-      <div className="flex items-center font-normal text-rose-50 justify-around ">
+      <div className="flex items-center font-normal text-rose-50 justify-between ">
         <div className="z-50 p-2 md:w-auto w-full flex justify-between">
           <img src={Logo} className="md:cursor-pointer h-12" />
           <div className="text-3xl md:hidden mt-3" onClick={() => setOpen(!open)}> 
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden text-sm items-center gap-2 ">
+        <ul className="md:flex hidden text-sm items-center ml-40 gap-2 ">
           <li>
-            <Link to="/" className="pr-2 px-3 inline-block uppercase font-semibold">
+            <Link to="/" className="pr-2  inline-block uppercase font-semibold">
               Home
             </Link>
           </li>
-          <li>
-            <Link to="/AboutUs" className="pr-2 px-3 inline-block uppercase font-semibold">
-              About Us
-            </Link>
-          </li>
+        
           <NavLinks />
           <li>
-            <Link to="/marketingSolutions" className="pr-2 px-3 inline-block uppercase font-semibold">
+            <Link to="/marketingSolutions" className="pr-2  inline-block uppercase font-semibold">
               Marketing Solution
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="pr-2 px-3 inline-block uppercase font-semibold">
+            <Link to="/contact" className="pr-2  inline-block uppercase font-semibold">
               Contact Us
             </Link>
           </li>
@@ -65,7 +61,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a to="/" className="p-7 inline-block uppercase font-semibold">
+            <a to="/" className=" inline-block uppercase font-semibold" style={{padding:"15px 1.25rem"}}>
               Contact Us
             </a>
           </li>

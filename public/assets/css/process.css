@@ -320,8 +320,8 @@ section.new-product {
 }
 
 section.new-product .inner h6 {
-    color: rgb(240, 217, 15);
     font-size: 15px;
+    color: white;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -343,8 +343,9 @@ section.new-product .inner a button {
     width: 107px;
     font-size: 13px;
     margin-top: 1rem;
-    color: #504c4c;
+    color: white;
     font-weight: bold;
+    background-color: maroon;
     border: none;
     text-align: center;
     border-radius: 4px;

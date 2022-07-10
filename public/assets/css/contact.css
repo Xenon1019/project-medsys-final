@@ -46,10 +46,12 @@ section.form .wrapper .left{
 }
 
 section.form .wrapper .left h5 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 2px;
     position: relative;
+    color: black;
+
     margin-bottom: 2rem;
     padding-left: 10px;
 }
@@ -59,22 +61,9 @@ section.form .wrapper .left form{
     flex-direction: column;
 }
 
-section.form .wrapper .left span{
-    color: white;
-}
 
-section.form .wrapper .left h5::before {
-    content: '';
-    width: 54px;
-    position: absolute;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    z-index: -1;
-    height: 25px;
-    bottom: -3px;
-    left: -2px;
-    background: linear-gradient(to right, #560216, #b6405c);
-}
+
+
 
 section.form .wrapper .left h1{
     font-size: 2.5rem;
@@ -318,7 +307,7 @@ section.map-below{
     align-items: center;
     width:235px;
     display: flex;
-    background-color: #141485;
+    background-color: maroon;
     font-size: 15px;
     padding: 8px 5px;
     letter-spacing: 1px;

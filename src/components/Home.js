@@ -42,25 +42,21 @@ export default function Home() {
                     <div className="item">
                         <div><img src="/assets/img/Business Setup.svg" alt="" /></div>
                         <h1 className='font-bold'>Business Setup</h1>
-                        <h6>File tax return in under 7 minutes</h6>
                         <img className="inner-img border rounded-lg" src="/assets/img/Business Setup.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/NGO Management.svg" alt="" /></div>
                         <h1 className='font-bold'>NGO Management</h1>
-                        <h6 className='pb-0'>ITR & GST filling, business & legal compliance</h6>
                         <img className="inner-img border rounded-lg" src="/assets/img/NGO Management.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/Trademark & IP.svg" alt="" /></div>
                         <h1 className='font-bold'>Trandemark and IP</h1>
-                        <h6>Bulk invoice in Tally or any ERP</h6>
                         <img className="inner-img border rounded-lg" src="/assets/img/Trademark & IP.png" alt="" />
                     </div>
                     <div className="item">
                         <div><img src="/assets/img/Digital Branding.svg" alt="" /></div>
                         <h1 className='font-bold'>Digital Branding</h1>
-                        <h6>G1-G9 fillings made 3x faster</h6>
                         <img className="inner-img border rounded-lg" src="/assets/img/Digital Branding.png" alt="" />
                     </div>
                 </div>
@@ -70,19 +66,19 @@ export default function Home() {
                 <div className="wrapper">
                     <div className="item">
                         <img src="/assets/img/Start.svg" alt="" />
-                        <h3>Start</h3>
+                        <h3 className='font-bold'>Start</h3>
                         <p>Business save upto 2-7% of their net GST with us every month, Individuals can upto &#8377 86,500 by
                             filing their tax returns through us.</p>
                     </div>
                     <div className="item">
                         <img src="/assets/img/Sustain.svg" alt="" />
-                        <h3>Sustain</h3>
+                        <h3 className='font-bold'>Sustain</h3>
                         <p>Experience 3x faster GST filing, 5x faster invoice reconciliation and 10x faster e-waybil generation.
                             Individuals file their tax returns in under 7 min.</p>
                     </div>
                     <div className="item">
                         <img src="/assets/img/Grow.svg" alt="" />
-                        <h3>Grow</h3>
+                        <h3 className='font-bold'>Grow</h3>
                         <p>Our products are designed and tested by in-house tax experts, ensuring every new clause, form or
                             features is updated and sent to you over the cloud.</p>
                     </div>
@@ -251,7 +247,7 @@ export default function Home() {
                         <h1>Let's Partner Up!</h1>
                         <p style={{ fontWeight: "bold" }}>Become our partner and drive your business to the next level.</p>
                         <h6>Connect with us now!</h6>
-                        <button className='border rounded-md mx-auto'>Download Partner Success Stories</button>
+                        <button className='border rounded-md mx-auto bg-mainColor hover:bg-rose-800'>Download Partner Success Stories</button>
                     </div>
                     <div className="right">
                         <img src="/assets/img/LetsPartnerImg/1.svg" alt="" />

@@ -14,8 +14,8 @@ export default function Contact(props) {
             <section className="form container sm:w-4/5">
                 <div className="wrapper">
                     <div className="left">
-                        <h5 className="top-heading"><span>Cont</span>act Us</h5>
-                        <h1>Please Get In Touch</h1>
+                        <h5 className="top-heading mb-2">Contact Us</h5>
+                        <h1 className='font-bold'>Please Get In Touch</h1>
                         <p>Schedule a free consultaion with our executives for your <br /> Startups Needs</p>
                         <h6>For any Queries regarding your startup and legal advice*</h6>
                         <form action="#">

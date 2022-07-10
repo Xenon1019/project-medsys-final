@@ -55,6 +55,7 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
+          <Route path="/blog" element={<BlogPost />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>

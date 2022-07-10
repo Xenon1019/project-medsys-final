@@ -79,8 +79,8 @@ section.popular-products .wrapper .item {
 
 section.popular-products .wrapper .item img {
     width: 230px;
-    /* height: 130px; */
-    object-fit: contain;
+    height: 155px;
+    object-fit: cover;
 }
 
 section.popular-products .wrapper .item div {
@@ -102,10 +102,6 @@ section.popular-products .wrapper .item div img {
 section.popular-products .wrapper .item h1 {
     padding-bottom: 12px;
     font-size: 1.6rem;
-}
-
-section.popular-products .wrapper .item:nth-child(2) h1 {
-    padding-bottom: 5px;
 }
 
 section.popular-products .wrapper .item h6 {
@@ -317,20 +313,12 @@ section.partner .partner-inner .left h6 {
 }
 
 section.partner .partner-inner .left button {
-    background-color: rgb(86 2 22);
-    border: 1px solid rgb(146, 5, 38);
     width: fit-content;
     padding: 10px 11px;
     color: white;
     margin-left: 5px;
     cursor: pointer;
     transition: all .3s ease;
-}
-
-section.partner .partner-inner .left button:hover {
-    background:transparent;
-    color: black;
-    border: 1px solid black;
 }
 
 /* ====================Profile================== */
@@ -557,10 +545,10 @@ section.counter .inner div:nth-child(odd) h6 {
 .footer_botton h3::after {
     content: '';
     height: 0px;
-    width: 80px;
+    width: 76px;
     position: absolute;
     margin-top: 4px;
-    left: 43px;
+    left: 35px;
     top: 68px;
     border: 2px solid brown;
 }
@@ -611,9 +599,10 @@ a {
 .footer_botton h3 {
     padding-top: 2rem;
     padding-bottom: 2px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     position: relative;
+    color: #e1dfdf;
     width: fit-content;
     margin: auto;
 }
