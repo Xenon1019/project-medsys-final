@@ -68,7 +68,7 @@ function Header() {
             <button type="submit"><a href="tel:+91 70204 38881">Call Now!</a></button>
         </div>
 
-        <div id="startup-info"  >
+        <div id="startup-info" style={{paddingBottom:'1px'}}>
             <h1 className="heading">What Is A Startup India Scheme?</h1>
             <div className="boxx1">
                 <p>Startup India Scheme is an initiative by the Government of India for generation of employment and

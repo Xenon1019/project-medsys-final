@@ -30,6 +30,7 @@ import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 import Startup from "./components/pages/startup/Startup";
+import Trademark from "./components/pages/trademark/Trademark";
 
 import {
   BrowserRouter,
@@ -71,6 +72,7 @@ function App() {
           <Route path="/society-registration" element={ <SocietyReg /> }></Route>
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
           <Route path="/startup-schemes" element={ <Startup /> }></Route>
+          <Route path="/trademark" element={ <Trademark /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
