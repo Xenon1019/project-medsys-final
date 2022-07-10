@@ -11,7 +11,7 @@ export const links = [
           { name: "Startup Proposal", link: "/" },
           { name: "Pitch Deck", link: "/" },
           { name: "Fund Raising", link: "/" },
-          { name: "Startup Schemes/grants", link: "/" },
+          { name: "Startup Schemes/grants", link: "/startup-schemes" },
           { name: "GeM Registration", link: "/" },
         ],
       },

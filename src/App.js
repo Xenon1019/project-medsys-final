@@ -29,12 +29,14 @@ import Section from "./components/pages/Section Registration/Section";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
+import Startup from "./components/pages/startup/Startup";
 
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+
 function App() {
   TabTitle("Home - medsysconsultancy.com");
   return (
@@ -68,6 +70,7 @@ function App() {
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
           <Route path="/society-registration" element={ <SocietyReg /> }></Route>
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
+          <Route path="/startup-schemes" element={ <Startup /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
