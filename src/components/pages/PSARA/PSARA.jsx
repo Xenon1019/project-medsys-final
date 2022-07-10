@@ -62,8 +62,8 @@ const PSARA = () => {
 
             <div className='flex bg-[#f6d5dd] h-full w-full'>
                 <div className='w-3/12'>
-                    <div className='flex flex-col sticky top-20 '>
-                        <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+                    <div className='flex flex-col sticky top-40 ml-4 my-12'>
+                        <div className='bg-white rounded-xl  p-2 '>
                             <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
                             <hr className='bg-[#560216]' />
                             <Scrollspy items={[
@@ -71,21 +71,21 @@ const PSARA = () => {
                                 'Role',
                                 'Eligibility',
                                 'Documents',
-                                'Instruction',
-                                'Faq'
-                            ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Role'>Role of Private Security Agency</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Eligibility'>Eligibility Criteria</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Instructions'>Instructions</a>
-                                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                                'Instructions',
+                                'FAQs'
+                            ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Role'>Role of Private Security Agency</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Eligibility'>Eligibility Criteria</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Instructions'>Instructions</a></li>
+                                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
                             </Scrollspy>
                         </div>
-                        <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+                        <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
                     </div>
                 </div>
-                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-4 '>
 
                     <div className='my-12' id="Overview">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -110,60 +110,60 @@ const PSARA = () => {
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>1: In Terms Of The Type Of Business Organization</h2>
                         <h2 className='text-lg font-bold my-2 text-black'>The Following Business Structures Can Apply For PSARA License</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">Sole Proprietorship,</li>
-                            <li className="my-4 arrow">One Person Company(OPC)</li>
-                            <li className="my-4 arrow">Partnership Firm,</li>
-                            <li className="my-4 arrow">LLP</li>
-                            <li className="my-4 arrow">Association of Persons, and</li>
-                            <li className="my-4 arrow">Private Limited Company.</li>
+                            <li className="arrow">Sole Proprietorship,</li>
+                            <li className="arrow">One Person Company(OPC)</li>
+                            <li className="arrow">Partnership Firm,</li>
+                            <li className="arrow">LLP</li>
+                            <li className="arrow">Association of Persons, and</li>
+                            <li className="arrow">Private Limited Company.</li>
                         </ul>
 
 
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>2: In Terms Of The Role Of A Director/Principal Officer</h2>
                         <h2 className='text-lg font-bold my-2 text-black'>The PSARA Act Has Underpinned Specific Criteria For Individuals Intending To Serve The Position Of Director/Principal Officer</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">Individual must be an Indian national</li>
-                            <li className="my-4 arrow">An individual should not be minor as far as age is concerned.</li>
-                            <li className="my-4 arrow">Individual must have ample financial resources to cater to business expenses.</li>
-                            <li className="my-4 arrow">Individual must have crime-free track records.</li>
+                            <li className="arrow">Individual must be an Indian national</li>
+                            <li className="arrow">An individual should not be minor as far as age is concerned.</li>
+                            <li className="arrow">Individual must have ample financial resources to cater to business expenses.</li>
+                            <li className="arrow">Individual must have crime-free track records.</li>
                         </ul>
 
 
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>3: In Terms Of The Role Of A Security Guard</h2>
                         <h2 className='text-lg font-bold my-2 text-black'>Individuals intending to become security guards must fulfill the given conditions:</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">Individual must be an Indian national</li>
-                            <li className="my-4 arrow">The person should not be a minor and neither over 65 years of age.</li>
-                            <li className="my-4 arrow">The person ought to behave adequate training</li>
-                            <li className="my-4 arrow">The person must have a seamless service track record without any termination</li>
-                            <li className="my-4 arrow">The person should match the desired physical attributes.</li>
-                            <li className="my-4 arrow">The person must secure character certificate from a previous firm</li>
+                            <li className="arrow">Individual must be an Indian national</li>
+                            <li className="arrow">The person should not be a minor and neither over 65 years of age.</li>
+                            <li className="arrow">The person ought to behave adequate training</li>
+                            <li className="arrow">The person must have a seamless service track record without any termination</li>
+                            <li className="arrow">The person should match the desired physical attributes.</li>
+                            <li className="arrow">The person must secure character certificate from a previous firm</li>
                         </ul>
 
                     </div>
 
 
-                    <div className='my-12' id="process">
+                    <div className='my-12' id="Documents">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>Documents Necessary for Obtaining a PSARA License</h2>
                         <ul className=''>
-                            <li className="my-4 arrow">PAN</li>
-                            <li className="my-4 arrow">GSTIN</li>
-                            <li className="my-4 arrow">Provident Fund Registration</li>
-                            <li className="my-4 arrow">ESIC ( i.e. Employees State Insurance Corporation) Registration</li>
-                            <li className="my-4 arrow">Registration under Shops and Commercial Establishments Act</li>
-                            <li className="my-4 arrow">Registration under the Labour Act</li>
-                            <li className="my-4 arrow">Proof relating to the identity of the directors as well as employees</li>
-                            <li className="my-4 arrow">Copies of the IT returns of the Directors</li>
-                            <li className="my-4 arrow">Two passport size photos and PANs of the promoters</li>
-                            <li className="my-4 arrow">Proof relating to the address of the Agency Office</li>
-                            <li className="my-4 arrow">Affidavit as u/s 7 (2) of PSARA, 2005</li>
-                            <li className="my-4 arrow">Security training affidavit</li>
-                            <li className="my-4 arrow">Certificate of Incorporation (COI)</li>
-                            <li className="my-4 arrow">Signed Memorandum of Understanding i.e. MOU with the authority-recommended training institute</li>
+                            <li className="arrow">PAN</li>
+                            <li className="arrow">GSTIN</li>
+                            <li className="arrow">Provident Fund Registration</li>
+                            <li className="arrow">ESIC ( i.e. Employees State Insurance Corporation) Registration</li>
+                            <li className="arrow">Registration under Shops and Commercial Establishments Act</li>
+                            <li className="arrow">Registration under the Labour Act</li>
+                            <li className="arrow">Proof relating to the identity of the directors as well as employees</li>
+                            <li className="arrow">Copies of the IT returns of the Directors</li>
+                            <li className="arrow">Two passport size photos and PANs of the promoters</li>
+                            <li className="arrow">Proof relating to the address of the Agency Office</li>
+                            <li className="arrow">Affidavit as u/s 7 (2) of PSARA, 2005</li>
+                            <li className="arrow">Security training affidavit</li>
+                            <li className="arrow">Certificate of Incorporation (COI)</li>
+                            <li className="arrow">Signed Memorandum of Understanding i.e. MOU with the authority-recommended training institute</li>
                         </ul>
                     </div>
 
-                    <div className='my-12' id="process">
+                    <div className='my-12' id="Instructions">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>Instructions for Securing PSARA License in India</h2>
                         <p>Follow the below-mentioned steps for obtaining PSARA license in India:</p>
                         <ul className=''>
@@ -204,126 +204,126 @@ const PSARA = () => {
 
 
 
-                    <div className='my-12' id="fAQs">
+                    <div className='my-12' id="FAQs">
                         <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
                         <Accordion>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    a. How do I apply for a Psara license?
+                                        a. How do I apply for a Psara license?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Steps for apply for Psara license First, arrange the required documentation. Second, Sign MoU with a certified training institute Third, file application in form 1 Fourth, complete the formalities regarding police verification
+                                        Steps for apply for Psara license First, arrange the required documentation. Second, Sign MoU with a certified training institute Third, file application in form 1 Fourth, complete the formalities regarding police verification
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    b. Who can apply for Psara?
+                                        b. Who can apply for Psara?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Indian national or citizen of such other nation as the Central Gov. may, by Official Gazette, specify; Individual who have attained 18 years of age but has not exceeded the age of 65 years; Individuals who duly satisfy the agency about his antecedents & character.
+                                        Indian national or citizen of such other nation as the Central Gov. may, by Official Gazette, specify; Individual who have attained 18 years of age but has not exceeded the age of 65 years; Individuals who duly satisfy the agency about his antecedents & character.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    c.Is Psara license mandatory for security agency?
+                                        c.Is Psara license mandatory for security agency?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    PSARA license is a legal mandate for conducting the business of private security in India. Such businesses facilitate trained security guards to various organizations across the country.
+                                        PSARA license is a legal mandate for conducting the business of private security in India. Such businesses facilitate trained security guards to various organizations across the country.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    d. What is the validity of the PSARA License?
+                                        d. What is the validity of the PSARA License?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Typically, a PSARA license comes with a validity of 5 years which can be extended further by filing the relevant application online. However, in the states like Chhattisgarh & Uttarakhand, it is valid for one year only.
+                                        Typically, a PSARA license comes with a validity of 5 years which can be extended further by filing the relevant application online. However, in the states like Chhattisgarh & Uttarakhand, it is valid for one year only.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    e. What is the Government fee for PSARA Licence?
+                                        e. What is the Government fee for PSARA Licence?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    The government fees payable can be divided into the given categories: For one district -- Rs. 5,000/- For 2 to 5 districts in a state -- Rs. 10,000/-. For the entire state -- Rs. 25,000/-.
+                                        The government fees payable can be divided into the given categories: For one district -- Rs. 5,000/- For 2 to 5 districts in a state -- Rs. 10,000/-. For the entire state -- Rs. 25,000/-.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    f.What is the role of Supervisor so appointed by the Private security agency in India?
+                                        f.What is the role of Supervisor so appointed by the Private security agency in India?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Supervisors are liable to administer the agency’s operation and all the affairs related to security guards.
+                                        Supervisors are liable to administer the agency’s operation and all the affairs related to security guards.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    g. What are the provisions regarding the License renewal?
+                                        g. What are the provisions regarding the License renewal?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    The application pertaining to license renewal must be filed 45 days prior to the expiration date.
+                                        The application pertaining to license renewal must be filed 45 days prior to the expiration date.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    h. Is the grant of PSARA license is done on the state-wise basis?
+                                        h. Is the grant of PSARA license is done on the state-wise basis?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Yes, the grant of PSARA license is done on the state-wise basis.
+                                        Yes, the grant of PSARA license is done on the state-wise basis.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    i.List down some key documentations for obtaining PSARA license in India?
+                                        i.List down some key documentations for obtaining PSARA license in India?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    MOA, GST registration, MoU with training institute, PF and ESIC Registration, so and so forth.
+                                        MOA, GST registration, MoU with training institute, PF and ESIC Registration, so and so forth.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    j. Still Confused?
+                                        j. Still Confused?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                    Speak to our experts who shall solve all your doubts. Call us at +91 70204 38881 or Mail us at medsysconsultancy@gmail.com
+                                        Speak to our experts who shall solve all your doubts. Call us at +91 70204 38881 or Mail us at medsysconsultancy@gmail.com
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>

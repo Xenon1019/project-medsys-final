@@ -62,33 +62,36 @@ const FSSAIstate = () => {
      
       <div className='flex bg-[#f6d5dd] h-full w-full'>
         <div className='w-3/12'>
-          <div className='flex flex-col sticky top-20 '>
-            <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+          <div className='flex flex-col sticky top-40 ml-4 my-12'>
+            <div className='bg-white rounded-xl  p-2 '>
               <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
               <hr className='bg-[#560216]' />
               <Scrollspy items={[
-                'overview',
-                'advantages',
-                'importance',
-                'process',
-                'documents',
-                'faq'
-              ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#overview'>Overview</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#role'>Role of FSSAI</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#advantages'>Advantages</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#who'>Who Needs State FSSAI</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#documents'>Documents Required</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fee'>Fee Structure</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#process'>Process Flow</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#penalties'>Penalties</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                'Overview',
+                'Role',
+                'Advantages',
+                'Who',
+                'Documents',
+                'Fee',
+                'Process',
+                'Penalties',
+                'FAQs',
+              ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Role'>Role of FSSAI</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Who'>Who Needs State FSSAI</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Fee'>Fee Structure</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Penalties'>Penalties</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
               </Scrollspy>
             </div>
-            <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+            <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
           </div>
         </div>
-        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-2 '>
 
           <div className='my-12' id="Overview">
             <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -98,16 +101,16 @@ const FSSAIstate = () => {
           
 
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Role">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Role of Food Safety Standard Authority of India</h2>
             <ul className=''>
-              <li className="my-4 arrow">Formulating guidelines and norms for the food sector</li>
-              <li className="my-4 arrow">Introducing initiatives related to food safety awareness</li>
-              <li className="my-4 arrow">Releasing directions for food business operators</li>
-              <li className="my-4 arrow">Setting out norms and rules for food testing labs</li>
-              <li className="my-4 arrow">Accumulating Data pertaining to contaminants in food articles</li>
-              <li className="my-4 arrow">To facilitate recommendation to Indian Government for formulating new provisions</li>
-              <li className="my-4 arrow">Utilizing rapid alert system for prompt identification of issues in food articles available to the public</li>
+              <li className="arrow">Formulating guidelines and norms for the food sector</li>
+              <li className="arrow">Introducing initiatives related to food safety awareness</li>
+              <li className="arrow">Releasing directions for food business operators</li>
+              <li className="arrow">Setting out norms and rules for food testing labs</li>
+              <li className="arrow">Accumulating Data pertaining to contaminants in food articles</li>
+              <li className="arrow">To facilitate recommendation to Indian Government for formulating new provisions</li>
+              <li className="arrow">Utilizing rapid alert system for prompt identification of issues in food articles available to the public</li>
             </ul>
             <p className='my-4'>FSSAI has underpinned stringent norms for proprietary food units as the majority of them conduct their operation without any norms. FSSAI has mandated these facilities to secure FSSAI licenses without any exception. As per the FSSAI, unregistered proprietary food units are not allowed to continue their business operation without a valid food license.</p>
             <p>FSSAI has rolled the mandatory provisions for FBO and regulation of manufacturing, storage, sale, & distribution process to ensure utmost food safety and hygiene. The authority has also set up a legitimate information network for the awareness of the masses to secure valid information related to food safety and hygiene.</p>
@@ -115,59 +118,59 @@ const FSSAIstate = () => {
           </div>
 
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Advantages">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Benefits of FSSAI State License</h2>
             <p className='my-4'>Despite being a legal compulsion the FSSAI Basic Registration renders dozens of benefits to the Food business operators. The common benefits of securing FSSAI Basic Registration include</p>
             <ul className=''>
-              <li className="my-4 arrow">Creates strong brand recognition among the target end-users and public at large</li>
-              <li className="my-4 arrow">Improves creditability of the business</li>
-              <li className="my-4 arrow">Enables businesses to attract more customers</li>
-              <li className="my-4 arrow">Offers legal stability that otherwise is lacking in unregistered counterparts</li>
-              <li className="my-4 arrow">Facilitates best practices to the business owner to ensure food safety</li>
+              <li className="arrow">Creates strong brand recognition among the target end-users and public at large</li>
+              <li className="arrow">Improves creditability of the business</li>
+              <li className="arrow">Enables businesses to attract more customers</li>
+              <li className="arrow">Offers legal stability that otherwise is lacking in unregistered counterparts</li>
+              <li className="arrow">Facilitates best practices to the business owner to ensure food safety</li>
             </ul>
           </div>
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Who">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Who needs a State FSSAI License?</h2>
             <ul className=''>
-              <li className="my-4 arrow">Facility dealing with Proprietary foods</li>
-              <li className="my-4 arrow">Vegetable oil production & processing facility using the process of solvent extraction meeting above turnover criteria.</li>
-              <li className="my-4 arrow">Hotels having 4-star rating or less</li>
-              <li className="my-4 arrow">Facilities dealing with dairy products, Milk Chilling Units having production capacity ranging from 500 to 50000 lit</li>
-              <li className="my-4 arrow">A slaughterhouse having capacity of more than 2 & up to 50 large animals. Or the handling capacity of more than 10 & up to 150 small animals. Or per day capacity of more than 50 to up to 1000 poultry birds.</li>
-              <li className="my-4 arrow">All food processing facilities, including re-packing units, with a per-day capacity of not less than 100kg/l to up to 2 metric tons</li>
+              <li className="arrow">Facility dealing with Proprietary foods</li>
+              <li className="arrow">Vegetable oil production & processing facility using the process of solvent extraction meeting above turnover criteria.</li>
+              <li className="arrow">Hotels having 4-star rating or less</li>
+              <li className="arrow">Facilities dealing with dairy products, Milk Chilling Units having production capacity ranging from 500 to 50000 lit</li>
+              <li className="arrow">A slaughterhouse having capacity of more than 2 & up to 50 large animals. Or the handling capacity of more than 10 & up to 150 small animals. Or per day capacity of more than 50 to up to 1000 poultry birds.</li>
+              <li className="arrow">All food processing facilities, including re-packing units, with a per-day capacity of not less than 100kg/l to up to 2 metric tons</li>
             </ul>
           </div>
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Documents">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Fundamental documents required for securing State FSSAI License</h2>
             <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>Following Are The Documents That One To Arrange To Apply For A State FSSAI License:</h2>
             <p>Details of key management personal such as Directors, Partners, proprietors, & Executive Members of Society with real address & contact particulars.</p>
             <ul className=''>
-              <li className="my-4 arrow">Passport–sized photos of the individual seeking the license</li>
-              <li className="my-4 arrow">Identification as well as address proof of the individual seeking the license</li>
-              <li className="my-4 arrow">Applicant’s PAN card</li>
-              <li className="my-4 arrow">A copy of property documents (if the business place is owned by the applicant)</li>
-              <li className="my-4 arrow">A copy of the rent agreement & NOC granted by the landlord ( in case of rented property)</li>
-              <li className="my-4 arrow">Particulars on Raw material suppliers</li>
-              <li className="my-4 arrow">Form B Duly completed and authenticated by the applicant.</li>
-              <li className="my-4 arrow">List of machinery installed at the facility</li>
-              <li className="my-4 arrow">NOC accorded by the local Municipality</li>
-              <li className="my-4 arrow">Form IX</li>
-              <li className="my-4 arrow">Particulars of food category and proposed food articles to be produced at the plant</li>
-              <li className="my-4 arrow">Import Export Code rendered by Directorate General of Foreign Trade.</li>
-              <li className="my-4 arrow">Authorization letter enclosing the name as well as the address of the liable individual</li>
-              <li className="my-4 arrow">Food safety management system (FSMS)</li>
+              <li className="arrow">Passport–sized photos of the individual seeking the license</li>
+              <li className="arrow">Identification as well as address proof of the individual seeking the license</li>
+              <li className="arrow">Applicant’s PAN card</li>
+              <li className="arrow">A copy of property documents (if the business place is owned by the applicant)</li>
+              <li className="arrow">A copy of the rent agreement & NOC granted by the landlord ( in case of rented property)</li>
+              <li className="arrow">Particulars on Raw material suppliers</li>
+              <li className="arrow">Form B Duly completed and authenticated by the applicant.</li>
+              <li className="arrow">List of machinery installed at the facility</li>
+              <li className="arrow">NOC accorded by the local Municipality</li>
+              <li className="arrow">Form IX</li>
+              <li className="arrow">Particulars of food category and proposed food articles to be produced at the plant</li>
+              <li className="arrow">Import Export Code rendered by Directorate General of Foreign Trade.</li>
+              <li className="arrow">Authorization letter enclosing the name as well as the address of the liable individual</li>
+              <li className="arrow">Food safety management system (FSMS)</li>
             </ul>
           </div>
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Fee">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>FSSAI State License (Fee Structure)</h2>
             <p>The requisite fees must be paid by an applicant seeking State Food license via:</p>
             <ul className=''>
-              <li className="my-4 arrow">Demand Draft (DD)</li>
-              <li className="my-4 arrow">Treasury Challan, or</li>
-              <li className="my-4 arrow">Cash</li>
+              <li className="arrow">Demand Draft (DD)</li>
+              <li className="arrow">Treasury Challan, or</li>
+              <li className="arrow">Cash</li>
             </ul>
             <p>The requisite fees must be paid by an applicant seeking State Food license via:</p>
 
@@ -192,21 +195,21 @@ const FSSAIstate = () => {
 
           </div>
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Process">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Process for Getting FSSAI State License from Licensing Authority</h2>
             <p>The FSSAI License is primarily granted based on the scope of operation and production volume. The typical steps involved in securing a State Food license include</p>
             <ul className='list-disc'>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:1</span>Arranging the aforesaid document and Filing of application via Form B</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:2</span>Submission of form to licensing authority via online portal FOSCOS. The filing process ends with the submission of standard fees.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:3</span>In-depth scrutiny of application and document by FSSAI’s officials.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:4</span> If needed, an on-site inspection will be conducted by FSSAI’s officials to determine the level of compliance at business premises.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:5</span>Grant of State FSSAI License by the licensing authority (Note: the application may be revoked by the licensing authority in case of non-compliant.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 arrow'>  Step:6</span>after securing the license, the business owner can commence their business operation. Note: The license holder needs to display the license at their business premises at the time.</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:1</span>Arranging the aforesaid document and Filing of application via Form B</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:2</span>Submission of form to licensing authority via online portal FOSCOS. The filing process ends with the submission of standard fees.</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:3</span>In-depth scrutiny of application and document by FSSAI’s officials.</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:4</span> If needed, an on-site inspection will be conducted by FSSAI’s officials to determine the level of compliance at business premises.</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:5</span>Grant of State FSSAI License by the licensing authority (Note: the application may be revoked by the licensing authority in case of non-compliant.</li>
+              <li className=''><span className='text-[#9D3E55] mr-2 arrow font-semibold'>  Step:6</span>after securing the license, the business owner can commence their business operation. Note: The license holder needs to display the license at their business premises at the time.</li>
             </ul>
           </div>
 
 
-          <div className='my-12' id="advantages">
+          <div className='my-12' id="Penalties">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>
             Penalties
             </h2>
@@ -250,7 +253,7 @@ const FSSAIstate = () => {
 
           
 
-          <div className='my-12' id="fAQs">
+          <div className='my-12' id="FAQs">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
             <Accordion>
               <AccordionItem>

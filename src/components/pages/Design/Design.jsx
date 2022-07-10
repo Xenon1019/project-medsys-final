@@ -71,32 +71,32 @@ const Design = () => {
       </div>
       <div className='flex bg-[#f6d5dd] h-full w-full'>
         <div className='w-3/12'>
-          <div className='flex flex-col sticky top-20 '>
-            <div className='bg-white rounded-xl ml-12 my-12 p-2 '>
+          <div className='flex flex-col sticky top-40 ml-4 my-12'>
+            <div className='bg-white rounded-xl p-2 '>
               <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
               <hr className='bg-[#560216]' />
               <Scrollspy items={[
-                'overview',
-                'advantages',
-                'importance',
-                'process',
-                'documents',
-                'faq'
-              ]} className="flex flex-col p-8" currentClassName="table-spy" >
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#overview'>Overview</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#advantages'>Advantages</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#importance'>Importance of Design Registration</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#process'>Process Flow</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#documents'>Documents Required</a>
-                <a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#fAQs'>FAQs</a>
+                'Overview',
+                'Advantages',
+                'Importance',
+                'Process',
+                'Documents',
+                'FAQs'
+              ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Importance'>Importance of Design Registration</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
+                <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
               </Scrollspy>
             </div>
-            <button className='bg-[#560216] text-white m-12 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+            <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
           </div>
         </div>
-        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-12 '>
+        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-2 '>
 
-          <div className='my-12' id="overview">
+          <div className='my-12' id="Overview">
             <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
             <p>Various industrial designs are registered and protected through the process of Design Registration in India. The procedure of Design Registration is administered under the Designs Act-2000 and the corresponding Designs Rules-2001.</p>
           </div>
@@ -105,7 +105,7 @@ const Design = () => {
                     </div> */}
 
 
-          <div className='my-12' id="advantages">
+          <div className='my-12' id="Advantages">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>
               Advantages
             </h2>
@@ -139,7 +139,7 @@ const Design = () => {
 
 
 
-          <div className='my-12' id="importance">
+          <div className='my-12' id="Importance">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Importance of Design Registration</h2>
 
             <ul className='list-disc'>
@@ -155,20 +155,20 @@ const Design = () => {
             <button className='bg-[#560216] text-white text-center px-3 py-1 rounded-full text-lg hover:bg-green-600'>CLICK HERE</button>
           </div>
 
-          <div className='my-12' id="process">
+          <div className='my-12' id="Process">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Process Flow</h2>
             <ul className='list-disc'>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:1</span>Upload required documents & information of the article on our web portal.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:2</span>Consult our business advisor regarding design registration form.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:3</span>Our professional will verify the validity of documents & Information provided.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:4</span>On Confirmation, make online payment with different payments modes available.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:5</span>The design registration form will be filled as per the details of your product.</li>
-              <li className='my-4'><span className='text-[#560216] mr-2 before:content-["\00BB"]'>  Step:6</span>On verification, the Controller of Design shall issue Design certificate</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:1</span>Upload required documents & information of the article on our web portal.</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:2</span>Consult our business advisor regarding design registration form.</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:3</span>Our professional will verify the validity of documents & Information provided.</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:4</span>On Confirmation, make online payment with different payments modes available.</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:5</span>The design registration form will be filled as per the details of your product.</li>
+              <li className='my-4'><span className='text-[#9D3E55] font-semibold mr-2 arrow '>  Step:6</span>On verification, the Controller of Design shall issue Design certificate</li>
             </ul>
 
           </div>
 
-          <div className='my-12' id="documents">
+          <div className='my-12' id="Documents">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>Documents Required</h2>
             <div>
               <div className='flex items-center my-4'>
@@ -191,13 +191,12 @@ const Design = () => {
                 </div>
               </div>
             </div>
-
           </div>
 
 
 
 
-          <div className='my-12' id="fAQs">
+          <div className='my-12' id="FAQs">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
             <Accordion>
               <AccordionItem>
