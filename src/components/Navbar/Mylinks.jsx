@@ -21,7 +21,7 @@ export const links = [
           { name: "Private Limited Company", link: "/private-company" },
           { name: "Limited Liability Partnership - LLP", link: "/" },
           { name: "One Person Company - OPC", link: "/" },
-          { name: "NIDHI Company", link: "/" },
+          { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
           { name: "Partnership Firm", link: "/" },
           { name: "Sole Proprietorship", link: "/" },
@@ -71,7 +71,7 @@ export const links = [
       {
         Head: "Registration",
         sublink: [
-          { name: "Trust Registration", link: "/" },
+          { name: "Trust Registration", link: "/trust-registration" },
           { name: "Society Registration", link: "/society-registration" },
           { name: "Section 8 Company", link: "/section-registration" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
