@@ -1,0 +1,13 @@
+.content-scroll-view a{
+    text-decoration: underline;
+    color: #560216;
+    font-weight: 550;
+}
+
+.arrow::before {
+    content: "\00BB";
+    color: #560216;
+    font-size: 30px;
+    /* margin-left: 60px; */
+    /* padding-right: 7px; */
+  }
