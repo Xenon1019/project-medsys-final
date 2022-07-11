@@ -36,8 +36,8 @@ const Trust = () => {
 
   return (
     <>
-      
-      <div className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+      <div
+        className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="">
@@ -55,16 +55,16 @@ const Trust = () => {
           </div>
           <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
             {points.map((p) => (
-              <div className="flex gap-3">
+              <div className="flex gap-3 py-2">
                 <div>
-                  <img className="h-6 mr-2" src={p.icon} alt="" />
+                <img className="h-7 w-7" src={p.icon} alt="" />
                 </div>
                 <div>{p.head}</div>
               </div>
             ))}
           </div>
         </div>
-        <div className= "px-3 py-9">
+        <div className="px-3 py-9">
           <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
             <div className="flex flex-col text-gray-600 py-2">
               <label>Full Name</label>
@@ -519,7 +519,7 @@ const Trust = () => {
           </div>
         </div>
       </div>
-      </>
+    </>
   );
 };
 
