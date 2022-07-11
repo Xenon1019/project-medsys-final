@@ -384,9 +384,7 @@ function App() {
         </div>
       </div>
 
-      <div className="p-36 bg-gradient-to-r from-[#4a4545] to-[#560216] hover:from-[#550216] hover:to-[#4a4545] ">
-        <h1 className="text-center tracking-widest text-5xl sm:text-6xl text-rose-100 font-bold mx-auto">Turn Your Ideas Into Reality With MEDSYS</h1>
-      </div>
+      
       <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
 
       <div className="bg-[#560216]">

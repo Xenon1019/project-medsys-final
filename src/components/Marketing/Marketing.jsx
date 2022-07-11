@@ -108,8 +108,8 @@ function App() {
               in tools and methodologies
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 py-3 w-1/3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -135,8 +135,8 @@ function App() {
               web design services from Medsys Consultancy experts.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -162,8 +162,8 @@ function App() {
               web design services from Medsys Consultancy experts.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -189,8 +189,8 @@ function App() {
               customers from one platform to another.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -218,8 +218,8 @@ function App() {
               the start-up, its goods and services, and its brand.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -244,8 +244,8 @@ function App() {
               platform, companies and their clients can communicate in real time
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -272,8 +272,8 @@ function App() {
               building, submissions, or content creation.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -299,8 +299,8 @@ function App() {
               goods and services.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -326,8 +326,8 @@ function App() {
               website for you that is as unique as you are!
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -350,8 +350,8 @@ function App() {
               of branding.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -382,8 +382,8 @@ function App() {
               unique and cutting-edge features.
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>
@@ -409,8 +409,8 @@ function App() {
               Let us create a website for you that is as unique as you are!
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-rose-200 bg-[#560216] p-2 w-1/3 sm:w-2/5 mr-auto rounded-md hover:bg-rose-900">
-                Get started
+              <button className="text-lg  text-white bg-[#560216] p-2 w-1/3 py-3 sm:w-1/4 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+                Get Started
               </button>
             </div>
           </div>

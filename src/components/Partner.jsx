@@ -66,7 +66,7 @@ export default function Partner() {
         </div>
         <h3 className='text-2xl text-center font-bold pt-5'>Come, Join Us</h3>
         <div className="button flex justify-center pt-4">
-          <button className='bg-mainColor hover:bg-rose-700'>Become a partner</button>
+          <button className='bg-mainColor hover:bg-rose-800 text-lg  tracking-normal'>Become a Partner</button>
         </div>
       </section>
 
@@ -87,7 +87,7 @@ export default function Partner() {
 
           {/* Button  */}
           <div className="form-btn flex justify-center pt-4">
-            <button style={{fontSize:"20px"}} className='text-white w-40 h-9 bg-[#560217] rounded-sm hover:bg-rose-700'>Send</button>
+            <button style={{fontSize:"20px"}} className='text-white w-40 h-9 border rounded-lg bg-[#560217] rounded-sm hover:bg-rose-800 tracking-wider'>Send</button>
           </div>
         </div>
       </section>

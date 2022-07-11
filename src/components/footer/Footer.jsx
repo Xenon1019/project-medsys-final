@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/" className="text-white">
-                  Digital Branding
+                  Marketing Solution
                 </Link>
               </li>
             </ul>
