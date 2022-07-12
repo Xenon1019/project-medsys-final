@@ -1,18 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import Scrollspy from "react-scrollspy";
-
-import { TabTitle } from '../../Utillity'
+import pageH from "../pagesHeader/pagesHeader";
+import { TabTitle } from '../../Utillity';
 import './societyReg.css';
 import businessLogo from './business logo.jpeg';
 import smileLogo from './smile logo.jpeg';
 import starLogo from './star logo.jpeg';
 import bg from "./bg.png";
-
-function numberToLetter(num) {
-    let ascii = 'a'.charCodeAt(0) + num;
-    return String.fromCharCode(ascii);
-}
 
 const points = [
     {
@@ -28,6 +23,13 @@ const points = [
       icon: smileLogo,
     },
   ];
+
+
+function numberToLetter(num) {
+    let ascii = 'a'.charCodeAt(0) + num;
+    return String.fromCharCode(ascii);
+}
+
 
 function FAQItem(props) {
     const [activated, toggle] = useState(false);
@@ -51,7 +53,6 @@ function FAQItem(props) {
 function Header() {
     return (<>
         
-
         <div
         className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
