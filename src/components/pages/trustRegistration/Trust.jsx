@@ -104,7 +104,7 @@ const Trust = () => {
         </div>
       </div>
 
-      <div className="mt-auto sm:w-3/4 px-5 mx-auto">
+      <div className="mt-auto sm:w-4/5 px-5 mx-auto">
         <h2 className="text-3xl text-[#560216] font-bold my-8">
           How To Register A Section 8 Company?
         </h2>
@@ -149,10 +149,10 @@ const Trust = () => {
       </div>
 
       <div className="flex bg-[#f6d5dd] h-full w-full">
-        <div className="sm:w-1/4 hidden sm:block">
+        <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12">
-            <div className="bg-white rounded-xl  p-2 ">
-              <h2 className="text-3xl text-[#560216] font-bold">
+            <div className="bg-white rounded-xl p-5">
+              <h2 className="text-3xl text-[#560216] font-bold text-center">
                 Table Of Contents
               </h2>
               <hr className="bg-[#560216]" />
@@ -168,7 +168,7 @@ const Trust = () => {
                   "Applicability",
                   "FAQs",
                 ]}
-                className="flex flex-col p-8"
+                className="flex flex-col p-2 gap-3 text-center"
                 currentClassName="content-scroll-view"
               >
                 <li>
@@ -245,7 +245,7 @@ const Trust = () => {
                 </li>
               </Scrollspy>
             </div>
-            <button className="bg-[#560216] text-white ml-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600">
+            <button className="bg-[#560216] text-white text-center w-3/4 sm:w-1/2 p-2 mx-auto mt-2 rounded-md text-lg hover:bg-green-600">
               CONTACT US
             </button>
           </div>
