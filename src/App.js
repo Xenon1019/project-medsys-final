@@ -36,6 +36,7 @@ import Trust from "./components/pages/trustRegistration/Trust";
 import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 import FCRAReg from "./components/pages/fcraRegistration/FCRAReg";
 import ApedaLicense from "./components/pages/apeda/ApedaLicense";
+import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 import {
   BrowserRouter,
   Routes,
@@ -80,6 +81,7 @@ function App() {
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
           <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
           <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
+          <Route path="/csr1" element={<Csr1/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

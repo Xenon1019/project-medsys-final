@@ -430,7 +430,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     The Trustees do not have the right to sell the property,
                     however, the trust properties can be sold after obtaining
                     prior permission from the appropriate civil court.
@@ -444,7 +444,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     The answer to this question is yes. Government employees or
                     officers can be part of NGOs provided the NGO is not
                     anti-government. There are a few rules too that these people
@@ -462,7 +462,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     Government employees or officers can be part of NGOs,
                     provided the NGO is not working towards any anti-government
                     activities or programmes. The intended members should ensure
@@ -478,7 +478,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     The trust is usually irrevocable in nature. For reasons like
                     disqualification of trustees, absence of trustees,
                     mismanagement of the trust, the trust can be merged with a
@@ -494,7 +494,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     There is no specific certificate for a trust registration.
                     On the other hand, getting the trust deed registered with
                     the appropriate authorities would suffice.
@@ -506,7 +506,7 @@ const Trust = () => {
                   <AccordionItemButton>Still Confused?</AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>
+                  <p className="text-lg">
                     Speak to our experts who shall solve all your doubts. Call
                     us at +91 70204 38881 or Mail us at
                     medsysconsultancy@gmail.com
