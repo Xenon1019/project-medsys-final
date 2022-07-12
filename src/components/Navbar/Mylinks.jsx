@@ -35,7 +35,7 @@ export const links = [
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
-          { name: "APEDA License", link: "/" },
+          { name: "APEDA License", link: "/apeda-registration" },
           { name: "RERA Agent/Developer", link: "/" },
         ],
       },
