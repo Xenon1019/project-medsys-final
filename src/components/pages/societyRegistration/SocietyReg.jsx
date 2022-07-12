@@ -106,15 +106,15 @@ function Header() {
             </div>
         </div>
 
-      <div className="flex justify-between items-center px-16 bg-black text-white h-20">
-        <div className="text-2xl">
-          Contact us to know more about Trust Registration
+        <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">
+          Contact us to know more about Society Registration
         </div>
-        <div>
-          <button className="bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600">
-          <a href="tel:+91 70204 38881">Call Now!</a>
+        
+          <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+            <a href="tel:+91 70204 38881">Call Now!</a>
           </button>
-        </div>
+        
       </div>
 
       <div className="mt-auto sm:w-4/5 px-5 mx-auto">
