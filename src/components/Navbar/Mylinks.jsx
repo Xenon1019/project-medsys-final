@@ -81,7 +81,7 @@ export const links = [
         Head: "NGO Compliance",
         sublink: [
           { name: "12A & 80G Registration", link: "/" },
-          { name: "FCRA Registration", link: "/" },
+          { name: "FCRA Registration", link: "/fcra-registration" },
           { name: "CSR-1 Registration", link: "/" },
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
