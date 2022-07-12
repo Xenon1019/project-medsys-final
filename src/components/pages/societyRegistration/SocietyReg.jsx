@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import pageH from "../pagesHeader/pagesHeader";
 import { TabTitle } from '../../Utillity';
 import './societyReg.css';
 import businessLogo from './business logo.jpeg';
@@ -107,30 +106,60 @@ function Header() {
         </div>
       </div>
 
-        <div className="top-footer">
-            <p>Contact us to know more about Society Registration</p>
-            <button type="submit"><a href="tel:+91 70204 38881">Call Now!</a></button>
+      <div className="flex justify-between items-center px-16 bg-black text-white h-20">
+        <div className="text-2xl">
+          Contact us to know more about Trust Registration
         </div>
-
-        <div id="society-regInfo">
-            <h1 className="heading">How To Register A Trust Online?</h1>
-            <div className="boxx1">
-                <p>Trust Registration requires important documents like trust deed and rental agreement. Our service experts help
-                    you with the complete procedure for the formation of trust while taking care of all the legal intricacies</p>
-                <ul id="list">
-                    <li className="arroww1"><b>STEP 1:</b> </li>
-                    <p style={{ paddingLeft: '75px' }}>We address all your queries about Trust registration online</p>
-                    <li className="arroww1"> <b>STEP 2:</b></li>
-                    <p style={{ paddingLeft: '75px' }}>We help you get the entire process of filing and registration completed.</p>
-                    <li className="arroww1"><b>STEP 3:</b></li>
-                    <p style={{ paddingLeft: '75px' }}>We help you with the post-registration formalities and compliances.</p>
-
-                </ul>
-
-
-            </div>
-
+        <div>
+          <button className="bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600">
+          <a href="tel:+91 70204 38881">Call Now!</a>
+          </button>
         </div>
+      </div>
+
+      <div className="mt-auto sm:w-4/5 px-5 mx-auto">
+        <h2 className="text-3xl text-[#560216] font-bold my-8">
+          How To Register A Section 8 Company?
+        </h2>
+
+        <ul className="my-2">
+          <p className="">
+            Trust Registration requires important documents like trust deed and
+            rental agreement. Our service experts help you with the complete
+            procedure for the formation of trust while taking care of all the
+            legal intricacies
+          </p>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 1:{" "}
+            </li>
+            <p className="my-4">
+              We address all your queries about Trust registration online
+            </p>
+          </div>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 2:{" "}
+            </li>
+            <p className="my-4">
+              We help you get the entire process of filing and registration
+              completed.
+            </p>
+          </div>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 3:{" "}
+            </li>
+            <p className="my-4">
+              We help you with the post-registration formalities and
+              compliances.
+            </p>
+          </div>
+        </ul>
+      </div>
     </>);
 
 }
