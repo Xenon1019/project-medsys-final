@@ -94,8 +94,8 @@ const Trust = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-7 bg-black text-white h-20">
-        <div className="text-2xl my-auto">
+      <div className="flex justify-center items-center gap-7 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">
           Contact us to know more about Trust Registration
         </div>
         
@@ -153,7 +153,7 @@ const Trust = () => {
         <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
-              <h2 className="text-3xl text-[#560216] font-bold text-center">
+              <h2 className="text-2xl text-[#560216] font-bold text-center">
                 Table Of Contents
               </h2>
               <hr className="bg-[#560216]" />
@@ -430,7 +430,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     The Trustees do not have the right to sell the property,
                     however, the trust properties can be sold after obtaining
                     prior permission from the appropriate civil court.
@@ -444,7 +444,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     The answer to this question is yes. Government employees or
                     officers can be part of NGOs provided the NGO is not
                     anti-government. There are a few rules too that these people
@@ -462,7 +462,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     Government employees or officers can be part of NGOs,
                     provided the NGO is not working towards any anti-government
                     activities or programmes. The intended members should ensure
@@ -478,7 +478,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     The trust is usually irrevocable in nature. For reasons like
                     disqualification of trustees, absence of trustees,
                     mismanagement of the trust, the trust can be merged with a
@@ -494,7 +494,7 @@ const Trust = () => {
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     There is no specific certificate for a trust registration.
                     On the other hand, getting the trust deed registered with
                     the appropriate authorities would suffice.
@@ -506,7 +506,7 @@ const Trust = () => {
                   <AccordionItemButton>Still Confused?</AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p className="text-lg">
+                  <p>
                     Speak to our experts who shall solve all your doubts. Call
                     us at +91 70204 38881 or Mail us at
                     medsysconsultancy@gmail.com
