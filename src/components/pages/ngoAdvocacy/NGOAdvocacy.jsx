@@ -23,7 +23,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -79,7 +79,7 @@ function NGOAdvocacy() {
 
         <section className="main-content">
             <div className="left" id="lefty">
-                <div id="activeTableContentaa" style={{height:'auto'}}>
+                <div id="activeTableContentaa" style={{ height: 'auto' }}>
                     <h1>Table Of Contents</h1>
                     <hr />
                     <Scrollspy currentClassName="content-scroll-view" items={[
@@ -88,21 +88,21 @@ function NGOAdvocacy() {
                         'content-companies',
                         'content-faq',
                     ]}>
-                    <li> <a className="tabanchor" href="#eligibility">NGO Darpan Registration </a></li>
+                        <li> <a className="tabanchor" href="#eligibility">NGO Darpan Registration </a></li>
 
-                    <li> <a className="tabanchor" href="#reg">Revalidation</a></li>
+                        <li> <a className="tabanchor" href="#reg">Revalidation</a></li>
 
-                    <li> <a className="tabanchor" href="#sec8">Section 8</a></li>
+                        <li> <a className="tabanchor" href="#sec8">Section 8</a></li>
 
-                    <li> <a className="tabanchor" href="#faq">FAQs</a></li>
+                        <li> <a className="tabanchor" href="#faq">FAQs</a></li>
                     </Scrollspy>
                     <br />
                 </div>
-                <button type="submit" id="contact" style={{marginTop:'auto',mariginLeft:'auto'}}><a href="#contactus"><b style={{color:'white'}}> CONTACT US </b></a></button>
+                <button type="submit" id="contact" style={{ marginTop: 'auto', mariginLeft: 'auto' }}><a href="#contactus"><b style={{ color: 'white' }}> CONTACT US </b></a></button>
 
             </div>
 
-            <div className="right1 necessity" id="overview" style={{fontSize:'1rem'}}>
+            <div className="right1 necessity" id="overview" style={{ fontSize: '1rem' }}>
 
                 <div className="ICI necessity" id="content-eligibility">
                     <h1>NGO Darpan Registration</h1>

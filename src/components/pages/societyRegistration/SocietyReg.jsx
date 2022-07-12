@@ -11,18 +11,18 @@ import bg from "./bg.png";
 
 const points = [
     {
-      head: "Business Served",
-      icon: businessLogo,
+        head: "Business Served",
+        icon: businessLogo,
     },
     {
-      head: "9.6/10 Unfiltered Customer ratings",
-      icon: starLogo,
+        head: "9.6/10 Unfiltered Customer ratings",
+        icon: starLogo,
     },
     {
-      head: "Satisfaction or Money Back Guarantee",
-      icon: smileLogo,
+        head: "Satisfaction or Money Back Guarantee",
+        icon: smileLogo,
     },
-  ];
+];
 
 
 function numberToLetter(num) {
@@ -41,7 +41,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -52,60 +52,60 @@ function FAQItem(props) {
 
 function Header() {
     return (<>
-        
+
         <div
-        className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
-        style={{ backgroundImage: `url(${bg})` }}
-      >
-        <div className="">
-          <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-            <h1 className="text-5xl font-semibold">Online Society Registration India</h1>
-          </div>
-          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-            <p>
-            Registration of society is required to promote the fine arts, science, literature, or knowledge sharing for a purposeful matter or for charity.
-            </p>
-          </div>
-          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
-            {points.map((p) => (
-              <div className="flex gap-3 py-2">
-                <div>
-                <img className="h-7 w-7" src={p.icon} alt="" />
+            className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+            style={{ backgroundImage: `url(${bg})` }}
+        >
+            <div className="">
+                <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+                    <h1 className="text-5xl font-semibold">Online Society Registration India</h1>
                 </div>
-                <div>{p.head}</div>
-              </div>
-            ))}
-          </div>
+                <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+                    <p>
+                        Registration of society is required to promote the fine arts, science, literature, or knowledge sharing for a purposeful matter or for charity.
+                    </p>
+                </div>
+                <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+                    {points.map((p) => (
+                        <div className="flex gap-3 py-2">
+                            <div>
+                                <img className="h-7 w-7" src={p.icon} alt="" />
+                            </div>
+                            <div>{p.head}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="px-3 py-9">
+                <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>Full Name</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="text"
+                        />
+                    </div>
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>Phone Number</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="number"
+                        />
+                    </div>
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>E-mail</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="e-mail"
+                        />
+                    </div>
+                    <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+                        Request a Callback
+                    </button>
+                </form>
+            </div>
         </div>
-        <div className="px-3 py-9">
-          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>Full Name</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="text"
-              />
-            </div>
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>Phone Number</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="number"
-              />
-            </div>
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>E-mail</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="e-mail"
-              />
-            </div>
-            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
-              Request a Callback
-            </button>
-          </form>
-        </div>
-      </div>
 
         <div className="top-footer">
             <p>Contact us to know more about Society Registration</p>
@@ -174,7 +174,7 @@ function SocietyReg() {
 
             </div>
 
-            <div className="right1 necessity" id="overview" style={{fontSize:'1rem'}}>
+            <div className="right1 necessity" id="overview" style={{ fontSize: '1rem' }}>
                 <div className="necessity" id="content-overview">
                     <h1 id="overview">Overview</h1>
                     <br />
@@ -307,7 +307,7 @@ function SocietyReg() {
                         solve all your
                         doubts.
                         Call us at +91 70204 38881 or Mail us at medsysconsultancy@gmail.com`} />
-                    
+
                 </div>
             </div>
         </section>
