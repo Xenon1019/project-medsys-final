@@ -94,7 +94,7 @@ const Trust = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-7 px-4 bg-black text-white h-20">
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
         <div className="text-xl my-auto">
           Contact us to know more about Trust Registration
         </div>
