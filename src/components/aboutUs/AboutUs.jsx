@@ -140,25 +140,18 @@ function App() {
   return (
     <div className="App">
       <div
-        className=" text-white h-[550px] w-full flex items-center justify-center "
+        className=" text-white h-[550px] w-full items-center hidden lg:block justify-center "
         style={backgroundImageStyle}
       >
-        {/* <h2 className="sm:text-6xl text-5xl uppercase font-bold text-center w-11/12">
-          Medsys Consultancy Services
-        </h2> */}
       </div>
 
-      <div className="bg-[#f6d5dd]">
-        <div className="sm:px-8 px-3 py-16">
-          <div className="flex flex-col items-center justify-center mb-16 mx-auto">
-            <h2 className="text-5xl text-[#560216] font-bold mx=auto">
-              About Us
-            </h2>
-            {/* <div className="bg-[#560216] w-1/4 h-1.5"></div> */}
-          </div>
+      <h2 className="pt-5 text-7xl lg:hidden text-center font-semibold text-[#560216]">About Us</h2>
 
-          <div className="flex items-center justify-center sm:w-1/2 mx-auto">
-            <p className="text-xl text-rose-900 items-center text-center font-semibold">
+      
+        <div className="py-11">
+
+          <div className="flex items-center justify-center w-11/12 lg:w-1/2 mx-auto">
+            <p className="md:text-2xl text-rose-900 items-center text-justify font-semibold">
               Consultancy Services is a social organization aiming at
               sustainability, performing well, and creating social change.
               <br></br>
@@ -174,7 +167,6 @@ function App() {
             </p>
           </div>
         </div>
-      </div>
 
       <div className="bg-[#560216] py-9 px-3">
         <div className="flex items-center justify-center">
@@ -204,7 +196,6 @@ function App() {
         <div className="flex items-center justify-center mt-7">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
-            {/* <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div> */}
           </div>
         </div>
 
@@ -223,7 +214,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd] py-9 px-2">
+      <div className="bg-[#f6d5dd] py-7">
         <div className="px-4 sm:px-9">
           <h2 className=" text-5xl text-[#560216]">Who are we?</h2>
           {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
