@@ -28,7 +28,7 @@ import ISOCertification from "./components/pages/isoCertification/ISOCertificati
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import PSARA from "./components/pages/PSARA/PSARA";
 import Patent from "./components/pages/Patent Registration/Patent";
-import Section from "./components/pages/Section Registration/Section";
+import Section from "./components/pages/Section_8/Section_8";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
@@ -40,6 +40,9 @@ import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 import LLP from "./components/pages/llp/LLP";
 import MSME from "./components/pages/MSME/MSME";
 import Barcode from "./components/pages/barcode/Barcode";
+import Tan from "./components/pages/tan/Tan";
+import Rera from "./components/pages/rera/Rera";
+import Pitch from "./components/pages/Pitch Deck/Pitch";
 
 import {
   BrowserRouter,
@@ -89,6 +92,9 @@ function App() {
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
           <Route path="/barcode" element={ <Barcode /> }></Route>
+          <Route path="/tan" element={<Tan/>}></Route>
+          <Route path="/rera" element={<Rera/>}></Route>
+          <Route path="/pitch" element={<Pitch/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

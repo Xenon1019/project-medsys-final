@@ -9,7 +9,7 @@ export const links = [
           { name: "Startup Recognition", link: "/" },
           { name: "Business Plan", link: "/" },
           { name: "Startup Proposal", link: "/" },
-          { name: "Pitch Deck", link: "/" },
+          { name: "Pitch Deck", link: "/pitch" },
           { name: "Fund Raising", link: "/" },
           { name: "Startup Schemes/grants", link: "/" },
           { name: "GeM Registration", link: "/" },
@@ -36,7 +36,7 @@ export const links = [
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
           { name: "APEDA License", link: "/apeda-license" },
-          { name: "RERA Agent/Developer", link: "/" },
+          { name: "RERA Agent/Developer", link: "/rera" },
         ],
       },
       
@@ -45,7 +45,7 @@ export const links = [
         sublink: [
           { name: "ISO Certification", link: "/iso-certification" },
           { name: "DSC Token", link: "/dsc" },
-          { name: "TAN Application", link: "/" },
+          { name: "TAN Application", link: "/Tan" },
           { name: "PAN Application", link: "/" },
           { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/barcode" },
@@ -73,7 +73,7 @@ export const links = [
         sublink: [
           { name: "Trust Registration", link: "/trust-registration" },
           { name: "Society Registration", link: "/society-registration" },
-          { name: "Section 8 Company", link: "/section-registration" },
+          { name: "Section 8 Company", link: "/section" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
       },
