@@ -37,6 +37,7 @@ import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 import Apeda from "./components/pages/Apenda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+import LLP from "./components/pages/llp/LLP";
 
 import {
   BrowserRouter,
@@ -83,6 +84,7 @@ function App() {
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
+          <Route path="/llp" element={ <LLP /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

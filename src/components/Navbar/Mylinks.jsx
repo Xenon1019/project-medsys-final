@@ -19,7 +19,7 @@ export const links = [
         Head: "Business Incorporation",
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
-          { name: "Limited Liability Partnership - LLP", link: "/" },
+          { name: "Limited Liability Partnership - LLP", link: "/llp" },
           { name: "One Person Company - OPC", link: "/" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
