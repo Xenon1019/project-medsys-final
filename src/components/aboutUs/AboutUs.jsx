@@ -138,7 +138,7 @@ function App() {
   const [sideData, setSideData] = useState(data[0].val);
 
   return (
-    <div className="App">
+    <>
       <div
         className=" text-white h-[550px] w-full items-center hidden lg:block justify-center "
         style={backgroundImageStyle}
@@ -168,7 +168,7 @@ function App() {
           </div>
         </div>
 
-      <div className="bg-[#560216] py-9 px-3">
+      <div className="bg-[#560216] py-9 px-3 mt-11 mx-auto w-3/4 rounded-lg shadow-md">
         <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Vision</h2>
@@ -181,7 +181,7 @@ function App() {
               className="w-36 h-36 bg-no-repeat mx-auto"
               style={OurVision}
             ></div>
-            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5 mb-7">
+            <p className="text-xl text-rose-100 items-center text-justify sm:w-1/2 font-medium mx-auto mt-5 mb-7">
               We provide innovative, quality-driven services to our clients to
               improve, optimize their performance and support them to scale up
               their solutions to address the complex challenges of surviving in
@@ -190,9 +190,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
     
-      <div className="bg-[#560216] py-9 px-3">
+      <div className="bg-[#560216] py-9 px-3 mt-11 mx-auto w-3/4 rounded-lg shadow-md">
         <div className="flex items-center justify-center mt-7">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
@@ -205,7 +204,7 @@ function App() {
               className="w-36 h-36 bg-no-repeat mx-auto"
               style={OurMission}
             ></div>
-            <p className="text-xl text-white items-center text-center sm:w-1/2 font-medium mx-auto mt-5">
+            <p className="text-xl text-rose-100 items-center text-justify sm:w-1/2 font-medium mx-auto mt-5">
               To build a team of experienced professionals to assists
               entrepreneurs to convert their dream business by providing
               end-to-end business incorporation and associated services.
@@ -214,13 +213,13 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd] py-7">
-        <div className="px-4 sm:px-9">
+      <div className="bg-[#f6d5dd] p-7 mt-11 mx-auto w-11/12 rounded-lg shadow-md">
+        <div className="sm:px-9">
           <h2 className=" text-5xl text-[#560216]">Who are we?</h2>
           {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
         </div>
         <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto mt-6">
-          <p className="text-rose-900 text-xl font-medium my-auto pr-6">
+          <p className="text-rose-900 text-xl font-medium text-justify my-auto pr-6">
             We provide a technology-motivated platform to impart management
             consultancy services in India. We assist startups in running their
             business. We offer CSR consultancy services to NGOs. We assist NGOs
@@ -246,7 +245,7 @@ function App() {
             className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
             style={whymed}
           ></div>
-          <p className="text-rose-900 text-xl font-medium my-auto pr-6">
+          <p className="text-rose-900 text-xl font-medium text-justify my-auto pr-6">
             Success comes from working with a partner you trust to provide the
             insight, support, and expertise that will propel your business
             forward.<br></br> We have built and continue to build our teams to
@@ -259,7 +258,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#560216] py-2 px-3">
+      <div className="bg-[#560216] py-2 px-3 mt-11 mx-auto w-11/12 sm:w-5/6 rounded-lg shadow-md">
         <div className="p-1 sm:p-11 py-16">
           <div className="flex items-center justify-center">
             <div className="pb-9 flex flex-col items-center justify-center">
@@ -276,7 +275,7 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20  mx-auto bg-no-repeat"
                 style={imgupcoming1}
               ></div>
-              <p className="text-md sm:text-xl p-3 text-rose-100 text-center mx-auto">
+              <p className="text-lg sm:text-xl p-3 text-rose-100 text-center mx-auto">
                 One-Stop Solution for budding entrepreneurs and businesses.
               </p>
             </div>
@@ -286,7 +285,7 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20 mx-auto bg-no-repeat"
                 style={imgupcoming2}
               ></div>
-              <p className="text-md sm:text-xl text-rose-100 p-3 text-center">
+              <p className="text-lg sm:text-xl text-rose-100 p-3 text-center">
                 One India One Service Rate
               </p>
             </div>
@@ -296,16 +295,15 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20 mx-auto bg-no-repeat"
                 style={imgupcoming3}
               ></div>
-              <p className="text-md sm:text-xl text-rose-100 p-3 text-center">
+              <p className="text-lg sm:text-xl text-rose-100 p-3 text-center">
                 MEDSYS Franchisee all across India
               </p>
             </div>
           </div>
         </div>
         </div>
-        <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
 
-      <div className="bg-[#560216] py-2 px-3">
+      <div className="bg-[#560216] py-2 px-3 mt-11 mx-auto w-11/12 sm:w-5/6 rounded-lg shadow-md">
         <div className="p-1 sm:p-11 py-16">
           <div className="flex items-center justify-center">
             <div className="pb-9 flex flex-col items-center justify-center">
@@ -322,7 +320,7 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20 mx-auto bg-no-repeat"
                 style={imgupcoming4}
               ></div>
-              <p className="text-md sm:text-xl text-rose-100 p-3 text-center">
+              <p className="text-lg sm:text-xl text-rose-100 p-3 text-center">
                 Starts with the identification and removal of barriers.
               </p>
             </div>
@@ -332,7 +330,7 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20 mx-auto bg-no-repeat"
                 style={imgupcoming5}
               ></div>
-              <p className="text-md sm:text-xl text-rose-100 p-3 text-center">
+              <p className="text-lg sm:text-xl text-rose-100 p-3 text-center">
                 Reinforce action plans for the errors identified.
               </p>
             </div>
@@ -342,7 +340,7 @@ function App() {
                 className="sm:w-56 sm:h-32 w-36 h-20 mx-auto bg-no-repeat"
                 style={imgupcoming6}
               ></div>
-              <p className="text-md sm:text-xl text-rose-100 p-3 text-center">
+              <p className="text-lg sm:text-xl text-rose-100 p-3 text-center">
                 Assess the current performance status of operations, marketing,
                 franchisee.
               </p>
@@ -351,7 +349,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd]">
+      <div className="bg-[#f6d5dd] mt-11 mx-auto w-11/12 rounded-lg shadow-md">
         <div className="pb-6">
           <div className=" p-11 w-3/4 mx-auto sm:px-9">
             <h2 className=" text-5xl font-semibold text-center text-[#560216]">
@@ -359,7 +357,7 @@ function App() {
             </h2>
             {/* <div className="bg-[#560216] mx-auto mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
           </div>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 ">
             <div className="grid grid-rows-6 gap-4">
               <button
                 className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
@@ -412,9 +410,22 @@ function App() {
       </div>
 
       
-      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
+      
 
-      <div className="bg-[#560216]">
+      <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
+          <div className="p-7 text-center"><h1 className="text-5xl font-semibold text-[#560216]">Meet The Team</h1></div>
+          <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
+            {team.map((t)=>(
+              <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
+                  <div className="p-3"><img className="border-4 border-rose-400 hover:border-rose-600 rounded-full" src={t.img} /></div>
+                  <div className="py-4"><h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">{t.name}</h1></div>
+                  <p className="text-xl md:text-lg text-rose-700 font-medium text-center">{t.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+      <div className="bg-[#560216ea] mb-11 mx-auto w-11/12 rounded-lg shadow-md">
         <div className="px-8 py-14">
           <div className="w-3/4">
             <h2 className="italic text-5xl text-white">
@@ -429,7 +440,7 @@ function App() {
 
           {/* </div> */}
           <div className="flex justify-center ml-3 py-3">
-            <p className="flex justify-center text-white text-lg sm:text-2xl sm:w-4/5 leading-7">
+            <p className="flex justify-center text-white text-lg sm:text-2xl sm:w-4/5 text-justify leading-7">
               He is an entrepreneur, business consultant and Founder of Medsys
               Consultancy Services LLP looking after the Business and Marketing
               aspects of the firm. Also, he is the founder of Medlife Pharma
@@ -469,19 +480,8 @@ function App() {
           </h1>
         </div>
       </section> */}
-      <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
-          <div className="p-7 text-center"><h1 className="text-5xl font-semibold text-[#560216]">Meet The Team</h1></div>
-          <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
-            {team.map((t)=>(
-              <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
-                  <div className="p-3"><img className="border-4 border-rose-400 hover:border-rose-600 rounded-full" src={t.img} /></div>
-                  <div className="py-4"><h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">{t.name}</h1></div>
-                  <p className="text-xl md:text-lg text-rose-700 font-medium text-center">{t.title}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-    </div>
+      
+    </>
     
   );
 }
