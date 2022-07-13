@@ -37,6 +37,10 @@ import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 import Apeda from "./components/pages/Apenda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+import Tan from "./components/pages/tan/Tan";
+import Rera from "./components/pages/rera/Rera";
+import Pitch from "./components/pages/Pitch Deck/Pitch";
+
 import {
   BrowserRouter,
   Routes,
