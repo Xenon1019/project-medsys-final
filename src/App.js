@@ -28,7 +28,6 @@ import ISOCertification from "./components/pages/isoCertification/ISOCertificati
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import PSARA from "./components/pages/PSARA/PSARA";
 import Patent from "./components/pages/Patent Registration/Patent";
-import Section from "./components/pages/Section_8/Section_8";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
@@ -81,7 +80,6 @@ function App() {
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
           <Route path="/psara" element={ <PSARA />}> </Route>
           <Route path="/patent-registration" element={ <Patent />}> </Route>
-          <Route path="/section-registration" element={ <Section />}> </Route>
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
           <Route path="/society-registration" element={ <SocietyReg /> }></Route>
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
