@@ -72,25 +72,21 @@ function App() {
       name: "Product Development & Design",
       data: "We create unique websites with intricate interactive elements and imaginative design because a generic website might not be sufficient for your business. We build unique APIs, set up the necessary infrastructure, and integrate your website with CRM and ERP programmes. Your ideas inspire our work. Let us create a website for you that is as unique as you are!",
       backgroundImage: img9,
-      backgroundSize: "contain",
     },
     {
       name: "Branding",
       data: "Brands are no longer thought to be created through advertising, in our opinion. They are created from interesting client experiences resulting from telling a fantastic, original story. By disrupting the market in a crazed manner, building consumer trust is the goal of branding",
       backgroundImage: img10,
-      backgroundSize: "contain",
     },
     {
       name: "Printing Services",
       data: "To meet all of your demands, Medsys Consultancy offer commercial offset printing and digital printing services.We can assist you in designing and printing a layout that will communicate your message to your audience and help you sell a product or advertise a service. Give your business cards, flyers, and stickers a boost with these unique and cutting-edge features.",
       backgroundImage: img11,
-      backgroundSize: "contain",
     },
     {
       name: "Social Media Marketing",
       data: "Medsys Consultancy create unique websites with intricate interactive elements and imaginative design because a generic website might not be sufficient for your business. We build unique APIs, set up the necessary infrastructure, and integrate your website with CRM and ERP programmes. Your ideas inspire our work. Let us create a website for you that is as unique as you are!",
       backgroundImage: img12,
-      backgroundSize: "contain",
     },
   ];
 
