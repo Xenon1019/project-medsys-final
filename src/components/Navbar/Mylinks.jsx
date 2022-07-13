@@ -36,10 +36,15 @@ export const links = [
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
 <<<<<<< HEAD
+<<<<<<< HEAD
           { name: "APEDA License", link: "/apeda-license" },
 =======
           { name: "APEDA License", link: "/apeda-registration" },
 >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+=======
+          { name: "APEDA License", link: "/apeda-license" },
+          { name: "APEDA Registration", link: "/apeda-registration" },
+>>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
           { name: "RERA Agent/Developer", link: "/" },
         ],
       },
@@ -87,10 +92,14 @@ export const links = [
           { name: "12A & 80G Registration", link: "/" },
           { name: "FCRA Registration", link: "/fcra-registration" },
 <<<<<<< HEAD
+<<<<<<< HEAD
           { name: "CSR-1 Registration", link: "/" },
 =======
           { name: "CSR-1 Registration", link: "/csr1" },
 >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+=======
+          { name: "CSR-1 Registration", link: "/csr1" },
+>>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },

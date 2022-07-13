@@ -35,6 +35,7 @@ import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 import Trust from "./components/pages/trustRegistration/Trust";
 import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Apeda from "./components/pages/Apenda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 =======
@@ -42,6 +43,13 @@ import FCRAReg from "./components/pages/fcraRegistration/FCRAReg";
 import ApedaLicense from "./components/pages/apeda/ApedaLicense";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+=======
+import Apeda from "./components/pages/Apenda_Licese/Apeda";
+import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
+import ApedaLicense from "./components/pages/apeda/ApedaLicense";
+import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+
+>>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
 import {
   BrowserRouter,
   Routes,
@@ -85,6 +93,7 @@ function App() {
           <Route path="/trust-registration" element={ <Trust /> }></Route>
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
 =======
@@ -92,6 +101,12 @@ function App() {
           <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
 >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+=======
+          <Route path="/apeda-license" element={ <Apeda /> }></Route>
+          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
+          <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
+          <Route path="/csr1" element={<Csr1/>}></Route>
+>>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
         </Routes>
         <Footer />
       </BrowserRouter>
