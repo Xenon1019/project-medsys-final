@@ -28,7 +28,7 @@ import ISOCertification from "./components/pages/isoCertification/ISOCertificati
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import PSARA from "./components/pages/PSARA/PSARA";
 import Patent from "./components/pages/Patent Registration/Patent";
-import Section from "./components/pages/Section Registration/Section";
+import Section from "./components/pages/Section_8/Section_8";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
@@ -37,6 +37,9 @@ import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 import FCRAReg from "./components/pages/fcraRegistration/FCRAReg";
 import ApedaLicense from "./components/pages/apeda/ApedaLicense";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+import Tan from "./components/pages/tan/Tan";
+import Rera from "./components/pages/rera/Rera"
+import Pitch from "./components/pages/Pitch Deck/Pitch"
 import {
   BrowserRouter,
   Routes,
@@ -82,6 +85,9 @@ function App() {
           <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
           <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
+          <Route path="/tan" element={<Tan/>}></Route>
+          <Route path="/rera" element={<Rera/>}></Route>
+          <Route path="/pitch" element={<Pitch/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
