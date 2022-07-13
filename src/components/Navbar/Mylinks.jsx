@@ -30,7 +30,7 @@ export const links = [
       {
         Head: "Business Registration & Licenses",
         sublink: [
-          { name: "MSME Registration", link: "/" },
+          { name: "MSME Registration", link: "/msme" },
           { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
