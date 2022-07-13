@@ -24,7 +24,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -78,7 +78,7 @@ function ISOCertification() {
 
         <section className="main-content">
             <div className="left" id="lefty">
-                <div id="activeTableContentaa" style={{height:'fit-content'}}>
+                <div id="activeTableContentaa" style={{ height: 'fit-content' }}>
                     <h1>Table Of Contents</h1>
                     <hr />
                     <Scrollspy currentClassName="content-scroll-view" items={[
@@ -93,7 +93,7 @@ function ISOCertification() {
                         'content-docs',
                         'content-attachments',
                         'content-faq'
-                        ]}>
+                    ]}>
                         <li> <a className="tabanchor" href="#overview">Overview</a></li>
                         <li> <a className="tabanchor" href="#importance">About ISO Certification</a></li>
                         <li> <a className="tabanchor" href="#laws">What is IAF? </a></li>
@@ -107,7 +107,7 @@ function ISOCertification() {
                     </Scrollspy>
                     <br />
                 </div>
-                <button type="submit" id="contact" style={{marginTop: 'auto', marginLeft:'auto'}}><a href="#contactus"><b style={{ color: 'white' }}> CONTACT US </b></a></button>
+                <button type="submit" id="contact" style={{ marginTop: 'auto', marginLeft: 'auto' }}><a href="#contactus"><b style={{ color: 'white' }}> CONTACT US </b></a></button>
 
             </div>
 

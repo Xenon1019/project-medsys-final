@@ -35,7 +35,11 @@ export const links = [
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
+<<<<<<< HEAD
           { name: "APEDA License", link: "/apeda-license" },
+=======
+          { name: "APEDA License", link: "/apeda-registration" },
+>>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
           { name: "RERA Agent/Developer", link: "/" },
         ],
       },
@@ -82,7 +86,11 @@ export const links = [
         sublink: [
           { name: "12A & 80G Registration", link: "/" },
           { name: "FCRA Registration", link: "/fcra-registration" },
+<<<<<<< HEAD
           { name: "CSR-1 Registration", link: "/" },
+=======
+          { name: "CSR-1 Registration", link: "/csr1" },
+>>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },
