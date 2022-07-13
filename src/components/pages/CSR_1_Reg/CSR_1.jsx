@@ -275,16 +275,16 @@ Laws Associated With CSR                  </a>
             </h2>
 
             <ul className="">
-              <li className="arrow text-xl">
+              <li className="arrow ">
                 It boosts the public image of the entity.
               </li>
-              <li className="arrow text-xl">
+              <li className="arrow ">
                 It boosts the public image of the entity.
               </li>
-              <li className="arrow text-xl">
+              <li className="arrow ">
                 CSR activities become hassle-free.
               </li>
-              <li className="arrow text-xl">
+              <li className="arrow ">
                 Securing funding from corporate has fewer legal hurdles.
               </li>
             </ul>
