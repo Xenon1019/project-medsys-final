@@ -34,9 +34,11 @@ import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 import Trust from "./components/pages/trustRegistration/Trust";
 import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
-import FCRAReg from "./components/pages/fcraRegistration/FCRAReg";
+import Apeda from "./components/pages/Apenda_Licese/Apeda";
+import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import ApedaLicense from "./components/pages/apeda/ApedaLicense";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+
 import {
   BrowserRouter,
   Routes,
@@ -79,7 +81,8 @@ function App() {
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
           <Route path="/trust-registration" element={ <Trust /> }></Route>
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
-          <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
+          <Route path="/apeda-license" element={ <Apeda /> }></Route>
+          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
           <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
         </Routes>
