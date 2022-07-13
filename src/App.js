@@ -43,6 +43,7 @@ import Barcode from "./components/pages/barcode/Barcode";
 import Tan from "./components/pages/tan/Tan";
 import Rera from "./components/pages/rera/Rera";
 import Pitch from "./components/pages/Pitch Deck/Pitch";
+import Section8 from "./components/pages/Section_8/Section_8";
 
 import {
   BrowserRouter,
@@ -95,6 +96,7 @@ function App() {
           <Route path="/tan" element={<Tan/>}></Route>
           <Route path="/rera" element={<Rera/>}></Route>
           <Route path="/pitch" element={<Pitch/>}></Route>
+          <Route path="/section-8" element={<Section8/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
