@@ -5,12 +5,13 @@ import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
-import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import Blog from "./components/ResponsiveBlogTemplate/Blog"
 import Career from "./components/Career/Career";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
+import BlogPost1 from "./components/ResponsiveBlogTemplate/BlogPost1";
 
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
@@ -46,6 +47,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/blog-post-1" element={<BlogPost1 />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/career" element={<Career />}></Route>
@@ -55,7 +57,7 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
-          <Route path="/blog" element={<BlogPost />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
@@ -76,7 +78,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-
     </>
   );
 }
