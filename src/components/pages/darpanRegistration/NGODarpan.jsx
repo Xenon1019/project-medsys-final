@@ -23,7 +23,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -119,12 +119,12 @@ function NGODarpan() {
                         'content-howto',
                         'content-faq',
                     ]}>
-                    <li> <a className="tabanchor" href="#overview">Overview</a></li>
-                    <li> <a className="tabanchor" href="#advantages">Advantages</a></li>
-                    <li> <a className="tabanchor" href="#checklist">Checklist</a></li>
-                    <li> <a className="tabanchor" href="#documents">Documents Required</a></li>
-                    <li> <a className="tabanchor" href="#process">How to Register?</a></li>
-                    <li> <a className="tabanchor" href="#faq">FAQs</a></li>
+                        <li> <a className="tabanchor" href="#overview">Overview</a></li>
+                        <li> <a className="tabanchor" href="#advantages">Advantages</a></li>
+                        <li> <a className="tabanchor" href="#checklist">Checklist</a></li>
+                        <li> <a className="tabanchor" href="#documents">Documents Required</a></li>
+                        <li> <a className="tabanchor" href="#process">How to Register?</a></li>
+                        <li> <a className="tabanchor" href="#faq">FAQs</a></li>
                     </Scrollspy>
                     <br />
                 </div>

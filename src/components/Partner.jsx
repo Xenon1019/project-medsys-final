@@ -66,7 +66,7 @@ export default function Partner() {
         </div>
         <h3 className='text-2xl text-center font-bold pt-5'>Come, Join Us</h3>
         <div className="button flex justify-center pt-4">
-          <button className='bg-mainColor hover:bg-rose-700'>Become a partner</button>
+          <button className='bg-mainColor hover:bg-rose-800 text-lg rounded-md tracking-normal'>Become a Partner</button>
         </div>
       </section>
 
@@ -87,7 +87,7 @@ export default function Partner() {
 
           {/* Button  */}
           <div className="form-btn flex justify-center pt-4">
-            <button style={{fontSize:"20px"}} className='text-white w-40 h-9 bg-[#560217] rounded-sm hover:bg-rose-700'>Send</button>
+            <button style={{fontSize:"20px"}} className='text-white w-40 h-11 border rounded-md bg-[#560217] hover:bg-rose-800 tracking-wider'>Send</button>
           </div>
         </div>
       </section>
@@ -112,7 +112,7 @@ export default function Partner() {
           </div>
         </div>
         <div className="contact-social-links">
-          <button className="inner call rounded-3xl">
+          <button className="inner call rounded-2xl">
             <i className="lni lni-phone"></i>
             <span>
               <a href="tel:+918881069069">
@@ -120,7 +120,7 @@ export default function Partner() {
               </a>
             </span>
           </button>
-          <button className="inner facebook rounded-3xl">
+          <button className="inner facebook rounded-2xl">
             <i className="lni lni-facebook-messenger"></i>
             <span>
               <a href="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
@@ -128,7 +128,7 @@ export default function Partner() {
               </a>
             </span>
           </button>
-          <button className="inner whatsapp rounded-3xl">
+          <button className="inner whatsapp rounded-2xl">
             <i className="lni lni-whatsapp"></i>
             <span>
               <a href="https://wa.me/+917020438881">
@@ -136,7 +136,7 @@ export default function Partner() {
               </a>
             </span>
           </button>
-          <button className="inner email rounded-3xl">
+          <button className="inner email rounded-2xl">
             <i className="lni lni-envelope"></i>
             <span>
               <a href="/">

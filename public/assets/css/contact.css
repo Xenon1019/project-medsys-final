@@ -79,7 +79,7 @@ section.form .wrapper .left p{
 }
 
 section.form .wrapper .left p:after{
-    content: '';
+    /* content: ''; */
     height: 4px;
     width: 80px;
     background-color: #b8163b;
@@ -139,7 +139,7 @@ section.form .wrapper .left form button{
 }
 
 section.form .wrapper .left form button:hover{
-    background: linear-gradient(to right, black, rgb(155, 150, 150));
+    background: linear-gradient(to right,#b6405c,#560216);
     box-shadow: 1px 1px 27px #1c1c1f78;
 }
 

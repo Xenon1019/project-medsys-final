@@ -33,6 +33,11 @@ import Section from "./components/pages/Section Registration/Section";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
+import Trust from "./components/pages/trustRegistration/Trust";
+import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
+import Apeda from "./components/pages/Apenda_Licese/Apeda";
+import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
+import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 
 import {
   BrowserRouter,
@@ -75,6 +80,11 @@ function App() {
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
           <Route path="/society-registration" element={ <SocietyReg /> }></Route>
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
+          <Route path="/trust-registration" element={ <Trust /> }></Route>
+          <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
+          <Route path="/apeda-license" element={ <Apeda /> }></Route>
+          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
+          <Route path="/csr1" element={<Csr1/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

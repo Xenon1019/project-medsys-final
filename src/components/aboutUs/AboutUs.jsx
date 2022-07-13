@@ -12,7 +12,43 @@ import whymedsys from "./5.png";
 import caption from "./Caption.png";
 import vision from "./1.png";
 import mission from "./2.png";
+
+import one from "./Bhushan Shirude_20220712_230010_0000.png";
+import two from "./Mayuri Shirude_20220712_230010_0002.png";
+import three from "./Ganesh Chinchole_20220712_230010_0001.png";
+import four from "./Kaamini Suhas_20220712_230010_0003.png";
+import five from "./Deepali Pawar_20220712_230010_0004.png";
+
+
 function App() {
+  const team =[
+    {
+      name: "Bhushan Shirude",
+      title: "Founder & CEO",
+      img: one,
+    },
+    {
+      name: "Mayuri Shirude",
+      title: "Co-founder & COO",
+      img: two,
+    },
+    {
+      name: "Ganesh Chinchole",
+      title: "Chief Technical Officer",
+      img: three,
+    },
+    {
+      name: "Kaamini Suhas ",
+      title: "CSR Head",
+      img: four,
+    },
+    {
+      name: "Deepali Pawar",
+      title: "Legal & Digital Marketing Head",
+      img: five,
+    },
+  ];
+  
   const backgroundImageStyle = {
     background: `url("${mainImage}")no-repeat center center/cover`,
   };
@@ -104,25 +140,18 @@ function App() {
   return (
     <div className="App">
       <div
-        className=" text-white h-[550px] w-full flex items-center justify-center "
+        className=" text-white h-[550px] w-full items-center hidden lg:block justify-center "
         style={backgroundImageStyle}
       >
-        {/* <h2 className="sm:text-6xl text-5xl uppercase font-bold text-center w-11/12">
-          Medsys Consultancy Services
-        </h2> */}
       </div>
 
-      <div className="bg-[#f6d5dd]">
-        <div className="sm:px-8 px-3 py-16">
-          <div className="flex flex-col items-center justify-center mb-16 mx-auto">
-            <h2 className="text-5xl text-[#560216] font-bold mx=auto">
-              About Us
-            </h2>
-            {/* <div className="bg-[#560216] w-1/4 h-1.5"></div> */}
-          </div>
+      <h2 className="pt-5 text-7xl lg:hidden text-center font-semibold text-[#560216]">About Us</h2>
 
-          <div className="flex items-center justify-center sm:w-1/2 mx-auto">
-            <p className="text-xl text-rose-900 items-center text-center font-semibold">
+      
+        <div className="py-11">
+
+          <div className="flex items-center justify-center w-11/12 lg:w-1/2 mx-auto">
+            <p className="md:text-2xl text-rose-900 items-center text-justify font-semibold">
               Consultancy Services is a social organization aiming at
               sustainability, performing well, and creating social change.
               <br></br>
@@ -138,7 +167,6 @@ function App() {
             </p>
           </div>
         </div>
-      </div>
 
       <div className="bg-[#560216] py-9 px-3">
         <div className="flex items-center justify-center">
@@ -168,7 +196,6 @@ function App() {
         <div className="flex items-center justify-center mt-7">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
-            {/* <div className="bg-rose-100 mt-1 w-1/2 h-1.5"></div> */}
           </div>
         </div>
 
@@ -187,7 +214,7 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd] py-9 px-2">
+      <div className="bg-[#f6d5dd] py-7">
         <div className="px-4 sm:px-9">
           <h2 className=" text-5xl text-[#560216]">Who are we?</h2>
           {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
@@ -384,9 +411,7 @@ function App() {
         </div>
       </div>
 
-      <div className="p-36 bg-gradient-to-r from-[#4a4545] to-[#560216] hover:from-[#550216] hover:to-[#4a4545] ">
-        <h1 className="text-center tracking-widest text-5xl sm:text-6xl text-rose-100 font-bold mx-auto">Turn Your Ideas Into Reality With MEDSYS</h1>
-      </div>
+      
       <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
 
       <div className="bg-[#560216]">
@@ -432,7 +457,9 @@ function App() {
               <br></br>
             </div>
           </div>
+          
         </div>
+        
       </div>
 
       {/* <section className="profile container mt-8 w-11/12 sm:w-4/5">
@@ -442,8 +469,18 @@ function App() {
           </h1>
         </div>
       </section> */}
-      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
-
+      <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
+          <div className="p-7 text-center"><h1 className="text-5xl font-semibold text-[#560216]">Meet The Team</h1></div>
+          <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
+            {team.map((t)=>(
+              <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
+                  <div className="p-3"><img className="border-4 border-rose-400 hover:border-rose-600 rounded-full" src={t.img} /></div>
+                  <div className="py-4"><h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">{t.name}</h1></div>
+                  <p className="text-xl md:text-lg text-rose-700 font-medium text-center">{t.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
     </div>
     
   );

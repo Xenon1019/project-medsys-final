@@ -32,7 +32,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -120,14 +120,14 @@ function PrivateCompany() {
                         'content-faq',
 
                     ]}>
-                    <li> <a className="tabanchor" href="#overview">Overview</a></li>
-                    <li> <a className="tabanchor" href="#advantages">Advantages Of MSME</a></li>
-                    <li> <a className="tabanchor" href="#checklist">Checklist</a></li>
-                    <li> <a className="tabanchor" href="#steps">Steps To Incorporate </a></li>
-                    <li> <a className="tabanchor" href="#documents">Documents Required</a></li>
-                    <li> <a className="tabanchor" href="#compliances">Compliances </a></li>
-                    <li> <a className="tabanchor" href="#incorporating">Incorporating A PLC</a></li>
-                    <li> <a className="tabanchor" href="#faq">FAQs</a></li>
+                        <li> <a className="tabanchor" href="#overview">Overview</a></li>
+                        <li> <a className="tabanchor" href="#advantages">Advantages Of MSME</a></li>
+                        <li> <a className="tabanchor" href="#checklist">Checklist</a></li>
+                        <li> <a className="tabanchor" href="#steps">Steps To Incorporate </a></li>
+                        <li> <a className="tabanchor" href="#documents">Documents Required</a></li>
+                        <li> <a className="tabanchor" href="#compliances">Compliances </a></li>
+                        <li> <a className="tabanchor" href="#incorporating">Incorporating A PLC</a></li>
+                        <li> <a className="tabanchor" href="#faq">FAQs</a></li>
                     </Scrollspy>
                     <br />
                 </div>
@@ -345,7 +345,7 @@ function PrivateCompany() {
 
                         <table className=" necessity-image">
                             <tr>
-                                <td rowspan="2"><img src={meeting} alt="" style={{aspectRation: '1', width:'120px'}} /></td>
+                                <td rowspan="2"><img src={meeting} alt="" style={{ aspectRation: '1', width: '120px' }} /></td>
                                 <td>
                                     <h3>Meeting of the Board of Directors</h3>
                                 </td>
@@ -361,7 +361,7 @@ function PrivateCompany() {
                         </table>
                         <table className="necessity-image">
                             <tr>
-                                <td rowspan="2"><img src={commencement} alt="" style={{aspectRation: '1', width:'120px'}} /></td>
+                                <td rowspan="2"><img src={commencement} alt="" style={{ aspectRation: '1', width: '120px' }} /></td>
                                 <td>
                                     <h3>Commencement of Business</h3>
                                 </td>
@@ -414,7 +414,7 @@ function PrivateCompany() {
 
                         <table className="necessity-image">
                             <tr>
-                                <td rowspan="2"><img src={dinKyc} alt=""  style={{aspectRation: '1', width:'70px'}} /></td>
+                                <td rowspan="2"><img src={dinKyc} alt="" style={{ aspectRation: '1', width: '70px' }} /></td>
                                 <td>
                                     <h3>DIN KYC</h3>
                                 </td>
@@ -431,7 +431,7 @@ function PrivateCompany() {
                         </table>
                         <table className="necessity-image">
                             <tr>
-                                <td rowspan="2"><img src={bookkeeping} alt="" style={{aspectRation: '1', width:'80px'}} /></td>
+                                <td rowspan="2"><img src={bookkeeping} alt="" style={{ aspectRation: '1', width: '80px' }} /></td>
                                 <td>
                                     <h3>Bookkeeping</h3>
                                 </td>
