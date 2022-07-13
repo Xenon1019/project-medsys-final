@@ -36,6 +36,7 @@ const Trust = () => {
 
   return (
     <>
+    <pagesHeader/>
       <div
         className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
@@ -57,7 +58,7 @@ const Trust = () => {
             {points.map((p) => (
               <div className="flex gap-3 py-2">
                 <div>
-                <img className="h-7 w-7" src={p.icon} alt="" />
+                  <img className="h-7 w-7" src={p.icon} alt="" />
                 </div>
                 <div>{p.head}</div>
               </div>
@@ -93,15 +94,15 @@ const Trust = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-between items-center px-16 bg-black text-white h-20">
-        <div className="text-2xl">
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">
           Contact us to know more about Trust Registration
         </div>
-        <div>
-          <button className="bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600">
-            CALL NOW!
+        
+          <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+            <a href="tel:+91 70204 38881">Call Now!</a>
           </button>
-        </div>
+        
       </div>
 
       <div className="mt-auto sm:w-4/5 px-5 mx-auto">
@@ -150,9 +151,9 @@ const Trust = () => {
 
       <div className="flex bg-[#f6d5dd] h-full w-full">
         <div className="sm:w-1/4 hidden md:block">
-          <div className="flex flex-col sticky top-40 ml-4 my-12">
+          <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
-              <h2 className="text-3xl text-[#560216] font-bold text-center">
+              <h2 className="text-2xl text-[#560216] font-bold text-center">
                 Table Of Contents
               </h2>
               <hr className="bg-[#560216]" />
@@ -245,12 +246,9 @@ const Trust = () => {
                 </li>
               </Scrollspy>
             </div>
-            <button className="bg-[#560216] text-white text-center w-3/4 sm:w-1/2 p-2 mx-auto mt-2 rounded-md text-lg hover:bg-green-600">
-              CONTACT US
-            </button>
           </div>
         </div>
-        <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 py-4 ">
+        <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
           <div className="my-12" id="Overview">
             <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
             <p className="my-2">
@@ -428,7 +426,7 @@ const Trust = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    a.Can the property of the Trust be sold?
+                    Can the property of the Trust be sold?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -442,7 +440,7 @@ const Trust = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    b. In what other ways an NGO can be registered in India?
+                    In what other ways an NGO can be registered in India?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -459,13 +457,13 @@ const Trust = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    c.Are government employees or officers allowed to be members
+                    Are government employees or officers allowed to be members
                     of NGO?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                    Yes. Government employees or officers can be part of NGOs,
+                    Government employees or officers can be part of NGOs,
                     provided the NGO is not working towards any anti-government
                     activities or programmes. The intended members should ensure
                     the particular organization is not profit making and that
@@ -476,7 +474,7 @@ const Trust = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    d.What is the procedure for closure of a trust?
+                    What is the procedure for closure of a trust?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -492,7 +490,7 @@ const Trust = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    e. Is there any certification for registration of a trust?
+                    Is there any certification for registration of a trust?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -505,7 +503,7 @@ const Trust = () => {
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeading>
-                  <AccordionItemButton>f. Still Confused?</AccordionItemButton>
+                  <AccordionItemButton>Still Confused?</AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>

@@ -19,7 +19,7 @@ const NavLinks = () => {
             >{link.name}</h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-15 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-15 hidden group-hover:lg:block hover:lg:block">
                   <div className="py-3">
                     <div className="w-4 h-4 left-3 absolute mt-1  bg-[#560216] border border-l-rose-800 border-t-rose-800 border-r-[#560216] border-b-[#560216] drop-shadow rotate-45 rounded-sm"></div>
                   </div>
@@ -46,7 +46,7 @@ const NavLinks = () => {
           {/* Mobile menus */}
           <div
             className={`
-            ${heading === link.name ? "md:hidden" : "hidden"}
+            ${heading === link.name ? "lg:hidden bg-rose-900" : "hidden"}
           `}
           >
             {/* sublinks */}
@@ -59,11 +59,11 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 flex justify-between items-center md:pr-0 pr-5"
+                    className="py-4 pl-7 flex justify-between items-center"
                   >
                     {slinks.Head}
 
-                    <span className="text-xl md:mt-1 md:ml-2 inline">
+                    <span className="text-xl inline">
                       <ion-icon
                         name={`${
                           subHeading === slinks.Head
@@ -75,7 +75,7 @@ const NavLinks = () => {
                   </h1>
                   <div
                     className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
+                      subHeading === slinks.Head ? "lg:hidden bg-rose-800" : "hidden"
                     }`}
                   >
                     {slinks.sublink.map((slink) => (

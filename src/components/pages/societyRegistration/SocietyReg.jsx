@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import pageH from "../pagesHeader/pagesHeader";
 import { TabTitle } from '../../Utillity';
 import './societyReg.css';
 import businessLogo from './business logo.jpeg';
@@ -11,18 +10,18 @@ import bg from "./bg.png";
 
 const points = [
     {
-      head: "Business Served",
-      icon: businessLogo,
+        head: "Business Served",
+        icon: businessLogo,
     },
     {
-      head: "9.6/10 Unfiltered Customer ratings",
-      icon: starLogo,
+        head: "9.6/10 Unfiltered Customer ratings",
+        icon: starLogo,
     },
     {
-      head: "Satisfaction or Money Back Guarantee",
-      icon: smileLogo,
+        head: "Satisfaction or Money Back Guarantee",
+        icon: smileLogo,
     },
-  ];
+];
 
 
 function numberToLetter(num) {
@@ -41,7 +40,7 @@ function FAQItem(props) {
                     toggle(!activated);
                 }}>
                 <span className="accordion__caption" > {numberToLetter(props.number) + '. ' + props.ques}</span>
-                <span className="ccordion__icon"><i className="fa fa-plus"></i></span>
+                <span className="accordion__icon"><i className="fa fa-plus"></i></span>
             </button>
 
             <div className="accordion__content">
@@ -52,85 +51,115 @@ function FAQItem(props) {
 
 function Header() {
     return (<>
-        
+
         <div
-        className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
-        style={{ backgroundImage: `url(${bg})` }}
-      >
-        <div className="">
-          <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-            <h1 className="text-5xl font-semibold">Online Society Registration India</h1>
-          </div>
-          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-            <p>
-            Registration of society is required to promote the fine arts, science, literature, or knowledge sharing for a purposeful matter or for charity.
-            </p>
-          </div>
-          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
-            {points.map((p) => (
-              <div className="flex gap-3 py-2">
-                <div>
-                <img className="h-7 w-7" src={p.icon} alt="" />
+            className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+            style={{ backgroundImage: `url(${bg})` }}
+        >
+            <div className="">
+                <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+                    <h1 className="text-5xl font-semibold">Online Society Registration India</h1>
                 </div>
-                <div>{p.head}</div>
-              </div>
-            ))}
-          </div>
+                <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+                    <p>
+                        Registration of society is required to promote the fine arts, science, literature, or knowledge sharing for a purposeful matter or for charity.
+                    </p>
+                </div>
+                <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+                    {points.map((p) => (
+                        <div className="flex gap-3 py-2">
+                            <div>
+                                <img className="h-7 w-7" src={p.icon} alt="" />
+                            </div>
+                            <div>{p.head}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="px-3 py-9">
+                <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>Full Name</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="text"
+                        />
+                    </div>
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>Phone Number</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="number"
+                        />
+                    </div>
+                    <div className="flex flex-col text-gray-600 py-2">
+                        <label>E-mail</label>
+                        <input
+                            className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                            type="e-mail"
+                        />
+                    </div>
+                    <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+                        Request a Callback
+                    </button>
+                </form>
+            </div>
         </div>
-        <div className="px-3 py-9">
-          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>Full Name</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="text"
-              />
-            </div>
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>Phone Number</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="number"
-              />
-            </div>
-            <div className="flex flex-col text-gray-600 py-2">
-              <label>E-mail</label>
-              <input
-                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                type="e-mail"
-              />
-            </div>
-            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
-              Request a Callback
-            </button>
-          </form>
+
+        <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">
+          Contact us to know more about Society Registration
         </div>
+        
+          <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+            <a href="tel:+91 70204 38881">Call Now!</a>
+          </button>
+        
       </div>
 
-        <div className="top-footer">
-            <p>Contact us to know more about Society Registration</p>
-            <button type="submit"><a href="tel:+91 70204 38881">Call Now!</a></button>
-        </div>
+      <div className="mt-auto sm:w-4/5 px-5 mx-auto">
+        <h2 className="text-3xl text-[#560216] font-bold my-8">
+          How To Register A Section 8 Company?
+        </h2>
 
-        <div id="society-regInfo">
-            <h1 className="heading">How To Register A Trust Online?</h1>
-            <div className="boxx1">
-                <p>Trust Registration requires important documents like trust deed and rental agreement. Our service experts help
-                    you with the complete procedure for the formation of trust while taking care of all the legal intricacies</p>
-                <ul id="list">
-                    <li className="arroww1"><b>STEP 1:</b> </li>
-                    <p style={{ paddingLeft: '75px' }}>We address all your queries about Trust registration online</p>
-                    <li className="arroww1"> <b>STEP 2:</b></li>
-                    <p style={{ paddingLeft: '75px' }}>We help you get the entire process of filing and registration completed.</p>
-                    <li className="arroww1"><b>STEP 3:</b></li>
-                    <p style={{ paddingLeft: '75px' }}>We help you with the post-registration formalities and compliances.</p>
-
-                </ul>
-
-
-            </div>
-
-        </div>
+        <ul className="my-2">
+          <p className="">
+            Trust Registration requires important documents like trust deed and
+            rental agreement. Our service experts help you with the complete
+            procedure for the formation of trust while taking care of all the
+            legal intricacies
+          </p>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 1:{" "}
+            </li>
+            <p className="my-4">
+              We address all your queries about Trust registration online
+            </p>
+          </div>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 2:{" "}
+            </li>
+            <p className="my-4">
+              We help you get the entire process of filing and registration
+              completed.
+            </p>
+          </div>
+          <div>
+            <li className="text-[#9D3E55] mr-2 arrow text-lg font-semibold">
+              {" "}
+              Step 3:{" "}
+            </li>
+            <p className="my-4">
+              We help you with the post-registration formalities and
+              compliances.
+            </p>
+          </div>
+        </ul>
+      </div>
     </>);
 
 }
@@ -174,7 +203,7 @@ function SocietyReg() {
 
             </div>
 
-            <div className="right1 necessity" id="overview" style={{fontSize:'1rem'}}>
+            <div className="right1 necessity" id="overview" style={{ fontSize: '1rem' }}>
                 <div className="necessity" id="content-overview">
                     <h1 id="overview">Overview</h1>
                     <br />
@@ -307,7 +336,7 @@ function SocietyReg() {
                         solve all your
                         doubts.
                         Call us at +91 70204 38881 or Mail us at medsysconsultancy@gmail.com`} />
-                    
+
                 </div>
             </div>
         </section>

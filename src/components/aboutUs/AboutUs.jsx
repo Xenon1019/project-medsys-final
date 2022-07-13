@@ -12,7 +12,43 @@ import whymedsys from "./5.png";
 import caption from "./Caption.png";
 import vision from "./1.png";
 import mission from "./2.png";
+
+import one from "./Bhushan Shirude_20220712_230010_0000.png";
+import two from "./Mayuri Shirude_20220712_230010_0002.png";
+import three from "./Ganesh Chinchole_20220712_230010_0001.png";
+import four from "./Kaamini Suhas_20220712_230010_0003.png";
+import five from "./Deepali Pawar_20220712_230010_0004.png";
+
+
 function App() {
+  const team =[
+    {
+      name: "Bhushan Shirude",
+      title: "Founder & CEO",
+      img: one,
+    },
+    {
+      name: "Mayuri Shirude",
+      title: "Co-founder & COO",
+      img: two,
+    },
+    {
+      name: "Ganesh Chinchole",
+      title: "Chief Technical Officer",
+      img: three,
+    },
+    {
+      name: "Kaamini Suhas ",
+      title: "CSR Head",
+      img: four,
+    },
+    {
+      name: "Deepali Pawar",
+      title: "Legal & Digital Marketing Head",
+      img: five,
+    },
+  ];
+  
   const backgroundImageStyle = {
     background: `url("${mainImage}")no-repeat center center/cover`,
   };
@@ -430,7 +466,9 @@ function App() {
               <br></br>
             </div>
           </div>
+          
         </div>
+        
       </div>
 
       {/* <section className="profile container mt-8 w-11/12 sm:w-4/5">
@@ -440,8 +478,18 @@ function App() {
           </h1>
         </div>
       </section> */}
-      <div className="bg-[#f6d5dd] py-7 px-4 w-full"></div>
-
+      <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
+          <div className="p-7 text-center"><h1 className="text-5xl font-semibold text-[#560216]">Meet The Team</h1></div>
+          <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
+            {team.map((t)=>(
+              <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
+                  <div className="p-3"><img className="border-4 border-rose-400 hover:border-rose-600 rounded-full" src={t.img} /></div>
+                  <div className="py-4"><h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">{t.name}</h1></div>
+                  <p className="text-xl md:text-lg text-rose-700 font-medium text-center">{t.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
     </div>
     
   );
