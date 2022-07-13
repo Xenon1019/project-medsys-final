@@ -48,7 +48,7 @@ export const links = [
           { name: "TAN Application", link: "/" },
           { name: "PAN Application", link: "/" },
           { name: "Drug License", link: "/drugLicense" },
-          { name: "Barcode License", link: "/" },
+          { name: "Barcode License", link: "/barcode" },
           { name: "RNI Registration", link: "/" },
         ],
       },

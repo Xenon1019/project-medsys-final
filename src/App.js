@@ -39,6 +39,7 @@ import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registr
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 import LLP from "./components/pages/llp/LLP";
 import MSME from "./components/pages/MSME/MSME";
+import Barcode from "./components/pages/barcode/Barcode";
 
 import {
   BrowserRouter,
@@ -87,6 +88,7 @@ function App() {
           <Route path="/csr1" element={<Csr1/>}></Route>
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
+          <Route path="/barcode" element={ <Barcode /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
