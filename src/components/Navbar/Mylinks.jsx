@@ -35,7 +35,7 @@ export const links = [
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
-          { name: "APEDA License", link: "/" },
+          { name: "APEDA License", link: "/apeda-license" },
           { name: "RERA Agent/Developer", link: "/" },
         ],
       },
@@ -81,7 +81,7 @@ export const links = [
         Head: "NGO Compliance",
         sublink: [
           { name: "12A & 80G Registration", link: "/" },
-          { name: "FCRA Registration", link: "/" },
+          { name: "FCRA Registration", link: "/fcra-registration" },
           { name: "CSR-1 Registration", link: "/" },
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
