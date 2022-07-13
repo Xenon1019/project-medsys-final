@@ -19,7 +19,7 @@ export const links = [
         Head: "Business Incorporation",
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
-          { name: "Limited Liability Partnership - LLP", link: "/" },
+          { name: "Limited Liability Partnership - LLP", link: "/llp" },
           { name: "One Person Company - OPC", link: "/" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
@@ -30,7 +30,7 @@ export const links = [
       {
         Head: "Business Registration & Licenses",
         sublink: [
-          { name: "MSME Registration", link: "/" },
+          { name: "MSME Registration", link: "/msme" },
           { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
@@ -48,7 +48,7 @@ export const links = [
           { name: "TAN Application", link: "/Tan" },
           { name: "PAN Application", link: "/" },
           { name: "Drug License", link: "/drugLicense" },
-          { name: "Barcode License", link: "/" },
+          { name: "Barcode License", link: "/barcode" },
           { name: "RNI Registration", link: "/" },
         ],
       },
