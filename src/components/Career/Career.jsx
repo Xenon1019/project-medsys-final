@@ -27,13 +27,13 @@ export default function Career() {
       {/* +++++++++++++++++++++ Contact form ++++++++++++++++++++++= */}
       <section className="career-contact-form mb-8">
         <form action="backend.php" className=' py-10 px-28 bg-mainColor' style={{border:"1px solid"}}>
-          <div className="upper grid-cols-2 grid gap-4">
+          <div className="max-w-4xl m-auto upper grid-cols-2 grid gap-4">
             <input className='py-2 outline-none px-2 rounded' type="text" name='name' placeholder='Enter name' />
             <input className='py-2 outline-none px-2 rounded' type="email" name='email' placeholder='Enter email' />
             <input className='py-2 outline-none px-2 rounded' type="phone" name='phone' placeholder='Enter Phone' />
             <input className='py-2 outline-none px-2 rounded' type="text" name='subject' placeholder='Subject' />
           </div>
-          <textarea className='outline-none px-2 w-full mt-4' name="" id="" cols="30" rows="5"></textarea>
+          <div className="m-auto flex justify-center"><textarea className='max-w-4xl outline-none px-2 w-full my-4' name="" id="" cols="30" rows="5"></textarea></div>
           <div className="text-white mb-8 flex justify-center">Select a File:<input style={{width:"220px"}} className="text-white" type="file" /></div>
           <div className="flex justify-center">
           <button className="bg-rose-800 hover:bg-rose-700 text-white  py-2 rounded hover:opacity-90 px-8">Apply Now</button>

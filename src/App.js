@@ -5,7 +5,7 @@ import AboutUs from "./components/aboutUs/AboutUs";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
-import BlogPost from "./components/ResponsiveBlogTemplate/BlogPost";
+import Blog from "./components/ResponsiveBlogTemplate/Blog"
 import Career from "./components/Career/Career";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -88,7 +88,7 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
           <Route path="/terms&conditions" element={<TermsConditions />}></Route>
           <Route path="/marketingSolutions" element={<Marketing />}></Route>
-          <Route path="/blog" element={<BlogPost />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
           <Route path="/producer" element={<Producer />}></Route>
           <Route path="/design" element={<Design />}></Route>
@@ -124,7 +124,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-
     </>
   );
 }
