@@ -29,7 +29,6 @@ import ISOCertification from "./components/pages/isoCertification/ISOCertificati
 import NGOAdvocacy from "./components/pages/ngoAdvocacy/NGOAdvocacy";
 import PSARA from "./components/pages/PSARA/PSARA";
 import Patent from "./components/pages/Patent Registration/Patent";
-import Section from "./components/pages/Section_8/Section_8";
 import NGODarpan from "./components/pages/darpanRegistration/NGODarpan";
 import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
@@ -38,6 +37,14 @@ import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
 import Apeda from "./components/pages/Apenda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
+import LLP from "./components/pages/llp/LLP";
+import MSME from "./components/pages/MSME/MSME";
+import Barcode from "./components/pages/barcode/Barcode";
+import Tan from "./components/pages/tan/Tan";
+import Rera from "./components/pages/rera/Rera";
+import Pitch from "./components/pages/Pitch Deck/Pitch";
+import Section8 from "./components/pages/Section_8/Section_8";
+
 import {
   BrowserRouter,
   Routes,
@@ -75,7 +82,6 @@ function App() {
           <Route path="/ngo-advocacy" element={ <NGOAdvocacy />}> </Route>
           <Route path="/psara" element={ <PSARA />}> </Route>
           <Route path="/patent-registration" element={ <Patent />}> </Route>
-          <Route path="/section-registration" element={ <Section />}> </Route>
           <Route path="/ngo-darpan" element={ <NGODarpan />}> </Route>
           <Route path="/society-registration" element={ <SocietyReg /> }></Route>
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
@@ -84,9 +90,13 @@ function App() {
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
+          <Route path="/llp" element={ <LLP /> }></Route>
+          <Route path="/msme" element={ <MSME /> }></Route>
+          <Route path="/barcode" element={ <Barcode /> }></Route>
           <Route path="/tan" element={<Tan/>}></Route>
           <Route path="/rera" element={<Rera/>}></Route>
           <Route path="/pitch" element={<Pitch/>}></Route>
+          <Route path="/section-8" element={<Section8/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

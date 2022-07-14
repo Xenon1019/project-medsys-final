@@ -19,7 +19,7 @@ export const links = [
         Head: "Business Incorporation",
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
-          { name: "Limited Liability Partnership - LLP", link: "/" },
+          { name: "Limited Liability Partnership - LLP", link: "/llp" },
           { name: "One Person Company - OPC", link: "/" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
@@ -30,13 +30,13 @@ export const links = [
       {
         Head: "Business Registration & Licenses",
         sublink: [
-          { name: "MSME Registration", link: "/" },
+          { name: "MSME Registration", link: "/msme" },
           { name: "Import Export Code [IEC]", link: "/iec-registration" },
           { name: "Shop Act License", link: "/" },
           { name: "GST Registration", link: "/" },
           { name: "PASARA License", link: "/psara" },
           { name: "APEDA License", link: "/apeda-license" },
-          { name: "RERA Agent/Developer", link: "/" },
+          { name: "RERA Agent/Developer", link: "/rera" },
         ],
       },
       
@@ -48,7 +48,7 @@ export const links = [
           { name: "TAN Application", link: "/Tan" },
           { name: "PAN Application", link: "/" },
           { name: "Drug License", link: "/drugLicense" },
-          { name: "Barcode License", link: "/" },
+          { name: "Barcode License", link: "/barcode" },
           { name: "RNI Registration", link: "/" },
         ],
       },
@@ -73,7 +73,7 @@ export const links = [
         sublink: [
           { name: "Trust Registration", link: "/trust-registration" },
           { name: "Society Registration", link: "/society-registration" },
-          { name: "Section 8 Company", link: "/section" },
+          { name: "Section 8 Company", link: "/section-8" },
           { name: "NGO Darpan Registration", link: "/ngo-darpan" },
         ],
       },
