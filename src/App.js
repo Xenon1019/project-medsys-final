@@ -11,8 +11,9 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
-import BlogPost1 from "./components/ResponsiveBlogTemplate/BlogPost1";
-
+import CSRRegistration from "./components/ResponsiveBlogTemplate/CSRResgistration";
+import FCRARegistration from "./components/ResponsiveBlogTemplate/FCRARegistration";
+import ContactForm from "./components/ContactForm";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
 import Copyright from "./components/pages/copyright/Copyright";
@@ -58,7 +59,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/blog-post-1" element={<BlogPost1 />}></Route>
+          <Route path="/contact-form" element={<ContactForm />}></Route>
+          <Route path="/CSR-1-Registration" element={<CSRRegistration />}></Route>
+          <Route path="/FCRA-registration" element={<FCRARegistration />}></Route>
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/career" element={<Career />}></Route>

@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root{
     --text-color:rgb(41, 39, 39);
@@ -48,12 +52,10 @@ section.form .wrapper .left{
 section.form .wrapper .left h5 {
     font-size: 20px;
     font-weight: 600;
+    margin-top: 2rem;
     letter-spacing: 2px;
     position: relative;
     color: black;
-
-    margin-bottom: 2rem;
-    padding-left: 10px;
 }
 
 section.form .wrapper .left form{
@@ -92,8 +94,8 @@ section.form .wrapper .left p:after{
 
 section.form .wrapper .left h6{
     color: #706767;
-    padding-top: 2.4rem;
-    padding-bottom: 2rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
     font-weight: 400;
     font-size: 13px;
 }

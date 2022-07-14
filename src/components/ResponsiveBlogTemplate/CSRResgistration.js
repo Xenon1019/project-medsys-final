@@ -1,14 +1,14 @@
 import React from 'react'
 import img1 from "./1.png"
-import img2 from "./2.png"
 import home from './home.png'
-import img11 from "./11.svg"
+import img3 from "./3.png"
+import { Link } from 'react-router-dom'
 import { TabTitle } from '../Utillity'
-export default function BlogPost1() {
+export default function CSRRegistration() {
     TabTitle("medsys blog - CSR1 registration")
     return (
         <>
-            <h1 className="text-3xl text-center font-semibold text-mainColor my-4">Medsys Blogs</h1>
+            <h1 className="text-3xl text-center font-semibold text-mainColor my-4">CSR-1 Registration</h1>
             <div className="m-auto content max-width-1 my-2">
                 <div className="content-left flex flex-col">
                     <div className='mb-6'>
@@ -89,34 +89,34 @@ export default function BlogPost1() {
                         <h1 className='text-3xl font-bold'>Note: Companies cannot spend CSR Funding through an unregistered NGO as such NGOs are not eligible for counting towards CSR activities.
                         </h1>
                         <div className="w-9/12 m-auto">
-                        <h1 className='text-2xl my-8 font-bold'>Documents Required for Filing Form CSR-1 Online
-                        </h1>
+                            <h1 className='text-2xl my-8 font-bold'>Documents Required for Filing Form CSR-1 Online
+                            </h1>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">Copy of the registration certificate of the NGO
+                                <p style={{ fontSize: "19px" }} className="my-2">Copy of the registration certificate of the NGO
                                 </p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">Copy of the PAN of the NGO with Form CSR-1</p>
+                                <p style={{ fontSize: "19px" }} className="my-2">Copy of the PAN of the NGO with Form CSR-1</p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">Copy of PAN Card of the entity</p>
+                                <p style={{ fontSize: "19px" }} className="my-2">Copy of PAN Card of the entity</p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">Mail ID of both entity and the authorized person signing the document
+                                <p style={{ fontSize: "19px" }} className="my-2">Mail ID of both entity and the authorized person signing the document
                                 </p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">DIN/PAN and Digital Signature of the Director, Trustee, Secretary, etc. of the organization
+                                <p style={{ fontSize: "19px" }} className="my-2">DIN/PAN and Digital Signature of the Director, Trustee, Secretary, etc. of the organization
                                 </p>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <p>⦁ </p>
-                                <p style={{fontSize:"19px"}} className="my-2">Copy of the Resolution authorizing the person by the entity with Resolution number and date of the resolution
+                                <p style={{ fontSize: "19px" }} className="my-2">Copy of the Resolution authorizing the person by the entity with Resolution number and date of the resolution
                                 </p>
                             </div>
                         </div>
@@ -138,35 +138,43 @@ export default function BlogPost1() {
 
                     <div className="home-article more-post">
                         <div className="home-article-img">
-                            <img src={img11} alt="article" />
+                            <img src={img3} alt="article" />
                         </div>
-                        <div className="home-article-content font1 center">
-                            <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
+                        <div className="home-article-content font1 flex flex-col">
+                            <h3 className='text-mainColor text-2xl'>What is form CSR 1 Registration?</h3>
 
                             <div>Bhushan shirude</div>
                             <span>07 January | 6 min read</span>
+                            <Link to="/blog-post-1">
+                                <button className='w-32 h-9 mt-6 rounded hover:bg-rose-700 bg-mainColor text-white'>Read More</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="home-article more-post">
                         <div className="home-article-img">
-                            <img src={img1} alt="article" />
+                            <img style={{ width: "393px" }} src={img1} alt="article" />
                         </div>
-                        <div className="home-article-content font1 center">
-                            <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
-
+                        <div className="home-article-content font1 flex flex-col">
+                            <h3 className='text-2xl text-mainColor'>What is FCRA Registration?</h3>
                             <div>Bhushan shirude</div>
                             <span>07 January | 6 min read</span>
+                            <Link to="/FCRA-registration">
+                                <button className='w-32 h-9 mt-6 rounded hover:bg-rose-700 bg-mainColor text-white'>Read More</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="home-article more-post">
                         <div className="home-article-img">
-                            <img src={img2} alt="article" />
+                            <img src={img3} alt="article" />
                         </div>
-                        <div className="home-article-content font1 center">
-                            <a href="/blogpost.html"><h3>Learn more about Machine Learning techniques in India by joining this channel</h3></a>
+                        <div className="home-article-content font1 flex flex-col">
+                            <h3 className='text-mainColor text-2xl'>What is form CSR 1 Registration?</h3>
 
                             <div>Bhushan shirude</div>
                             <span>07 January | 6 min read</span>
+                            <Link to="/blog-post-1">
+                                <button className='w-32 h-9 mt-6 rounded hover:bg-rose-700 bg-mainColor text-white'>Read More</button>
+                            </Link>
                         </div>
                     </div>
 

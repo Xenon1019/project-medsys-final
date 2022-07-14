@@ -39,7 +39,6 @@
   padding-top: 3px;
   border: 2px solid black;
   border-radius: 6px;
-  font-family: var(--font1);
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -307,5 +306,14 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+  }
+}
+
+@media (max-width:480px){
+  .home-article-content .name{
+    font-size: 20px;
+  }
+  .home-article-content span{
+    font-size: 20px;
   }
 }
