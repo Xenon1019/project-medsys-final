@@ -44,6 +44,7 @@ import Rera from "./components/pages/rera/Rera";
 import Pitch from "./components/pages/Pitch Deck/Pitch";
 import Section8 from "./components/pages/Section_8/Section_8";
 import FSSAI from "./components/pages/fssai/FSSAI";
+import Fundraising from "./components/pages/fundraising/Fundraising";
 
 import {
   BrowserRouter,
@@ -97,6 +98,7 @@ function App() {
           <Route path="/pitch" element={<Pitch/>}></Route>
           <Route path="/section-8" element={<Section8/>}></Route>
           <Route path="/fssai-registration" element={ <FSSAI/> }></Route>
+          <Route path="/fundraising" element={ <Fundraising/> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
