@@ -46,7 +46,7 @@ export const links = [
           { name: "ISO Certification", link: "/iso-certification" },
           { name: "DSC Token", link: "/dsc" },
           { name: "TAN Application", link: "/Tan" },
-          { name: "PAN Application", link: "/" },
+          { name: "PAN Application", link: "/pan-applicaton" },
           { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/barcode" },
           { name: "RNI Registration", link: "/" },

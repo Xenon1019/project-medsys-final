@@ -55,6 +55,7 @@ import Section8 from "./components/pages/Section_8/Section_8";
 import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
 import GEm from "./components/pages/gemRegistration/GEm";
+import PAN from "./components/pages/pan/PAN";
 
 import {
   BrowserRouter,
@@ -119,7 +120,7 @@ function App() {
           <Route path="/fssai-registration" element={ <FSSAI/> }></Route>
           <Route path="/fundraising" element={ <Fundraising/> }></Route>
           <Route path="/gem-registration" element={ <GEm /> }></Route>
-
+          <Route path="/pan-applicaton" element={ <PAN /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
