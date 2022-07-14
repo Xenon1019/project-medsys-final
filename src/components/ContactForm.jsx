@@ -4,38 +4,38 @@ export default function ContactForm() {
   return (
     <>
       
-        <div className="lg:grid lg:grid-flow-col px-7 py-11  bg-rose-50 mx-auto rounded-md w-11/12 lg:w-3/4 my-7 shadow-md">
+        <div className="lg:grid lg:grid-flow-col p-3 py-7  bg-rose-50 mx-auto rounded-md w-11/12 lg:w-3/5 my-7 shadow-md">
           <div className="my-auto mx-auto">
-            <h1 className="font-semibold text-5xl py-3 text-[#560216]">Please Get In Touch</h1>
-            <p className="text-lg py-3">
+            <h1 className="font-semibold text-5xl pb-3 text-[#560216]">Please Get In Touch</h1>
+            <p className="text-xl py-3">
               Schedule a free consultaion with our executives for your <br />{" "}
               Startups Needs
             </p>
-            <h6 className="py-3">For any Queries regarding your startup and legal advice*</h6>
-            <form className="grid grid-flow-row " action="#">
+            <h6 className="py-3 text-base">For any Queries regarding your startup and legal advice*</h6>
+            <form className="grid grid-flow-row text-base" action="#">
               <div className="flex flex-col text-[#560216] py-2">
                 <label>Name</label>
                 <input
-                  className="rounded-md  w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
+                  className="rounded-md text-base w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
                   type="text"
                 />
               </div>
               <div className="flex flex-col text-[#560216] py-2">
                 <label>Your Email</label>
                 <input
-                  className="rounded-md w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
+                  className="rounded-md text-base w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
                   type="text"
                 />
               </div>
               <div className="flex flex-col text-[#560216] py-2">
                 <label>Your phone</label>
                 <input
-                  className="rounded-md w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
+                  className="rounded-md text-base w-4/5 mt-1 p-2 focus:bg-zinc-50 focus:outline-none"
                   type="text"
                 />
               </div>
-              <select className="rounded-md  w-4/5 my-5 p-2" id="selection">
-                <option value="selection">Subject</option>
+              <select required className="rounded-md text-base w-4/5 my-5 p-2" id="selection">
+                <option>Services</option>
                 <option value="selection">AGNi</option>
                 <option value="selection">BIS</option>
                 <option value="selection">Digital Marketing</option>
@@ -62,7 +62,7 @@ export default function ContactForm() {
           </div>
           <div>
             <img
-              className="mx-auto h-[500px]"
+              className="mx-auto h-[400px] lg:h-[500px] lg:mt-9"
               src="/assets/img/contactHeader/headerImg/4.svg"
               alt=""
             />
