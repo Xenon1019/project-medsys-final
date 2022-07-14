@@ -16,7 +16,7 @@ export default function LoginRegister() {
   }
   return (
     <>
-    <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
+    <div className="grid grid-cols-1 sm:grid-cols-2 w-full">
       <div className="w-full flex flex-col space-y-4 justify-center lg:ml-auto p-3">
         <h2 className="text-4xl font-semibold text-mainColor text-center text ml-auto mr-auto p-3">
           Sign in here{" "}
@@ -50,11 +50,11 @@ export default function LoginRegister() {
           </Link>
         </form>
       </div>
-      <div className="w-full flex flex-col justify-center space-y-4 lg:mr-auto bg-gradient-to-t from-rose-400 to-red-900 p-3">
+      <div className="w-full flex flex-col justify-center space-y-4 lg:mr-auto bg-[#560216e7] p-3">
         <h2 className="text-4xl font-semibold text-rose-100 text-center ml-auto mr-auto p-5">
           Create an account here{" "}
         </h2>
-        <form className="max-w-[350px] w-3/4 mx-auto bg-zinc-800 p-6 px-6 rounded-md" >
+        <form className="w-3/4 lg:w-1/2 mx-auto bg-zinc-800 p-6 px-6 rounded-md" >
           <h2 className="text-4xl text-white font-bold text-center">SIGN UP</h2>
           <div className="flex flex-col text-rose-100 py-2">
             <label>Full Name</label>
