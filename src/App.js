@@ -11,9 +11,16 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
-import CSRRegistration from "./components/ResponsiveBlogTemplate/CSRResgistration";
-import FCRARegistration from "./components/ResponsiveBlogTemplate/FCRARegistration";
-import ContactForm from "./components/ContactForm";
+import LoginRegister from "./components/loginResgister/LoginRegister";
+import EditProfile from "./components/editProfile/EditProfile";
+import PendingWork from "./profilepages/PendingWork";
+import CompletedWork from "./profilepages/CompletedWork";
+import Quotation from "./profilepages/Quotation";
+import Profile from "./profilepages/Profile";
+import Documents from "./profilepages/Documents";
+import DocumentsCompany from "./profilepages/DocumentsCompany";
+import DocumentsTrust from "./profilepages/DocumentsTrust";
+
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
 import Copyright from "./components/pages/copyright/Copyright";
@@ -45,6 +52,10 @@ import Tan from "./components/pages/tan/Tan";
 import Rera from "./components/pages/rera/Rera";
 import Pitch from "./components/pages/Pitch Deck/Pitch";
 import Section8 from "./components/pages/Section_8/Section_8";
+import FSSAI from "./components/pages/fssai/FSSAI";
+import Fundraising from "./components/pages/fundraising/Fundraising";
+import GEm from "./components/pages/gemRegistration/GEm";
+import PAN from "./components/pages/pan/PAN";
 
 import {
   BrowserRouter,
@@ -59,9 +70,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/contact-form" element={<ContactForm />}></Route>
-          <Route path="/CSR-1-Registration" element={<CSRRegistration />}></Route>
-          <Route path="/FCRA-registration" element={<FCRARegistration />}></Route>
+          <Route path="/login" element={<LoginRegister/>}></Route>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/EditProfile" element={<EditProfile />} />
+          <Route path="/pendingWork" element={<PendingWork />} />
+          <Route path="/completedWork" element={<CompletedWork />} />
+          <Route path="/quotation" element={<Quotation />} />
+          <Route path="/documents" element={<Documents/>}/>
+          <Route path="/documents/documentsCompany" element={<DocumentsCompany />} />
+          <Route path="/documents/documentsTrust" element={<DocumentsTrust />} />
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/career" element={<Career />}></Route>
@@ -100,6 +117,10 @@ function App() {
           <Route path="/rera" element={<Rera/>}></Route>
           <Route path="/pitch" element={<Pitch/>}></Route>
           <Route path="/section-8" element={<Section8/>}></Route>
+          <Route path="/fssai-registration" element={ <FSSAI/> }></Route>
+          <Route path="/fundraising" element={ <Fundraising/> }></Route>
+          <Route path="/gem-registration" element={ <GEm /> }></Route>
+          <Route path="/pan-applicaton" element={ <PAN /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

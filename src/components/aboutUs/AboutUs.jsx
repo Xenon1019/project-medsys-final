@@ -9,7 +9,7 @@ import img5 from "./Reinforce_action_plans.png";
 import img6 from "./Access_current_performance.png";
 import whoimg from "./4.png";
 import whymedsys from "./5.png";
-import caption from "./Caption.png";
+import aim from "./aim.png";
 import vision from "./1.png";
 import mission from "./2.png";
 
@@ -93,11 +93,7 @@ function App() {
     backgroundSize: "contain",
   };
 
-  const tagline = {
-    backgroundImage: `url("${caption}")`,
-    backgroundSize: "contain",
-  };
-
+  
   const OurVision = {
     backgroundImage: `url("${vision}")`,
     backgroundSize: "contain",
@@ -111,7 +107,7 @@ function App() {
   const data = [
     {
       id: 1,
-      val: "	We aim to provide personalized services to our clients to ‘Start, Grow and Sustain’ their business and enable them to take proactive decisions so that they are not stuck in legal hurdles or formalities. ",
+      val: "We aim to provide personalized services to our clients to ‘Start, Grow and Sustain’ their business and enable them to take proactive decisions so that they are not stuck in legal hurdles or formalities. ",
     },
     {
       id: 2,
@@ -123,7 +119,7 @@ function App() {
     },
     {
       id: 4,
-      val: "	We aspire to prepare our organization for growth and create processes that effectively deal with the developing marketplace. ",
+      val: "We aspire to prepare our organization for growth and create processes that effectively deal with the developing marketplace. ",
     },
     {
       id: 5,
@@ -131,7 +127,7 @@ function App() {
     },
     {
       id: 6,
-      val: "	We aspire to improve our standing among consumers to serve them the best service we can and eventually improve our revenue.",
+      val: "We aspire to improve our standing among consumers to serve them the best service we can and eventually improve our revenue.",
     },
   ];
 
@@ -140,7 +136,7 @@ function App() {
   return (
     <>
       <div
-        className=" text-white h-[550px] w-full items-center hidden lg:block justify-center "
+        className="  h-[550px] w-full items-center hidden lg:block justify-center "
         style={backgroundImageStyle}
       >
       </div>
@@ -349,67 +345,29 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd] mt-11 mx-auto w-11/12 rounded-lg shadow-md">
+      <div className="bg-rose-50 mt-11 mx-auto w-11/12 rounded-lg shadow-md">
         <div className="pb-6">
-          <div className=" p-11 w-3/4 mx-auto sm:px-9">
+          <div className=" p-11 mx-auto sm:px-9">
             <h2 className=" text-5xl font-semibold text-center text-[#560216]">
               Aims and Aspirations of Medsys
             </h2>
-            {/* <div className="bg-[#560216] mx-auto mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
           </div>
-          <div className="grid grid-cols-2 ">
-            <div className="grid grid-rows-6 gap-4">
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[0].val)}
-              >
-                1
-              </button>
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[1].val)}
-              >
-                2
-              </button>
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[2].val)}
-              >
-                3
-              </button>
-
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[3].val)}
-              >
-                4
-              </button>
-
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[4].val)}
-              >
-                5
-              </button>
-
-              <button
-                className="text-3xl bg-rose-300 p-3 w-1/2 sm:w-1/5 mx-auto rounded-full"
-                onClick={() => setSideData(data[5].val)}
-              >
-                6
-              </button>
+          <div className="lg:grid lg:grid-cols-2 ">
+          <div className="w-11/12 mx-auto shadow-md bg-rose-100 rounded-md items-center justify-center ">
+            <img src={aim} alt=""/>
             </div>
 
-            <div className="my-auto p-2">
-              <p className=" text-left text-2xl sm:text-4xl text-rose-900">
-                {sideData}
-              </p>
-            </div>
+            <ul className="my-auto px-3">
+              {data.map((d => (
+                <li className="list-disc ml-4 mr-3 font-semibold text-justify text-lg py-2 text-rose-900">
+                {d.val}
+              </li>
+              )))}
+            </ul>
           </div>
         </div>
       </div>
 
-      
       
 
       <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
@@ -431,14 +389,10 @@ function App() {
             <h2 className="italic text-5xl text-white">
               Message from founder !!
             </h2>
-            {/* <div className="bg-white mt-3 w-1/4 h-1.5"></div> */}
           </div>
-          {/* <div className=" m-3 py-2 text-5xl text-white"> */}
           <div className="ml-3 mt-7">
             <ImQuotesLeft className="text-center text-5xl text-white" />
           </div>
-
-          {/* </div> */}
           <div className="flex justify-center ml-3 py-3">
             <p className="flex justify-center text-white text-lg sm:text-2xl sm:w-4/5 text-justify leading-7">
               He is an entrepreneur, business consultant and Founder of Medsys
@@ -452,12 +406,9 @@ function App() {
               expertise.
             </p>
           </div>
-          {/* <div className="w-full h-full m-3 py-4 text-5xl text-white content-end"> */}
           <div className="flex justify-end ml-3 px-2">
             <ImQuotesRight className="text-center text-white text-5xl " />
           </div>
-          {/* </div> */}
-
           <div className="flex flex-col justify-end px-3 m-3">
             <div className="flex justify-end py-1">
               <h1 className="text-white text-3xl mr-9">~Bhushan Shirude</h1>
@@ -468,19 +419,8 @@ function App() {
               <br></br>
             </div>
           </div>
-          
         </div>
-        
       </div>
-
-      {/* <section className="profile container mt-8 w-11/12 sm:w-4/5">
-        <div className="inner mx-auto text-center">
-          <h1 className="sm:text-5xl text-4xl px-9 py-16 text-rose-400">
-            Turn Your Ideas Into Reality With MEDSYS
-          </h1>
-        </div>
-      </section> */}
-      
     </>
     
   );

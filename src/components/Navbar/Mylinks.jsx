@@ -10,9 +10,9 @@ export const links = [
           { name: "Business Plan", link: "/" },
           { name: "Startup Proposal", link: "/" },
           { name: "Pitch Deck", link: "/pitch" },
-          { name: "Fund Raising", link: "/" },
+          { name: "Fund Raising", link: "/fundraising" },
           { name: "Startup Schemes/grants", link: "/" },
-          { name: "GeM Registration", link: "/" },
+          { name: "GeM Registration", link: "/gem-registration" },
         ],
       },
       {
@@ -46,7 +46,7 @@ export const links = [
           { name: "ISO Certification", link: "/iso-certification" },
           { name: "DSC Token", link: "/dsc" },
           { name: "TAN Application", link: "/Tan" },
-          { name: "PAN Application", link: "/" },
+          { name: "PAN Application", link: "/pan-applicaton" },
           { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/barcode" },
           { name: "RNI Registration", link: "/" },
@@ -55,7 +55,7 @@ export const links = [
       {
         Head: "Food Licenses",
         sublink: [
-          { name: "FSSAI Registration", link: "/" },
+          { name: "FSSAI Registration", link: "/fssai-registration" },
           { name: "FSSAI State License", link: "/fssai-state" },
           { name: "FSSAI Central License", link: "/fssai-central" },
           { name: "FSSAI Renewal", link: "/" },
