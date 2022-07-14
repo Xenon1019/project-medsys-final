@@ -55,7 +55,7 @@ export const links = [
       {
         Head: "Food Licenses",
         sublink: [
-          { name: "FSSAI Registration", link: "/" },
+          { name: "FSSAI Registration", link: "/fssai-registration" },
           { name: "FSSAI State License", link: "/fssai-state" },
           { name: "FSSAI Central License", link: "/fssai-central" },
           { name: "FSSAI Renewal", link: "/" },
