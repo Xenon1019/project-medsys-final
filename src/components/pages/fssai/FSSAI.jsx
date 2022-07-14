@@ -33,7 +33,7 @@ const points = [
 ];
 
 export default function FSSAI() {
-    TabTitle("MSME Registration - medsysconsultancy.com");
+    TabTitle("FSSAI License - medsysconsultancy.com");
 
     return (
         <>
