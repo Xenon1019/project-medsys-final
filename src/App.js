@@ -11,6 +11,15 @@ import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import TermsConditions from "./components/TermsConditions";
+import LoginRegister from "./components/loginResgister/LoginRegister";
+import EditProfile from "./components/editProfile/EditProfile";
+import PendingWork from "./profilepages/PendingWork";
+import CompletedWork from "./profilepages/CompletedWork";
+import Quotation from "./profilepages/Quotation";
+import Profile from "./profilepages/Profile";
+import Documents from "./profilepages/Documents";
+import DocumentsCompany from "./profilepages/DocumentsCompany";
+import DocumentsTrust from "./profilepages/DocumentsTrust";
 
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
@@ -57,6 +66,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/login" element={<LoginRegister/>}></Route>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/EditProfile" element={<EditProfile />} />
+          <Route path="/pendingWork" element={<PendingWork />} />
+          <Route path="/completedWork" element={<CompletedWork />} />
+          <Route path="/quotation" element={<Quotation />} />
+          <Route path="/documents" element={<Documents/>}/>
+          <Route path="/documents/documentsCompany" element={<DocumentsCompany />} />
+          <Route path="/documents/documentsTrust" element={<DocumentsTrust />} />
           <Route path="/aboutus" element={<AboutUs />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/career" element={<Career />}></Route>
