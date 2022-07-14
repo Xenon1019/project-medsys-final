@@ -12,7 +12,7 @@ export const links = [
           { name: "Pitch Deck", link: "/pitch" },
           { name: "Fund Raising", link: "/fundraising" },
           { name: "Startup Schemes/grants", link: "/" },
-          { name: "GeM Registration", link: "/" },
+          { name: "GeM Registration", link: "/gem-registration" },
         ],
       },
       {

@@ -45,6 +45,7 @@ import Pitch from "./components/pages/Pitch Deck/Pitch";
 import Section8 from "./components/pages/Section_8/Section_8";
 import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
+import GEm from "./components/pages/gemRegistration/GEm";
 
 import {
   BrowserRouter,
@@ -99,6 +100,8 @@ function App() {
           <Route path="/section-8" element={<Section8/>}></Route>
           <Route path="/fssai-registration" element={ <FSSAI/> }></Route>
           <Route path="/fundraising" element={ <Fundraising/> }></Route>
+          <Route path="/gem-registration" element={ <GEm /> }></Route>
+
         </Routes>
         <Footer />
       </BrowserRouter>
