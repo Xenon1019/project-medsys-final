@@ -30,7 +30,7 @@ export default function Partner() {
                 Our referral programme is an eye boggling opportunity to whoever looking for a easy earning at the convenience of their working hours.
               </p>
             </div>
-            <div className="flex justify-end ml-3 px-2">
+            <div className="flex justify-end ml-3 pb-8 px-2">
               <ImQuotesRight className="text-center text-white text-5xl " />
             </div>
           </div>
@@ -42,22 +42,21 @@ export default function Partner() {
         <div className="wrapper flex justify-between">
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Aceelerated.svg' alt="" />
-              <div className="img"></div>
             </div>
             <p className='text-center w-fit font-bold'>Accelerated growth through a <br /> targeted network of business</p>
           </div>
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Complete.svg' alt="" />
             </div>
             <p className='text-center w-fit font-bold'>Seemless integration across<br />platform that facilities ease of doing business <br /> doing business</p>
           </div>
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Seamless.svg' alt="" />
             </div>
             <p className='text-center w-fit font-bold'>Complete support from a <br /> dedicated flexible team of legal <br />professionals</p>

@@ -250,7 +250,7 @@ export default function Home() {
                         <button className='border rounded-md mx-auto bg-mainColor hover:bg-rose-800'>Download Partner Success Stories</button>
                     </div>
                     <div className="right">
-                        <img src="/assets/img/LetsPartnerImg/1.svg" alt="" />
+                        <img src="/assets/img/LetsPartnerImg/partnerUs.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -268,22 +268,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* <!-- ======================StartUp======================= --> */}
-            {/* <section className="container startup">
-                <div className="startup-inner">
-                    <div className="left">
-                        <img src="/assets/img/strartup.png" alt="" />
-                    </div>
-                    <div className="right">
-                        <h1>GET E-STARTUP INDIA IN YOUR</h1>
-                        <h2>POCKET!</h2>
-                        <p>Download our free Android App and get realtime update on your order status.</p>
-                        <p>Easily Connect with our professionals handling your order over chat & mobile.</p>
-                        <p>Never miss business compliances due date with advance notifications.</p>
-                        <a href='/'><img src="/assets/img/playstore.png" alt="" /></a>
-                    </div>
-                </div>
-            </section> */}
             {/* <!-- ======================Counter======================= --> */}
             <section className="counter container ">
                 <div className="inner w-11/12 gap-5 mx-auto">

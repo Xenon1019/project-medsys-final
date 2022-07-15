@@ -14,7 +14,7 @@ export default function Process() {
             </section>
             {/* <!-- =====================How we work======================= --> */}
             <section className="max-w-6xl m-auto work">
-        <h1 className="heading text-3xl text-mainColor font-bold">How We work</h1>
+        <h1 className="heading text-4xl text-mainColor font-bold">How We work</h1>
         <div className="timeline-area">
             <div className="single-timeline">
                 <div className="timeline-item">
