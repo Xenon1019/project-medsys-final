@@ -58,6 +58,10 @@ import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
 import GEm from "./components/pages/gemRegistration/GEm";
 import PAN from "./components/pages/pan/PAN";
+import Business_plan from "./components/pages/Business_plan/Business_plan";
+import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
+import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
+import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
 
 import {
   BrowserRouter,
@@ -125,6 +129,10 @@ function App() {
           <Route path="/fundraising" element={ <Fundraising/> }></Route>
           <Route path="/gem-registration" element={ <GEm /> }></Route>
           <Route path="/pan-applicaton" element={ <PAN /> }></Route>
+          <Route path="/business-plan" element={ <Business_plan /> }></Route>
+          <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
+          <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
+          <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

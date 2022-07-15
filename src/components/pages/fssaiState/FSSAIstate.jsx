@@ -1,8 +1,8 @@
 import React from 'react'
-import bussinessLogo from './imgs/business logo.jpeg'
-import starLogo from './imgs/star logo.jpeg'
-import smileLogo from './imgs/smile logo.jpeg'
-import bg from './imgs/bg.png'
+import bussinessLogo from '../imgs/business logo.jpeg'
+import starLogo from '../imgs/star logo.jpeg'
+import smileLogo from '../imgs/smile logo.jpeg'
+import bg from '../imgs/bg.png'
 import Scrollspy from 'react-scrollspy';
 import { TabTitle } from '../../Utillity';
 import "./FSSAIstate.css"
