@@ -11,6 +11,17 @@
     max-width: 1124px;
 }
 
+.tAndC .header-img{
+    background: url("/assets/img/headerImgs/Terms\ and\ Conditions\ Page\ Header\ Image.png")no-repeat center center/cover;
+}
+
+.refund-policy .img-section{
+    background: url("/assets/img/headerImgs/Refund\ Policy\ Page\ Header\ Image.png") no-repeat center center/cover;
+}
+
+.privacy-policy .privacy-header{
+    background: url("/assets/img/headerImgs/privacyPolicy.png") no-repeat center center/cover;
+}
 
 .policies p{
     font-size: 15px;

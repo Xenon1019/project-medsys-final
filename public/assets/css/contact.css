@@ -13,12 +13,12 @@ section.header-bottom {
 }
 
 section.header-bottom .inner {
-    height: 400px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/img/Contact\ Us\ Header\ Image.png");
+    background: url("/assets/img/headerImgs/Contact\ Us\ Page\ Header\ Image.png") no-repeat center center/cover;
 }
 
 section.header-bottom .inner h1 {

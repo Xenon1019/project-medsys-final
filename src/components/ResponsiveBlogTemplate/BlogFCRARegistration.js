@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import home from './home.png'
 import { TabTitle } from '../Utillity'
 
-export default function FCRARegistration() {
+export default function BlogFCRARegistration() {
     TabTitle("medsys blog - FCRA registration");
     return (
         <>

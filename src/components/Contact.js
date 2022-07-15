@@ -8,8 +8,6 @@ export default function Contact(props) {
         <>
             <section className="header-bottom">
                 <div className="inner">
-                    <h1>CONTACT US</h1>
-                    <h5>Regarding any related Queries and Doubts</h5>
                 </div>
             </section>
             <ContactForm/>

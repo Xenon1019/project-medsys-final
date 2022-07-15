@@ -5,14 +5,14 @@ export default function RefundPolicy() {
     return (
         <>
             <section className='refund-policy'>
-                <img src="/assets/img/refund.png" alt="" width="100%" />
-                <div className="container policies">
+                <div className="img-section h-[550px]"></div>
+                <div className="container policies px-12">
                     <ul>
                         <li>
-                            <h1 className="footer-section-heading">Refund policy</h1>
+                            <h1 className="footer-section-heading text-3xl font-bold text-center text-mainColor">Refund policy</h1>
                         </li>
                         <li>
-                            <p>We thank you and appreciate your service or product purchase with us on our website ⦁
+                            <p className='mb-6'>We thank you and appreciate your service or product purchase with us on our website ⦁
                                 www.medsysconsultancy.com (hereinafter referred to as “Medsys Consultancy”). Please read this
                                 policy
                                 and the Medsys Consultancy terms and conditions carefully as they will give you important
@@ -20,23 +20,23 @@ export default function RefundPolicy() {
                                 any
                                 purchase or service we provide to you.</p>
                         </li>
-                        <li>
-                            <p>We make every effort to provide the service to you as per the specifications and timelines
+                        <li className='mb-4'>
+                            <p className='mb-4'>We make every effort to provide the service to you as per the specifications and timelines
                                 mentioned
                                 against each service or product purchased by you from Medsys Consultancy, however, if due to any
                                 reason, we are unable to provide to you the service or product you purchased from us, then you
                                 shall
                                 be entitled to a refund which shall be subject on the following situations:</p>
                             <ul>
-                                <p>⦁ The Refund shall be only considered in the event there is a clear, visible deficiency with
+                                <p className='mb-4'>⦁ The Refund shall be only considered in the event there is a clear, visible deficiency with
                                     the
                                     service or product purchased from Medsys Consultancy.</p>
-                                <p>⦁ In the event a customer has paid for a service and then requests for a refund only because
+                                <p className='mb-4'>⦁ In the event a customer has paid for a service and then requests for a refund only because
                                     there was a change in mind, the refund shall not be considered as there is no fault, defect,
                                     or
                                     onus on Medsys Consultancy.
                                 </p>
-                                <p>⦁ Refund requests shall not be entertained after the work has been shared with you in the
+                                <p className='mb-4'>⦁ Refund requests shall not be entertained after the work has been shared with you in the
                                     event
                                     of a change of mind. However, we shall give you the option of using the amount paid for by
                                     you,
@@ -44,7 +44,7 @@ export default function RefundPolicy() {
                                     amount
                                     could be applied in part or whole towards the said new service; and
                                 </p>
-                                <p>⦁ Refund requests shall not be entertained after the work has been shared with you in the
+                                <p className='mb-4'>⦁ Refund requests shall not be entertained after the work has been shared with you in the
                                     event
                                     of a change of mind. However, we shall give you the option of using the amount paid for by
                                     you,
@@ -55,7 +55,7 @@ export default function RefundPolicy() {
                             </ul>
                         </li>
                         <li>
-                            <p>If the request for the refund has been approved by Medsys Consultancy, the same shall be
+                            <p className='mb-4'>If the request for the refund has been approved by Medsys Consultancy, the same shall be
                                 processed
                                 and intimated to you via email. This refund process could take a minimum of 15 (fifteen)
                                 business
