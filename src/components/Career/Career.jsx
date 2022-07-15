@@ -8,7 +8,6 @@ export default function Career() {
     <>
       {/* +++++++++++++++++++++ Career header ++++++++++++++++++++++= */}
       <section className="carrier-header h-[550px] flex items-center justify-center" style={backgroundImageStyle}>
-        <h1 className='text-5xl font-bold text-white tracking-wider text-center'>CAREER</h1>
       </section>
       {/* +++++++++++++++++++++ Career path ++++++++++++++++++++++= */}
       <section className="career-path">
@@ -34,7 +33,7 @@ export default function Career() {
             <input className='py-2 outline-none px-2 rounded' type="text" name='subject' placeholder='Subject' />
           </div>
           <div className="m-auto flex justify-center"><textarea className='max-w-4xl outline-none px-2 w-full my-4' name="" id="" cols="30" rows="5"></textarea></div>
-          <div className="text-white mb-8 flex justify-center">Select a File:<input style={{width:"220px"}} className="text-white" type="file" /></div>
+          <div className="text-white my-8 flex justify-center">Select a File:<input style={{width:"220px"}} className="text-white" type="file" /></div>
           <div className="flex justify-center">
           <button className="bg-rose-800 hover:bg-rose-700 text-white  py-2 rounded hover:opacity-90 px-8">Apply Now</button>
           </div>

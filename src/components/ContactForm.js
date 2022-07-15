@@ -19,24 +19,32 @@ export default function ContactForm() {
                             <input type="text" id="phone" name="fullname" placeholder="" />
                             <select name="selection" id="selection">
                                 <option value="selection">Subject</option>
-                                <option value="selection">AGNi</option>
-                                <option value="selection">BIS</option>
+                                <option value="selection">Startup Recognition</option>
+                                <option value="selection">Business Plan</option>
                                 <option value="selection">Digital Marketing</option>
-                                <option value="selection">GeM</option>
-                                <option value="selection">Government Grants and Funding</option>
-                                <option value="selection">IEC Certification</option>
-                                <option value="selection">Industrial Land Banking </option>
-                                <option value="selection">Intellectual Property Rights</option>
-                                <option value="selection">ISO Certification</option>
-                                <option value="selection">MSME Loans</option>
-                                <option value="selection">Nidhi Prayas Yojna</option>
-                                <option value="selection">NSIS</option>
+                                <option value="selection">Startup Proposal</option>
                                 <option value="selection">Pitch Deck</option>
-                                <option value="selection">Seed Fund</option>
+                                <option value="selection">CSR-1 Registration</option>
+                                <option value="selection">IEC Certification</option>
+                                <option value="selection">Design Registration</option>
+                                <option value="selection">Patent Registration</option>
+                                <option value="selection">ISO Certification</option>
+                                <option value="selection">GeM registration</option>
+                                <option value="selection">NIDHI Company</option>
+                                <option value="selection">TAN</option>
+                                <option value="selection">Trust Registration</option>
+                                <option value="selection">Barcode</option>
+                                <option value="selection">Section 8 Registration</option>
+                                <option value="selection">12A & 80G Registration</option>
+                                <option value="selection">NGO Darpan</option>
+                                <option value="selection">Pitch Deck</option>
+                                <option value="selection">CSR funding</option>
                                 <option value="selection">Startup India Certification</option>
-                                <option value="selection">TReDS</option>
-                                <option value="selection">Udyam Certification</option>
-                                <option value="selection">Venture Capitalist</option>
+                                <option value="selection">annual report</option>
+                                <option value="selection">copyright</option>
+                                <option value="selection">GST</option>
+                                <option value="selection">One person company</option>
+                                <option value="selection">Drug license</option>
                             </select>
                             <button>SEND NOW</button>
                         </form>
