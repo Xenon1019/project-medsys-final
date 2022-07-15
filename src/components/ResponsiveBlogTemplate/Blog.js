@@ -11,8 +11,8 @@ export default function BlogPost() {
             <div className="max-width-1 m-auto">
                 <hr />
             </div>
-            <div className="post-img mb-8">
-                <img src={imgHeader} alt="" />
+            <div className="post-img mb-8 h-[550px]">
+                <img src={imgHeader} style={{height:"550px"}} alt="" />
             </div>
             <div className="max-width-1 m-auto">
                 <hr />

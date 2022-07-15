@@ -20,7 +20,9 @@ import Profile from "./profilepages/Profile";
 import Documents from "./profilepages/Documents";
 import DocumentsCompany from "./profilepages/DocumentsCompany";
 import DocumentsTrust from "./profilepages/DocumentsTrust";
-
+// ++++++++++++++++++++++++++++++++++ BLog paages +++++++++++++++++++++++++++++++++++++++++
+import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARegistration";
+import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
 import Copyright from "./components/pages/copyright/Copyright";
@@ -70,6 +72,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/FCRA-registration" element={<BlogFCRARegistration />}></Route>
+          <Route path="/CSR-1-Registration" element={<BlogCSRRegistration />}></Route>
           <Route path="/login" element={<LoginRegister/>}></Route>
           <Route path="/profile" element={<Profile />} />
           <Route path="/profile/EditProfile" element={<EditProfile />} />

@@ -4,7 +4,7 @@ import home from './home.png'
 import img3 from "./3.png"
 import { Link } from 'react-router-dom'
 import { TabTitle } from '../Utillity'
-export default function CSRRegistration() {
+export default function BlogCSRRegistration() {
     TabTitle("medsys blog - CSR1 registration")
     return (
         <>
