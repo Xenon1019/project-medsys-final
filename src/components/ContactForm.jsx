@@ -4,8 +4,8 @@ export default function ContactForm() {
   return (
     <>
       
-        <div className="lg:grid lg:grid-flow-col p-7 mx-auto rounded-md w-11/12 lg:5/6 my-7">
-          <div className="my-auto lg:ml-auto ">
+        <div className="lg:grid lg:grid-flow-col px-3 py-7 mx-auto rounded-md w-11/12 lg:5/6 my-7">
+          <div className="my-auto mx-auto lg:ml-auto lg:w-5/6">
             <h1 className="font-semibold text-5xl pb-3 text-[#560216]">Please Get In Touch</h1>
             <p className="text-xl pt-3 ">
               Schedule a free consultaion with our executives for your <br />{" "}
@@ -60,7 +60,7 @@ export default function ContactForm() {
               </button>
             </form>
           </div>
-          <div className="lg:mr-auto">
+          <div className="mr-auto mx-auto">
             <img
               className="mx-auto h-[550px]"
               src="/assets/img/contactHeader/headerImg/4.svg"
