@@ -4,14 +4,14 @@ export default function ContactForm() {
   return (
     <>
       
-        <div className="lg:grid lg:grid-flow-col p-3 py-7  bg-rose-50 mx-auto rounded-md w-11/12 lg:w-3/5 my-7 shadow-md">
+        <div className="lg:grid lg:grid-flow-col p-3 py-7  bg-rose-50 mx-auto rounded-md w-11/12 lg:5/6 my-7 shadow-md">
           <div className="my-auto mx-auto">
             <h1 className="font-semibold text-5xl pb-3 text-[#560216]">Please Get In Touch</h1>
-            <p className="text-xl py-3">
+            <p className="text-xl pt-3 ">
               Schedule a free consultaion with our executives for your <br />{" "}
               Startups Needs
             </p>
-            <h6 className="py-3 text-base">For any Queries regarding your startup and legal advice*</h6>
+            <h6 className="py-1 text-base">For any Queries regarding your startup and legal advice*</h6>
             <form className="grid grid-flow-row text-base" action="#">
               <div className="flex flex-col text-[#560216] py-2">
                 <label>Name</label>
