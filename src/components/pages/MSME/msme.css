@@ -7,7 +7,7 @@
 .arrow::before {
     content: "\00BB";
     color: #560216;
-    font-size: 30px;
+    font-size: 2em;
     /* margin-left: 60px; */
     /* padding-right: 7px; */
     margin-right: 0.2em;

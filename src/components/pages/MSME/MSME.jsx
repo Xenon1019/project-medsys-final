@@ -5,6 +5,8 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
+import { RelatedRead } from "../common";
 import "./msme.css";
 
 import msmeReg from "./imgs/MSME Registration.svg";
@@ -249,7 +251,7 @@ export default function MSME() {
                         </p>
 
 
-                        <table id="table1" border="1" cellspacing="0" className="non-huf-table">
+                        <table id="table1" border="1" cellspacing="0" className="non-huf-table hidden sm:block">
                             <tr>
                                 <th>Classification</th>
                                 <th>Micro</th>
@@ -275,11 +277,9 @@ export default function MSME() {
 
                         </table>
 
-
-                        <div class="plc my-2">
-                            <p>Related Read: Government Schemes Introduced To Boost MSME In 2021</p>
-                            <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read: Government Schemes Introduced To Boost MSME In 2021
+                        </RelatedRead>
 
                     </div>
 
@@ -404,10 +404,10 @@ export default function MSME() {
                             <li className="arrow">
                                 Income tax returns for FY 18-19 and FY 17-18</li>
                         </ul>
-                        <div class="plc my-2">
-                            <p>Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?</p>
-                            <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                                Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?
+                        </RelatedRead>
+
                     </div>
 
                     <div className="my-12" id="Process">
@@ -428,7 +428,7 @@ export default function MSME() {
                                 your business by providing top notch services as per your business needs.
                             </li>
                         </ul>
-                        <img src={msmePage} alt="" className="my-6 w-[400px] h-[400px]" />
+                        <img src={msmePage} alt="" className="my-6 mx-auto w-[400px] h-[400px]" />
                     </div>
 
 
@@ -567,6 +567,7 @@ export default function MSME() {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 };
