@@ -5,6 +5,7 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./fundraising.css";
 
 
@@ -355,6 +356,7 @@ export default function Fundraising() {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 };
