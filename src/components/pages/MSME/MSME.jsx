@@ -5,6 +5,7 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./msme.css";
 
 import msmeReg from "./imgs/MSME Registration.svg";
@@ -428,7 +429,7 @@ export default function MSME() {
                                 your business by providing top notch services as per your business needs.
                             </li>
                         </ul>
-                        <img src={msmePage} alt="" className="my-6 w-[400px] h-[400px]" />
+                        <img src={msmePage} alt="" className="my-6 mx-auto w-[400px] h-[400px]" />
                     </div>
 
 
@@ -567,6 +568,7 @@ export default function MSME() {
                     </div>
                 </div>
             </div>
+        <ContactForm />
         </>
     );
 };

@@ -5,6 +5,7 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./pan.css";
 
 import commencement from "./imgs/Commencement of Business.svg";
@@ -449,6 +450,7 @@ export default function PAN() {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 };
