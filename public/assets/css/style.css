@@ -1321,7 +1321,7 @@ section.contact .contact-mid .right div img {
 
 @media(max-width:476px){
     .footer_menu li a{
-        font-size: 20px;
+        font-size: 1rem;
     }
     .footer_menu li .block button{
         font-size: 20px;
