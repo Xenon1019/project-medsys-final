@@ -5,7 +5,9 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import { RelatedRead } from "../common";
 import "./llp.css";
+import ContactForm from "../../ContactForm";
 
 import benefits from "./imgs/Benefits of LLP Image.png"
 import steps from "./imgs/Steps to Incorporate LLP Image.png"
@@ -239,14 +241,14 @@ export default function LLP() {
                             operate. It also helps the owners by limiting their liability. Since its inception in 2010, LLP has been
                             widely accepted as a business venture in India.
                         </p>
-                        <iframe className="my-5 aspect-video w-3/4" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        <iframe className="my-5 aspect-video w-3/4 mx-auto" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                     </div>
 
                     <div className="my-12" id="Difference">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">
                             How Is LLP Different From Partnership Firm And Private Limited Company?
                         </h2>
-                        <table id="table1" border="1" cellspacing="0" class="non-huf-table">
+                        <table id="table1" border="1" cellspacing="0" class="non-huf-table hidden sm:block">
                             <tr>
                                 <th>Sr.No</th>
                                 <th>Basis</th>
@@ -362,10 +364,9 @@ export default function LLP() {
                             then registering a company is more beneficial than registering an LLP.
                         </p>
 
-                        <div class="plc my-2">
-                            <p>Related Read:How To Register A Company In India: A Step By Step Guide</p>
-                            <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read:How To Register A Company In India: A Step By Step Guide
+                        </RelatedRead>
 
                     </div>
 
@@ -450,7 +451,7 @@ export default function LLP() {
                                 </p>
                             </li>
                         </ul>
-                        <img src={benefits} alt="" className="my-4" />
+                        <img src={benefits} alt="" className="my-6 mx-auto" />
 
                     </div>
 
@@ -475,10 +476,9 @@ export default function LLP() {
                             </li>
                         </ul>
 
-                        <div class="plc my-2">
-                            <p>Related Read:How To Choose Between A Private Ltd. Company And LLP?</p>
-                            <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read:How To Choose Between A Private Ltd. Company And LLP?
+                        </RelatedRead>
                     </div>
 
                     <div className="my-12" id="Steps">
@@ -492,7 +492,7 @@ export default function LLP() {
                             <li className="arrow"><b>Step 4:</b> Apply for PAN, TAN, and bank account.</li>
                         </ul>
 
-                        <img src={steps} className="my-3" />
+                        <img src={steps} className="my-4 mx-auto" />
                     </div>
 
                     <div className="my-12" id="Documents">
@@ -559,7 +559,7 @@ export default function LLP() {
                         <ul className="">
 
                             <li className="my-3 flex flex-row">
-                                <img src={itr} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={itr} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         Income Tax Return
@@ -574,7 +574,7 @@ export default function LLP() {
                             </li>
 
                             <li className="my-3 flex flex-row">
-                                <img src={annualReturn} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={annualReturn} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         MCA Annual Return
@@ -585,13 +585,12 @@ export default function LLP() {
                                 </div>
                             </li>
 
-                            <div class="plc">
-                                <p>Related Read:How To Choose Between A Private Ltd. Company And LLP?</p>
-                                <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                            </div>
+                            <RelatedRead>
+                                Related Read:How To Choose Between A Private Ltd. Company And LLP?
+                            </RelatedRead>
 
                             <li className="my-3 flex flex-row">
-                                <img src={form8} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={form8} alt="" className="hidden sm:inline aspect-square w-18 mr-5 mx-auto" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         Form 8
@@ -606,7 +605,7 @@ export default function LLP() {
                             </li>
 
                             <li className="my-3 flex flex-row">
-                                <img src={form11} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={form11} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         Form 11
@@ -621,7 +620,7 @@ export default function LLP() {
                             </li>
 
                             <li className="my-3 flex flex-row">
-                                <img src={kyc} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={kyc} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         DIR-3 KYC
@@ -637,7 +636,7 @@ export default function LLP() {
                             </li>
 
                             <li className="my-3 flex flex-row">
-                                <img src={accounting} alt="" className="inline aspect-square w-18 mr-5" />
+                                <img src={accounting} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         Accounting and Book Keeping
@@ -913,6 +912,7 @@ export default function LLP() {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 };

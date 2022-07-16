@@ -3,7 +3,7 @@ import React from "react";
 export function RelatedRead(props) {
     return (<>
         <div 
-        className="w-full px-5 py-6 items-center rounded-3xl my-3 bg-white flex flex-col sm:flex-row justify-between">
+        className="w-full px-5 py-6 items-center rounded-3xl my-3 bg-white flex flex-col sm:flex-row justify-between ">
             <div>
                 <p className="text-[#560216] font-extrabold text-lg">
                     {props.children}
