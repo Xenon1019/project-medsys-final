@@ -7,8 +7,9 @@ export default function ContactForm() {
         <div className="lg:grid lg:grid-flow-col px-3 py-7 mx-auto rounded-md w-11/12 lg:5/6 my-7">
           <div className="my-auto mx-auto lg:ml-auto lg:w-5/6">
             <h1 className="font-semibold text-5xl pb-3 text-[#560216]">Please Get In Touch</h1>
-            <p className="text-xl pt-3 ">
-              Schedule a free consultaion with our executives for your <br />{" "}
+            <p className="text-xl py-3">
+              Schedule a free consultaion with our executives for your{" "}
+
               Startups Needs
             </p>
             <h6 className="py-1 text-base">For any Queries regarding your startup and legal advice*</h6>

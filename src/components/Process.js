@@ -6,11 +6,7 @@ export default function Process() {
     return (
         <>
             {/* <!-- =====================Header-below======================= --> */}
-            <section className="header-below"  id="header-below">
-                <div className="inner">
-                    <h1>Process</h1>
-                    <h6>Our plans and working for successful execution</h6>
-                </div>
+            <section className="header-below h-[550px]"  id="header-below">
             </section>
             {/* <!-- =====================How we work======================= --> */}
             <section className="max-w-6xl m-auto work">

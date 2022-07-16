@@ -68,7 +68,6 @@ section.popular-products .wrapper .item:hover {
 
 section.popular-products .wrapper .item {
     border-radius: 10px;
-    box-shadow: 1px 1px 5px;
     height: 290px;
     padding: 10px;
     margin-right: 23px;
@@ -272,7 +271,7 @@ section.partner {
 }
 
 section.partner .partner-inner {
-    padding: 18px;
+    padding: 0 6rem;
     display: flex;
     justify-content: space-between;
     /* background-color:#f9f6f6; */
@@ -297,12 +296,10 @@ section.partner .partner-inner .left h1 {
     font-size: 2.5rem;
     width: fit-content;
     border-bottom: 1px solid #d1d1d1;
-    padding-bottom: 3px;
 }
 
 section.partner .partner-inner .left p {
-    font-size: 2.3rem;
-    /* border:1px solid red; */
+    font-size: 1.6rem;
     width: 490px;
     padding: 15px 0;
 }
@@ -470,11 +467,6 @@ section.counter .inner div:nth-child(odd) .text h1 {
 section.counter .inner div:nth-child(odd) .text span {
     color: rgb(191 43 78);
 }
-
-section.counter .inner div:nth-child(odd) h6 {
-    color: rgb(191 43 78);
-}
-
 
 /* ====================================Footer=========================== */
 .d-flex {
@@ -1327,6 +1319,14 @@ section.contact .contact-mid .right div img {
 
 }
 
+@media(max-width:476px){
+    .footer_menu li a{
+        font-size: 20px;
+    }
+    .footer_menu li .block button{
+        font-size: 20px;
+    }
+}
 @media(max-width:465px) {
     section.counter .inner {
         grid-template-columns: 1fr;

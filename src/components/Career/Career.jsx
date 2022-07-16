@@ -33,7 +33,15 @@ export default function Career() {
             <input className='py-2 outline-none px-2 rounded' type="text" name='subject' placeholder='Subject' />
           </div>
           <div className="m-auto flex justify-center"><textarea className='max-w-4xl outline-none px-2 w-full my-4' name="" id="" cols="30" rows="5"></textarea></div>
-          <div className="text-white my-8 flex justify-center">Select a File:<input style={{width:"220px"}} className="text-white" type="file" /></div>
+          <div className="w-fit m-auto pb-6">
+          <div className="bg-rose-100 rounded-md py-2 w-fit text-center ml-1 mt-1 m-auto ">
+              <input
+                type="file"
+                className="flex mx-auto  file:my-5 file:ml-7 file:mr-3 file:py-1 file:border-0 file:bg-mainColor file:hover:bg-rose-900 file:text-rose-200 file:rounded-md file:font-light text-sm file:text-base font-normal"
+                id="certificate"
+              />
+            </div>
+          </div>
           <div className="flex justify-center">
           <button className="bg-rose-800 hover:bg-rose-700 text-white  py-2 rounded hover:opacity-90 px-8">Apply Now</button>
           </div>
