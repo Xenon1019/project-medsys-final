@@ -6,10 +6,17 @@ export default function Contact(props) {
     TabTitle("Contact Us - medsysconsultancy.com");
     return (
         <>
-            <section className="header-bottom">
+            <section className="header-bottom hidden lg:block">
                 <div className="inner ">
                 </div>
             </section>
+
+            <div className='lg:hidden'>
+                <h1 className='text-5xl text-center w-11/12 mx-auto p-9 text-[#560216] font-semibold'>
+                    Contact Us
+                </h1>
+            </div>
+
             <ContactForm/>
             <section className="map hidden sm:block">
                 <div className="inner">
@@ -63,7 +70,7 @@ export default function Contact(props) {
                                     <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer">
                                         <div className="right">
                                             <img src="/assets/img/google-icon.png" alt="" />
-                                            <p className='bg-rose-800'>If you think we did great, <br />please click here to leave a <br />Google review for us!
+                                            <p className='bg-[#560216]'>If you think we did great, <br />please click here to leave a <br />Google review for us!
                                             </p>
                                         </div>
                                     </a>

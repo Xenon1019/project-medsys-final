@@ -7,7 +7,7 @@ export const links = [
         Head: "Startup",
         sublink: [
           { name: "Startup Recognition", link: "/" },
-          { name: "Business Plan", link: "/" },
+          { name: "Business Plan", link: "/business-plan" },
           { name: "Startup Proposal", link: "/" },
           { name: "Pitch Deck", link: "/pitch" },
           { name: "Fund Raising", link: "/fundraising" },
@@ -20,11 +20,11 @@ export const links = [
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
           { name: "Limited Liability Partnership - LLP", link: "/llp" },
-          { name: "One Person Company - OPC", link: "/" },
+          { name: "One Person Company - OPC", link: "/one-person-company" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
           { name: "Partnership Firm", link: "/" },
-          { name: "Sole Proprietorship", link: "/" },
+          { name: "Sole Proprietorship", link: "/sole-proprietorship" },
         ],
       },
       {
@@ -80,8 +80,8 @@ export const links = [
       {
         Head: "NGO Compliance",
         sublink: [
-          { name: "12A & 80G Registration", link: "/" },
-          { name: "FCRA Registration", link: "/fcra-registration" },
+          { name: "12A & 80G Registration", link: "/ngo-registration" },
+          { name: "FCRA Registration", link: "/fcraregistration" },
           { name: "CSR-1 Registration", link: "/csr1" },
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],

@@ -61,6 +61,10 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
+import Business_plan from "./components/pages/Business_plan/Business_plan";
+import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
+import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
+import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
 
 import {
   BrowserRouter,
@@ -115,7 +119,7 @@ function App() {
           <Route path="/trust-registration" element={ <Trust /> }></Route>
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
-          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
+          <Route path="/fcraregistration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
@@ -131,6 +135,10 @@ function App() {
           <Route path="/startup" element={ <Startup /> }></Route>
           <Route path="/gst" element={ <GST /> }></Route>
           <Route path="/shop" element={ <Shop /> }></Route>
+          <Route path="/business-plan" element={ <Business_plan /> }></Route>
+          <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
+          <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
+          <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

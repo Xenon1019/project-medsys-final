@@ -21,6 +21,7 @@ section.header-bottom .inner {
     background: url("/assets/img/headerImgs/Contact\ Us\ Page\ Header\ Image.png") no-repeat center center/cover;
 }
 
+
 section.header-bottom .inner h1 {
     color: white;
     transition: all .3s ease;
@@ -300,8 +301,7 @@ section.map-below{
     object-fit: contain;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+  
 }
 
 .right .address .google-review .right p{
@@ -309,7 +309,7 @@ section.map-below{
     align-items: center;
     width:235px;
     display: flex;
-    background-color: maroon;
+    background-color: #560216;
     font-size: 15px;
     padding: 8px 5px;
     letter-spacing: 1px;

@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "./1.png"
+import img1 from "./FCRA.png"
+import img3 from "./CSR.png"
 import home from './home.png'
-import img3 from "./3.png"
 import { Link } from 'react-router-dom'
 import { TabTitle } from '../Utillity'
 export default function BlogCSRRegistration() {

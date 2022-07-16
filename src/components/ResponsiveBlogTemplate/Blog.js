@@ -1,19 +1,21 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
-import img1 from "./1.png"
-import img3 from "./3.png"
-
+import img1 from "./FCRA.png"
+import img3 from "./CSR.png"
 import imgHeader from "./blogHeader.png"
-
 export default function BlogPost() {
     return (
         <>
-            <div className="max-width-1 m-auto">
-                <hr />
-            </div>
-            <div className="post-img mb-8 h-[550px]">
+            <div className="post-img mb-8 h-[550px] hidden lg:block">
                 <img src={imgHeader} style={{height:"550px"}} alt="" />
             </div>
+
+            <div className='lg:hidden'>
+                <h1 className='text-5xl text-center w-11/12 mx-auto p-9 text-[#560216] font-semibold'>
+                    Blog
+                </h1>
+            </div>
+
             <div className="max-width-1 m-auto">
                 <hr />
             </div>
