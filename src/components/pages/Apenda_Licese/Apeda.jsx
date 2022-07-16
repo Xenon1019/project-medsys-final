@@ -209,9 +209,6 @@ const Apeda = () => {
                                 </li>
                             </Scrollspy>
                         </div>
-                        <button className="bg-[#560216] text-white text-center w-3/4 sm:w-1/2 p-2 mx-auto mt-2 rounded-md text-lg hover:bg-green-600">
-                            CONTACT US
-                        </button>
                     </div>
                 </div>
                 <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">

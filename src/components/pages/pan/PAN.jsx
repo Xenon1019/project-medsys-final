@@ -6,6 +6,7 @@ import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import ContactForm from "../../ContactForm";
+import { RelatedRead } from "../common";
 import "./pan.css";
 
 import commencement from "./imgs/Commencement of Business.svg";
@@ -218,11 +219,9 @@ export default function PAN() {
                                     </p>
                                 </div>
                             </li>
-                            <div class="plc my-4">
-                                <p>Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?</p>
-                                <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                            </div>
-
+                            <RelatedRead>
+                                Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?
+                            </RelatedRead>
                             <li className="my-3 flex flex-row">
                                 <img src={commencement} alt="" className="inline aspect-square w-18 mr-5" />
                                 <div>
@@ -341,11 +340,9 @@ export default function PAN() {
                                 </td>
                             </tr>
                         </table>
-                        <div class="plc">
-                            <p>Related Read:How To Choose Between A Private Ltd. Company And LLP?</p>
-                            <button type="submit" class="button"> <a
-                                href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read:How To Choose Between A Private Ltd. Company And LLP?
+                        </RelatedRead>
                     </div>
 
 
