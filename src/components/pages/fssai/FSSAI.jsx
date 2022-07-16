@@ -5,6 +5,7 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./fssai.css";
 
 
@@ -276,7 +277,7 @@ export default function FSSAI() {
                             criterion, the following businesses are also mandatory to secure this registration.
                         </p>
 
-                        <table border="1" cellspacing="0" class="non-huf-table my-6">
+                        <table border="1" cellspacing="0" class="non-huf-table my-6" id="table1">
                             <tr>
                                 <th>Items/Dealers</th>
                                 <th>Capacity</th>
@@ -589,6 +590,7 @@ export default function FSSAI() {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 };

@@ -6,6 +6,7 @@ import bg from "./imgs/bg.png";
 import apendaImg from "./imgs/APEDA Registration Page Image.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./Apeda.css";
 
 import {
@@ -213,19 +214,19 @@ const Apeda = () => {
                         </button>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 py-4 ">
+                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="About">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">About APEDA Registration</h2>
                         <p className="my-2">
                             Agricultural & Processed Food Products Export Development Authority (APEDA) is a Government association founded in 1985 through an act for the Development and Growth of export of scheduled commodities. It furnishes financial assistance, information, guidelines towards the advancement of scheduled products. The products prescribed under the APEDA Act are considered as schedule products and exporters of such scheduled products are compelled to register under APEDA.
                         </p>
                         <div>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">Significance:- </span> It is mandatory for all the agricultural exporters to have an APEDA certificate for carrying out the export of scheduled Agri-products.</p>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">Enables Financial AID:- </span>An APEDA registration is a necessary requirement for the exporters to apply for financial support schemes run by the APEDA.</p>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">Validity:-</span>APEDA registration is a one-time process. The exporter needs to apply for renewal of APEDA certificate after every 5 years.</p>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">APEDA Products:-</span>Organic products, cereals, animal products, processed food, fresh fruits, vegetables, floriculture & seeds are covered under the category of APEDA products.</p>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">Easy Monthly Returns:-</span>The exporters having APEDA registration mandatorily needs to file the monthly export returns. In case of no exports, NIL return needs to be filed.</p>
-                            <p><span className="text-[#9D3E55] text-lg font-semibold">Export-Orientation Programmes:-</span>The APEDA registration enables the exporters to participate in the Orientation and training Programmes conducted by APEDA for Export Promotion.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">Significance:- </span> It is mandatory for all the agricultural exporters to have an APEDA certificate for carrying out the export of scheduled Agri-products.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">Enables Financial AID:- </span>An APEDA registration is a necessary requirement for the exporters to apply for financial support schemes run by the APEDA.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">Validity:-</span>APEDA registration is a one-time process. The exporter needs to apply for renewal of APEDA certificate after every 5 years.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">APEDA Products:-</span>Organic products, cereals, animal products, processed food, fresh fruits, vegetables, floriculture & seeds are covered under the category of APEDA products.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">Easy Monthly Returns:-</span>The exporters having APEDA registration mandatorily needs to file the monthly export returns. In case of no exports, NIL return needs to be filed.</p>
+                            <p className="my-2"><span className="text-[#9D3E55] text-lg font-semibold">Export-Orientation Programmes:-</span>The APEDA registration enables the exporters to participate in the Orientation and training Programmes conducted by APEDA for Export Promotion.</p>
                         </div>
                     </div>
 
@@ -256,7 +257,7 @@ const Apeda = () => {
                         <p>
                             APEDA do export promotion and development of the following below scheduled Agri products:-
                         </p>
-                        <img src={apendaImg} alt="" />
+                        <img src={apendaImg} alt="" className="mx-auto my-4"/>
                         <ul className="">
                             <li className="arrow">Fruits, Vegetables and their Products.</li>
                             <li className="arrow">Meat and Meat Products.</li>
@@ -297,7 +298,7 @@ const Apeda = () => {
                         <p>
                             On obtaining APEDA Registration online, Agri-exporter can enjoy various benefits as follows:
                         </p>
-                        <img src={apendaImg} alt="" />
+                        <img src={apendaImg} alt="" className="mx-auto my-4"/>
                         <ul className="">
                             <li className="arrow">APEDA registration is compulsory for the export of scheduled products. Hence, get entry to export agricultural products.</li>
                             <li className="arrow">Businesses get listed on the APEDA Exporter Directory. Potential buyers can reach you for product enquiry.</li>
@@ -322,7 +323,7 @@ const Apeda = () => {
                         <p>
                             APEDA Authorities are allocated with functions such as:
                         </p>
-                        <img src={apendaImg} alt="" />
+                        <img src={apendaImg} alt="" className="mx-auto my-4"/>
                         <ul className="">
                             <li className="arrow">Publicity of export-oriented production and growth of the Scheduled products.</li>
                             <li className="arrow">Setting the standards and specifications for the expected products.</li>
@@ -338,7 +339,7 @@ const Apeda = () => {
                             APEDA Certification Process
                         </h2>
 
-                        <img src={apendaImg} alt="" />
+                        <img src={apendaImg} alt="" className="mx-auto my-4"/>
                         <ul className="">
                             <li className="arrow">Upload the required documents & information to our web portal.</li>
                             <li className="arrow">Consult our business advisor regarding your category of scheduled goods.</li>
@@ -353,7 +354,7 @@ const Apeda = () => {
                             Documents Required for Barcode Registration
                         </h2>
 
-                        <img src={apendaImg} alt="" />
+                        <img src={apendaImg} alt="" className="mx-auto my-4"/>
                         <ul className="">
                             <div className="my-2">
                                 <li className="arrow">PAN:-</li>
@@ -524,6 +525,7 @@ const Apeda = () => {
                     </div>
                 </div>
             </div>
+            <ContactForm />
         </>
     );
 }

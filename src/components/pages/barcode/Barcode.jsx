@@ -5,6 +5,7 @@ import smileLogo from "./imgs/smile logo.jpeg";
 import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./barcode.css";
 
 import ean13 from "./imgs/EAN-13.png";
@@ -272,10 +273,10 @@ export default function Barcode() {
                         <ul>
                             <li className="arrow">EAN-13</li>
                             <p className="ml-5">International Article Number previously called European Article Number. EAN-13 is the 13-digit barcode generally used in Europe, India and other nations.</p>
-                            <img src={ean13} alt="" className="m-auto" />
+                            <img src={ean13} alt="" className="m-auto my-4" />
                             <li className="arrow">UPC-A</li>
                             <p className="ml-5">Universal Product Code or UPC-A is a 12-digit barcode generally used in US, Canada, UK, Australia and New Zealand.</p>
-                            <img src={upcA} alt="" className="m-auto" />
+                            <img src={upcA} alt="" className="m-auto my-4" />
 
                         </ul>
                     </div>
@@ -498,6 +499,7 @@ export default function Barcode() {
                     </div>
                 </div>
             </div>
+        <ContactForm />
         </>
     );
 };

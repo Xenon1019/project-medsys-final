@@ -7,11 +7,11 @@ export default function Contact(props) {
     return (
         <>
             <section className="header-bottom">
-                <div className="inner">
+                <div className="inner ">
                 </div>
             </section>
             <ContactForm/>
-            <section className="map">
+            <section className="map hidden sm:block">
                 <div className="inner">
                     <div className="left">
                         <p><iframe id='#iframe'
@@ -21,7 +21,7 @@ export default function Contact(props) {
                     </div>
                 </div>
             </section>
-            <section className="map-below w-4/5 mx-auto">
+            <section className="map-below sm:w-4/5 mx-auto">
                 <div className="right container">
                     <div className="contact">
                         <i className="lni lni-envelope"></i>
