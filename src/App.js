@@ -58,6 +58,9 @@ import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
 import GEm from "./components/pages/gemRegistration/GEm";
 import PAN from "./components/pages/pan/PAN";
+import Startup from "./components/pages/startup/Startup";
+import GST from "./components/pages/gst/GST";
+import Shop from "./components/pages/shop/Shop";
 
 import {
   BrowserRouter,
@@ -125,6 +128,9 @@ function App() {
           <Route path="/fundraising" element={ <Fundraising/> }></Route>
           <Route path="/gem-registration" element={ <GEm /> }></Route>
           <Route path="/pan-applicaton" element={ <PAN /> }></Route>
+          <Route path="/startup" element={ <Startup /> }></Route>
+          <Route path="/gst" element={ <GST /> }></Route>
+          <Route path="/shop" element={ <Shop /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
