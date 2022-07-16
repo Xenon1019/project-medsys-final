@@ -8,7 +8,6 @@ export default function Career() {
     <>
       {/* +++++++++++++++++++++ Career header ++++++++++++++++++++++= */}
       <section className="carrier-header h-[550px] flex items-center justify-center" style={backgroundImageStyle}>
-        <h1 className='text-5xl font-bold text-white tracking-wider text-center'>CAREER</h1>
       </section>
       {/* +++++++++++++++++++++ Career path ++++++++++++++++++++++= */}
       <section className="career-path">
@@ -27,14 +26,22 @@ export default function Career() {
       {/* +++++++++++++++++++++ Contact form ++++++++++++++++++++++= */}
       <section className="career-contact-form mb-8">
         <form action="backend.php" className=' py-10 px-28 bg-mainColor' style={{border:"1px solid"}}>
-          <div className="upper grid-cols-2 grid gap-4">
+          <div className="max-w-4xl m-auto upper grid-cols-2 grid gap-4">
             <input className='py-2 outline-none px-2 rounded' type="text" name='name' placeholder='Enter name' />
             <input className='py-2 outline-none px-2 rounded' type="email" name='email' placeholder='Enter email' />
             <input className='py-2 outline-none px-2 rounded' type="phone" name='phone' placeholder='Enter Phone' />
             <input className='py-2 outline-none px-2 rounded' type="text" name='subject' placeholder='Subject' />
           </div>
-          <textarea className='outline-none px-2 w-full mt-4' name="" id="" cols="30" rows="5"></textarea>
-          <div className="text-white mb-8 flex justify-center">Select a File:<input style={{width:"220px"}} className="text-white" type="file" /></div>
+          <div className="m-auto flex justify-center"><textarea className='max-w-4xl outline-none px-2 w-full my-4' name="" id="" cols="30" rows="5"></textarea></div>
+          <div className="w-fit m-auto pb-6">
+          <div className="bg-rose-100 rounded-md py-2 w-fit text-center ml-1 mt-1 m-auto ">
+              <input
+                type="file"
+                className="flex mx-auto  file:my-5 file:ml-7 file:mr-3 file:py-1 file:border-0 file:bg-mainColor file:hover:bg-rose-900 file:text-rose-200 file:rounded-md file:font-light text-sm file:text-base font-normal"
+                id="certificate"
+              />
+            </div>
+          </div>
           <div className="flex justify-center">
           <button className="bg-rose-800 hover:bg-rose-700 text-white  py-2 rounded hover:opacity-90 px-8">Apply Now</button>
           </div>

@@ -16,6 +16,10 @@ import {
 } from "react-accessible-accordion";
 
 import "react-accessible-accordion/dist/fancy-example.css";
+<<<<<<< HEAD
+=======
+import ContactForm from "../../ContactForm";
+>>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
 const points = [
     {
         head: "Business Served",
@@ -102,7 +106,11 @@ const Business_plan = () => {
 
 
 
+<<<<<<< HEAD
             <div className="flex bg-[#f6d5dd] h-full w-full">
+=======
+            <div className="flex  h-full w-full">
+>>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
@@ -186,7 +194,11 @@ const Business_plan = () => {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+=======
+                <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
+>>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
                     <div className="my-12" id="What">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">What is a Business plan?</h2>
                         <p className="my-2">
@@ -484,6 +496,10 @@ const Business_plan = () => {
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
+=======
+            <ContactForm/>
+>>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
         </>
     );
 }

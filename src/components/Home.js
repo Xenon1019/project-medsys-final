@@ -39,22 +39,22 @@ export default function Home() {
             <section className="container popular-products">
                 <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">Popular Products</h1>
                 <div className="wrapper">
-                    <div className="item">
+                    <div className="item shadow-md">
                         <div><img src="/assets/img/Business Setup.svg" alt="" /></div>
                         <h1 className='font-bold'>Business Setup</h1>
                         <img className="inner-img border rounded-lg" src="/assets/img/Business Setup.png" alt="" />
                     </div>
-                    <div className="item">
+                    <div className="item shadow-md">
                         <div><img src="/assets/img/NGO Management.svg" alt="" /></div>
                         <h1 className='font-bold'>NGO Management</h1>
                         <img className="inner-img border rounded-lg" src="/assets/img/NGO Management.png" alt="" />
                     </div>
-                    <div className="item">
+                    <div className="item shadow-md">
                         <div><img src="/assets/img/Trademark & IP.svg" alt="" /></div>
                         <h1 className='font-bold'>Trandemark and IP</h1>
                         <img className="inner-img border rounded-lg" src="/assets/img/Trademark & IP.png" alt="" />
                     </div>
-                    <div className="item">
+                    <div className="item shadow-md">
                         <div><img src="/assets/img/Digital Branding.svg" alt="" /></div>
                         <h1 className='font-bold'>Digital Branding</h1>
                         <img className="inner-img border rounded-lg" src="/assets/img/Digital Branding.png" alt="" />
@@ -152,9 +152,9 @@ export default function Home() {
                                         as
                                         well. </p>
                                     <div className="d-flex person">
-                                        <div className="img">
+                                        {/* <div className="img">
                                             <img src="/assets/img/client.jpg" alt="" />
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <h3>Biraj Das </h3>
                                             <span>Director, SIB oil mill prime Pvt. Ltd</span>
@@ -169,9 +169,9 @@ export default function Home() {
                                         an
                                         amazing service experience with the Medsys team. Everything was completed on time </p>
                                     <div className="d-flex person">
-                                        <div className="img">
+                                        {/* <div className="img">
                                             <img src="/assets/img/client.jpg" alt="" />
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <h3>Kanta Naik</h3>
                                             <span>President, Rohan Naik charitable Trust</span>
@@ -187,9 +187,9 @@ export default function Home() {
                                         recommend
                                         Medsys Consultancy for their professionalism </p>
                                     <div className="d-flex person">
-                                        <div className="img">
+                                        {/* <div className="img">
                                             <img src="/assets/img/client.jpg" alt="" />
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <h3>Gagan Malhotra</h3>
                                             <span>Director, Dream worth Technology Pvt Ltd
@@ -205,9 +205,9 @@ export default function Home() {
                                         NGO-related services. Nice experience with Bhushan.
                                     </p>
                                     <div className="d-flex person">
-                                        <div className="img">
+                                        {/* <div className="img">
                                             <img src="/assets/img/client.jpg" alt="" />
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <h3>Pradeep Bhojane</h3>
                                             <span>President, Tree Foundation
@@ -225,9 +225,9 @@ export default function Home() {
                                         Mr. Bhushan and his team are very professional and supportive.
                                     </p>
                                     <div className="d-flex person">
-                                        <div className="img">
+                                        {/* <div className="img">
                                             <img src="/assets/img/client.jpg" alt="" />
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <h3>kalpesh Rajput</h3>
                                             <span>Director, Param Sunandaee group
@@ -244,13 +244,13 @@ export default function Home() {
             <section className="partner container">
                 <div className="partner-inner">
                     <div className="left">
-                        <h1>Let's Partner Up!</h1>
+                        <h1 className='font-black'>Let's Partner Up!</h1>
                         <p style={{ fontWeight: "bold" }}>Become our partner and drive your business to the next level.</p>
                         <h6>Connect with us now!</h6>
                         <button className='border rounded-md mx-auto bg-mainColor hover:bg-rose-800'>Download Partner Success Stories</button>
                     </div>
                     <div className="right">
-                        <img src="/assets/img/LetsPartnerImg/1.svg" alt="" />
+                        <img src="/assets/img/LetsPartnerImg/partnerUs.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -268,22 +268,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* <!-- ======================StartUp======================= --> */}
-            {/* <section className="container startup">
-                <div className="startup-inner">
-                    <div className="left">
-                        <img src="/assets/img/strartup.png" alt="" />
-                    </div>
-                    <div className="right">
-                        <h1>GET E-STARTUP INDIA IN YOUR</h1>
-                        <h2>POCKET!</h2>
-                        <p>Download our free Android App and get realtime update on your order status.</p>
-                        <p>Easily Connect with our professionals handling your order over chat & mobile.</p>
-                        <p>Never miss business compliances due date with advance notifications.</p>
-                        <a href='/'><img src="/assets/img/playstore.png" alt="" /></a>
-                    </div>
-                </div>
-            </section> */}
             {/* <!-- ======================Counter======================= --> */}
             <section className="counter container ">
                 <div className="inner w-11/12 gap-5 mx-auto">

@@ -8,10 +8,9 @@ export default function Partner() {
     <>
       {/* Section right below the header */}
       <section className="partner-header-below relative">
-        <div className=" inner h-96">
+        <div className=" inner h-[550px]">
           <div className="container absolute max-w-xl  top-20 right-32">
-            <h1 className='text-4xl text-left text-white font-bold pb-7'>Join Partnership with Medsys</h1>
-            <p className=' text-white'>Medsys caters to micro and small businesses in India. Helping start-ups to start their business in any sector and industry. If you deal in B2B products, Medsys partnership can be your business growth enabler.</p></div>
+            </div>
         </div>
       </section>
       {/* ++++++++++++++++++++++++++++ message section ++++++++++++++++++++++++ */}
@@ -31,7 +30,7 @@ export default function Partner() {
                 Our referral programme is an eye boggling opportunity to whoever looking for a easy earning at the convenience of their working hours.
               </p>
             </div>
-            <div className="flex justify-end ml-3 px-2">
+            <div className="flex justify-end ml-3 pb-8 px-2">
               <ImQuotesRight className="text-center text-white text-5xl " />
             </div>
           </div>
@@ -43,22 +42,21 @@ export default function Partner() {
         <div className="wrapper flex justify-between">
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Aceelerated.svg' alt="" />
-              <div className="img"></div>
             </div>
             <p className='text-center w-fit font-bold'>Accelerated growth through a <br /> targeted network of business</p>
           </div>
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Complete.svg' alt="" />
             </div>
             <p className='text-center w-fit font-bold'>Seemless integration across<br />platform that facilities ease of doing business <br /> doing business</p>
           </div>
           {/* experience item  */}
           <div className='inner'>
-            <div className="icon flex justify-center">
+            <div className="icon pb-6 flex justify-center">
               <img src='\assets\img\LetsPartnerImg/Seamless.svg' alt="" />
             </div>
             <p className='text-center w-fit font-bold'>Complete support from a <br /> dedicated flexible team of legal <br />professionals</p>
