@@ -7,40 +7,11 @@ body {
 }
 
 section.header-below {
-    position: relative;
-    height: 400px;
-    width: 100%;
-    background: url('/assets/img/Process\ Header\ Image.png')no-repeat center center/cover;
-}
-
-.header-below .inner {
-    position: absolute;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 32%;
-    left: 50%;
-}
-
-.header-below .inner h1 {
-    font-size: 4rem;
-    color: white;
-    margin-bottom: 1rem;
-    /* margin-left: 23rem; */
-}
-
-.header-below .inner h6 {
-    font-size: 25px;
-    color: white;
-    font-weight: 400;
-    /* margin-left: 25rem; */
+    background: url('/assets/img/processHeader.png')no-repeat center center/cover;
+    height: 550px;
 }
 
 /* ===========================Our Work-=========================== */
-
-
-
 
 section.work .heading {
     padding: 2rem;

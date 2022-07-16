@@ -8,7 +8,7 @@ export default function ContactForm() {
           <div className="my-auto mx-auto">
             <h1 className="font-semibold text-5xl pb-3 text-[#560216]">Please Get In Touch</h1>
             <p className="text-xl py-3">
-              Schedule a free consultaion with our executives for your <br />{" "}
+              Schedule a free consultaion with our executives for your{" "}
               Startups Needs
             </p>
             <h6 className="py-3 text-base">For any Queries regarding your startup and legal advice*</h6>

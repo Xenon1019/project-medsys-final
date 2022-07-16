@@ -63,7 +63,7 @@ export default function Contact(props) {
                                     <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer">
                                         <div className="right">
                                             <img src="/assets/img/google-icon.png" alt="" />
-                                            <p className='bg-rose-800'>If you think we did great, <br />please click here to leave a <br />Google review for us!
+                                            <p className='bg-[#560216]'>If you think we did great, <br />please click here to leave a <br />Google review for us!
                                             </p>
                                         </div>
                                     </a>
