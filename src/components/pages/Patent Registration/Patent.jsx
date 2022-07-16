@@ -6,6 +6,8 @@ import bg from './imgs/bg.png'
 import Scrollspy from 'react-scrollspy';
 import { TabTitle } from '../../Utillity';
 import "./Patent.css"
+import ContactForm from "../../ContactForm";
+
 
 
 import {
@@ -268,6 +270,7 @@ const Patent = () => {
                     </div>
                 </div>
             </div>
+      <ContactForm/>
         </div>
     )
 }

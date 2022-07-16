@@ -6,6 +6,7 @@ import bg from "./imgs/bg.png";
 import apendaImg from "./imgs/FCRA Registration Page Image.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
+import ContactForm from "../../ContactForm";
 import "./FCRA.css";
 
 import {
@@ -610,6 +611,8 @@ const FCRA_Registration = () => {
                         </Accordion>
                     </div>
                 </div>
+      <ContactForm/>
+
             </div>
         </>
     );

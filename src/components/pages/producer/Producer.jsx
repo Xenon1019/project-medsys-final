@@ -6,58 +6,94 @@ import bg from './imgs/bg.png'
 import Scrollspy from 'react-scrollspy';
 import { TabTitle } from '../../Utillity';
 import "./Producer.css"
+import ContactForm from "../../ContactForm";
 
 
 import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from 'react-accessible-accordion';
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from "react-accessible-accordion";
 
-import 'react-accessible-accordion/dist/fancy-example.css';
+import "react-accessible-accordion/dist/fancy-example.css";
+const points = [
+    {
+        head: "Business Served",
+        icon: bussinessLogo,
+    },
+    {
+        head: "9.6/10 Unfiltered Customer ratings",
+        icon: starLogo,
+    },
+    {
+        head: "Satisfaction or Money Back Guarantee",
+        icon: smileLogo,
+    },
+];
 const Producer = () => {
   TabTitle('Farmer Producer Organisation Registration - medsysconsultancy.com');
   return (
     <div className='font-serif'>
-      <div className='h-[34rem] flex py-24 px-16 bg-cover didot' style={{ backgroundImage: `url(${bg})` }}>
-        <div className='text-white flex flex-col justify-between' >
-          <h2 className='text-5xl font-bold '>Farmer Producer Organisation Registration</h2>
-          <p className='text-lg mr-20'>A PO is a collective of farmers (and non-farmers) who are the primary producers of a product (an agricultural produce or a manufactured product). It, therefore, can work as a platform to facilitate better access to government services, like PDS, MNREGA, Scholarships and Pensions, etc.!!</p>
-          <div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={bussinessLogo} alt="" />
-              <h2>Business Served</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={starLogo} alt="" />
-              <h2> 9.6/10 Unfiltered Customer ratings</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={smileLogo} alt="" />
-              <h2>Satisfaction or Money Back Guarntee</h2>
-            </div>
+    <div
+        className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+        style={{ backgroundImage: `url(${bg})` }}
+    >
+        <div className="">
+            <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+                <h2 className='text-5xl font-bold '>Farmer Producer Organisation Registration</h2>
+          </div>
+          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+            <p className='text-lg mr-20'>A PO is a collective of farmers (and non-farmers) who are the primary producers of a product (an agricultural produce or a manufactured product). It, therefore, can work as a platform to facilitate better access to government services, like PDS, MNREGA, Scholarships and Pensions, etc.!!</p>
+          </div>
+          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+            {points.map((p) => (
+              <div className="flex gap-3 py-2">
+                <div>
+                  <img className="h-7 w-7" src={p.icon} alt="" />
+                </div>
+                <div>{p.head}</div>
+              </div>
+            ))}
           </div>
         </div>
-        <div className='bg-white border rounded-3xl '>
-          <form className='flex flex-col  p-8 w-[30rem]' action="">
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Full Name' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Email ID' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Phone No.' type="text" />
-            <div className='text-center my-12'>
-              <button className='border bg-[#560216] text-white px-2 py-2 rounded-lg'>Request a Callback</button>
+        <div className="px-3 py-9">
+          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Full Name</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="text"
+              />
             </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Phone Number</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="number"
+              />
+            </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>E-mail</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="e-mail"
+              />
+            </div>
+            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+              Request a Callback
+            </button>
           </form>
         </div>
       </div>
-      <div className='flex justify-between items-center px-16 bg-black text-white h-20'>
-        <div className='text-2xl'>Get in touch with us acquire various licenses, registrations, and certifications</div>
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">Get in touch with us acquire various licenses, registrations, and certifications</div>
         <div>
           <button className='bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CALL NOW!</button>
         </div>
       </div>
-      <div className='mx-40 my-20'>
+      <div className='mx-4 md:mx-40 my-20'>
         <h2 className='text-3xl text-[#560216] font-bold my-8'>How To Register A Producer Company</h2>
         <div>
           <div className='my-2'>
@@ -76,11 +112,11 @@ const Producer = () => {
         </div>
 
       </div>
-      <div className='flex bg-[#f6d5dd] h-full w-full'>
-        <div className='w-3/12'>
-          <div className='flex flex-col sticky top-40 ml-4 my-12'>
-            <div className='bg-white rounded-xl p-2 '>
-              <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
+      <div className="flex  h-full w-full">
+        <div className="sm:w-1/4 hidden md:block">
+          <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
+            <div className="bg-white rounded-xl p-5">
+              <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
               <hr className='bg-[#560216]' />
               <Scrollspy items={[
                 'Overview',
@@ -99,11 +135,10 @@ const Producer = () => {
                 <li className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1'><a href='#Recent'>Recent update</a> </li>
                 <li className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1'><a href='#FAQs'>FAQs</a></li>
               </Scrollspy>
-            </div>
-            <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+              </div>
           </div>
         </div>
-        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-2 '>
+        <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
 
           <div className='my-12' id="Overview">
             <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
@@ -145,7 +180,7 @@ const Producer = () => {
 
 
           <div className='flex justify-between items-center bg-white h-20 px-8 rounded-2xl' >
-            <h2 className='text-lg font-bold text-[#560216]'>Related Read:How To Register A Company In India: A Step By Step Guide</h2>
+            <h2 className='text-md md:text-xl font-bold text-[#560216]'>Related Read:How To Register A Company In India: A Step By Step Guide</h2>
             <button className='bg-[#560216] text-white text-center px-3 py-1 rounded-full text-lg hover:bg-green-600'>CLICK HERE</button>
           </div>
 
@@ -188,7 +223,7 @@ const Producer = () => {
           </div>
 
           <div className='flex justify-between items-center bg-white h-20 px-8 rounded-2xl' >
-            <h2 className='text-lg font-bold text-[#560216]'>Related Read:How To Register A Company In India: A Step By Step Guide</h2>
+            <h2 className='text-md md:text-xl font-bold text-[#560216]'>Related Read:How To Register A Company In India: A Step By Step Guide</h2>
             <button className='bg-[#560216] text-white text-center px-3 py-1 rounded-full text-lg hover:bg-green-600'>CLICK HERE</button>
           </div>
 
@@ -336,6 +371,7 @@ const Producer = () => {
           </div>
         </div>
       </div>
+      <ContactForm/>
     </div>
   )
 }

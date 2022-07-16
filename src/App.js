@@ -50,20 +50,8 @@ import OnePersonCompany from "./components/pages/One_person_company/OnePersonCom
 import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
 // <<<<<<< HEAD
 // <<<<<<< HEAD
-import Apeda from "./components/pages/Apenda_Licese/Apeda";
+import Apeda from "./components/pages/Apeda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
-<<<<<<< HEAD
-// =======
-import FCRAReg from "./components/pages/fcraRegistration/FCRAReg";
-import ApedaLicense from "./components/pages/apeda/ApedaLicense";
-import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
-// >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
-// =======
-// import Apeda from "./components/pages/Apenda_Licese/Apeda";
-// import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
-// import ApedaLicense from "./components/pages/apeda/ApedaLicense";
-// import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
-=======
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 import LLP from "./components/pages/llp/LLP";
 import MSME from "./components/pages/MSME/MSME";
@@ -76,11 +64,10 @@ import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
 import GEm from "./components/pages/gemRegistration/GEm";
 import PAN from "./components/pages/pan/PAN";
-import Business_plan from "./components/pages/Business_plan/Business_plan";
-import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
-import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
-import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
->>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
+// import Business_plan from "./components/pages/Business_plan/Business_plan";
+// import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
+// import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
+// import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
 
 // >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
 import {
@@ -141,10 +128,6 @@ function App() {
           <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
           
 {/* <<<<<<< HEAD
-<<<<<<< HEAD
-          <Route path="/apeda-license" element={ <Apeda /> }></Route>
-          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route> */}
-=======
           <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
           <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
@@ -153,7 +136,7 @@ function App() {
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcraregistration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
 {/* >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8 */}
 =======
           <Route path="/llp" element={ <LLP /> }></Route>
@@ -171,7 +154,6 @@ function App() {
           <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
           <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
           <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
->>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
         </Routes>
         <Footer />
       </BrowserRouter>

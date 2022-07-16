@@ -12,6 +12,7 @@ import MSME from "./imgs/MSME Registration.svg"
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import GreenTick from "./imgs/green tick.png"
+import ContactForm from "../../ContactForm";
 import "./Sole.css";
 
 import {
@@ -276,16 +277,16 @@ const Sole_Proprietorship = () => {
                             Checklist
                         </h2>
 
-                        <div className="flex justify-around">
-                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 rounded-lg">
+                        <div className="md:flex justify-around">
+                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 my-4 rounded-lg">
                                 <img className="h-20 " src={GreenTick} alt="" />
                                 <p>Sole Proprietor must be a Indian Citizen</p>
                             </div>
-                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 rounded-lg">
+                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 my-4 rounded-lg">
                                 <img className="h-20 " src={GreenTick} alt="" />
                                 <p>Sole Proprietor must be a Resident of India.</p>
                             </div>
-                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 rounded-lg">
+                            <div className="flex flex-col justify-center items-center bg-white p-4 mx-4 my-4 rounded-lg">
                                 <img className="h-20 " src={GreenTick} alt="" />
                                 <p>Sole proprietor has to be a natural person</p>
                             </div>
@@ -509,6 +510,7 @@ const Sole_Proprietorship = () => {
                     </div>
                 </div>
             </div>
+      <ContactForm/>
         </>
     );
 }

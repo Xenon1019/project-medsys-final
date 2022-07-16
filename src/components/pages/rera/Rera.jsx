@@ -8,6 +8,8 @@ import procedure from "./imgs/Procedure for RERA Registration Image.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import "./Rera.css";
+import ContactForm from "../../ContactForm";
+
 
 import {
   Accordion,
@@ -912,6 +914,7 @@ const Trust = () => {
           </div>
         </div>
       </div>
+      <ContactForm/>
     </>
   );
 };

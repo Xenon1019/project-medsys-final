@@ -7,6 +7,7 @@ import nidhiImg from './imgs/Nidhi Company Page Image.png'
 import Scrollspy from 'react-scrollspy';
 import { TabTitle } from '../../Utillity';
 import "./NidhiCompany.css"
+import ContactForm from "../../ContactForm";
 
 
 import {
@@ -15,61 +16,94 @@ import {
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
+} from "react-accessible-accordion";
 
-import 'react-accessible-accordion/dist/fancy-example.css';
-
+import "react-accessible-accordion/dist/fancy-example.css";
+const points = [
+  {
+    head: "Business Served",
+    icon: bussinessLogo,
+  },
+  {
+    head: "9.6/10 Unfiltered Customer ratings",
+    icon: starLogo,
+  },
+  {
+    head: "Satisfaction or Money Back Guarantee",
+    icon: smileLogo,
+  },
+];
 const NidhiCompany = () => {
   TabTitle('Nidhi Company Registration - medsysconsultancy.com');
 
   return (
     <div className='font-serif'>
-      <div className='h-[34rem] flex py-24 px-16 bg-cover didot' style={{ backgroundImage: `url(${bg})` }}>
-        <div className='text-white flex flex-col w-full justify-between' >
+    <div
+      className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+      <div className="">
+        <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
           <h2 className='text-5xl font-bold '>Nidhi Company Registration</h2>
-          <p className='text-lg mr-20'>An excellent option for people looking to save money and lead a thrifty lifestyle.</p>
-          <div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={bussinessLogo} alt="" />
-              <h2>Business Served</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={starLogo} alt="" />
-              <h2> 9.6/10 Unfiltered Customer ratings</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={smileLogo} alt="" />
-              <h2>Satisfaction or Money Back Guarntee</h2>
-            </div>
+          </div>
+          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+            <p className='text-lg mr-20'>An excellent option for people looking to save money and lead a thrifty lifestyle.</p>
+          </div>
+          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+            {points.map((p) => (
+              <div className="flex gap-3 py-2">
+                <div>
+                  <img className="h-7 w-7" src={p.icon} alt="" />
+                </div>
+                <div>{p.head}</div>
+              </div>
+            ))}
           </div>
         </div>
-        <div className='bg-white border rounded-3xl '>
-          <form className='flex flex-col  p-8 w-[30rem]' action="">
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Full Name' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Email ID' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Phone No.' type="text" />
-            <div className='text-center my-12'>
-              <button className='border bg-[#560216] text-white px-2 py-2 rounded-lg'>Request a Callback</button>
+        <div className="px-3 py-9">
+          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Full Name</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="text"
+              />
             </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Phone Number</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="number"
+              />
+            </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>E-mail</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="e-mail"
+              />
+            </div>
+            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+              Request a Callback
+            </button>
           </form>
         </div>
       </div>
-      <div className='flex justify-between items-center px-16 bg-black text-white h-20'>
-        <div className='text-2xl'>Contact us to know more about license and registrations</div>
-        <div>
-          <button className='bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CALL NOW!</button>
-        </div>
-      </div>
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">Contact us to know more about license and registrations</div>
 
+<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+  <a href="tel:+91 70204 38881">Call Now!</a>
+</button>
 
+</div>
 
-
-      <div className='flex bg-[#f6d5dd] h-full w-full'>
-        <div className='w-3/12'>
-          <div className='flex flex-col sticky top-40 ml-4 my-12'>
-            <div className='bg-white rounded-xl  p-2 '>
-              <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
-              <hr className='bg-[#560216]' />
+<div className="flex  h-full w-full">
+<div className="sm:w-1/4 hidden md:block">
+  <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
+    <div className="bg-white rounded-xl p-5">
+      <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
+      <hr className='bg-[#560216]' />
               <Scrollspy items={[
                 'What',
                 'Benefits',
@@ -78,7 +112,7 @@ const NidhiCompany = () => {
                 'Procedure',
                 'Documents',
                 'FAQs',
-              ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+              ]} className="flex flex-col p-2 gap-3 text-center" currentClassName="content-scroll-view" >
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#What'>What is a Nidhi Company?</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Benefits'>Benefits of a Nidhi Company</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Checklist'>Checklist For A Nidhi Company</a></li>
@@ -87,15 +121,16 @@ const NidhiCompany = () => {
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
               </Scrollspy>
-            </div>
-            <button className='bg-[#560216] text-white ml-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
+              </div>
           </div>
         </div>
-        <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-4 '>
+        <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
 
-          <div className='my-12' id="What">
+          <div className='my-12' id="Overview">
             <h2 className='text-3xl text-[#560216] font-bold my-4'>What is a Nidhi Company?</h2>
             <p className='my-2'>It is a company classified as an NBFC (a Non-banking financing company) and registered under Section 406 of Companies Act, 2013. The main business of such a company is to facilitate lending money between the core members of the company. This way members (or shareholders) are encouraged to save money and invest them within the company. These deposits are then used by the company for its members (or shareholders), to provide loans or advances, and to acquire government-issued stocks/bonds/debentures/securities. It is regulated by the Ministry of Corporate Affairs, while the RBI monitors all its financial dealings.</p>
+          </div>
+          <div className='flex justify-center'>
             <img src={nidhiImg} alt="" />
           </div>
 
@@ -258,6 +293,7 @@ const NidhiCompany = () => {
           </div>
         </div>
       </div>
+      <ContactForm/>
     </div>
   )
 }

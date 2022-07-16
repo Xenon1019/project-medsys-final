@@ -7,6 +7,8 @@ import Section_8 from "./imgs/Section 8 Company Benefits Image.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import "./Section_8.css";
+import ContactForm from "../../ContactForm";
+
 
 import {
   Accordion,
@@ -399,6 +401,7 @@ const Trust = () => {
           </div>
         </div>
       </div>
+      <ContactForm/>
     </>
   );
 };
