@@ -67,7 +67,7 @@ const Patent = () => {
             </div>
 
 
-            <div className='flex bg-[#f6d5dd] h-full w-full'>
+            <div className='flex h-full w-full'>
                 <div className='w-3/12'>
                     <div className='flex flex-col sticky top-40 ml-4 my-12'>
                         <div className='bg-white rounded-xl  p-2 '>
@@ -92,7 +92,7 @@ const Patent = () => {
                         <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
                     </div>
                 </div>
-                <div className='bg-[#f6d5dd] h-full w-9/12 px-12 py-4 '>
+                <div className=' h-full w-9/12 px-12 py-4 '>
 
                     <div className='my-12' id="Overview">
                         <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
