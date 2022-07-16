@@ -6,11 +6,18 @@ export default function Process() {
     return (
         <>
             {/* <!-- =====================Header-below======================= --> */}
-            <section className="header-below h-[550px]"  id="header-below">
+            <section className="header-below h-[550px] hidden lg:block"  id="header-below">
             </section>
+
+            <div className='lg:hidden'>
+                <h1 className='text-5xl text-center w-11/12 mx-auto p-9 text-[#560216] font-semibold'>
+                    Our Process
+                </h1>
+            </div>
+
             {/* <!-- =====================How we work======================= --> */}
             <section className="max-w-6xl m-auto work">
-        <h1 className="heading text-4xl text-mainColor font-bold">How We work</h1>
+        <h1 className="w-fit mx-auto text-4xl lg:text-5xl text-mainColor p-9 font-bold">How We work</h1>
         <div className="timeline-area">
             <div className="single-timeline">
                 <div className="timeline-item">

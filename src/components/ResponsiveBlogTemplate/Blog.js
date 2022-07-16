@@ -6,9 +6,16 @@ import imgHeader from "./blogHeader.png"
 export default function BlogPost() {
     return (
         <>
-            <div className="post-img mb-8 h-[550px]">
+            <div className="post-img mb-8 h-[550px] hidden lg:block">
                 <img src={imgHeader} style={{height:"550px"}} alt="" />
             </div>
+
+            <div className='lg:hidden'>
+                <h1 className='text-5xl text-center w-11/12 mx-auto p-9 text-[#560216] font-semibold'>
+                    Blog
+                </h1>
+            </div>
+
             <div className="max-width-1 m-auto">
                 <hr />
             </div>

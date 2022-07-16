@@ -323,7 +323,7 @@ section.profile .inner {
     display: flex;
     background-image: linear-gradient(to right, #4a4545, rgb(86 2 22));
     margin-bottom: 2rem;
-    border-radius: 23px;
+    border-radius: 13px;
     padding: 20px 45px;
 }
 

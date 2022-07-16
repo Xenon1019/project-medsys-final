@@ -116,7 +116,7 @@ function App() {
           <Route path="/trust-registration" element={ <Trust /> }></Route>
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
-          <Route path="/fcra-registration" element={ <FCRA_Registration /> }></Route>
+          <Route path="/fcraregistration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
