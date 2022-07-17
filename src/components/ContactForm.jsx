@@ -56,7 +56,7 @@ export default function ContactForm() {
                 <option value="selection">Udyam Certification</option>
                 <option value="selection">Venture Capitalist</option>
               </select>
-              <button className="text-lg  text-white bg-[#560216] p-2 py-3 w-1/3 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+              <button className="text-lg  text-white bg-[#560216] py-2 px-4 w-fit tracking-wider mr-auto rounded-md hover:bg-rose-900">
                 Send Now
               </button>
             </form>
