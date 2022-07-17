@@ -25,25 +25,25 @@ const Navbar = () => {
           </div>
         </div>
         <div className="lg:flex hidden items-center">
-          <div className="hover:bg-rose-900  cursor-pointer py-4 px-3 rounded-sm">
-            <Link to="/" className="inline-block uppercase font-semibold">
+          <div className="hover:bg-rose-900  cursor-pointer rounded-sm">
+            <Link to="/" className="inline-block uppercase py-4 px-3 font-semibold">
               Home
             </Link>
           </div>
 
           <NavLinks />
-          <div className="hover:bg-rose-900 cursor-pointer  py-4 px-3 rounded-sm">
+          <div className="hover:bg-rose-900 cursor-pointer rounded-sm">
             <Link
               to="/marketingSolutions"
-              className=" inline-block uppercase font-semibold"
+              className=" inline-block uppercase font-semibold py-4 px-3"
             >
               Marketing Solution
             </Link>
           </div>
-          <div className="hover:bg-rose-900  cursor-pointer py-4 px-3 rounded-sm">
+          <div className="hover:bg-rose-900  cursor-pointer rounded-sm">
             <Link
               to="/contact"
-              className="inline-block uppercase font-semibold"
+              className="inline-block uppercase py-4 px-3 font-semibold"
               
             >
               Contact Us
