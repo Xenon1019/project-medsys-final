@@ -241,7 +241,7 @@ export default function Home() {
                 </div>
             </section>
             {/* <!-- =================Partner====================== --> */}
-            <section className="partner container">
+            <section className="partner container w-4/5">
                 <div className="partner-inner">
                     <div className="left">
                         <h1 className='font-black'>Let's Partner Up!</h1>
