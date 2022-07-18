@@ -1,40 +1,41 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay} from "swiper";
+import { Navigation, Pagination, Autoplay } from "swiper";
 import { TabTitle } from './Utillity';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+import HowWeWork from './HowWeWork';
 
 export default function Home() {
     TabTitle("Home - medsysconsultancy.com");
     return (
         <>
             {/* <!-- =================Introduction slider====================== --> */}
-            
-                <Swiper
-                    style={{
-                        "--swiper-navigation-color": "#fff",
-                        "--swiper-pagination-color": "#fff",
-                    }}
-                    // navigation={true}
-                    modules={[Navigation, Pagination, Autoplay]}
-                    loop={true}
-                    autoplay={{delay:2000}}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    className="mySwiper"
 
-                >
-                    <SwiperSlide> <div className="swiper-slide "><img src="/assets/img/slider1.svg" alt="" /></div></SwiperSlide>
-                    <SwiperSlide> <div className="swiper-slide"><img src="/assets/img/slider2.svg" alt="" /></div></SwiperSlide>
-                    <SwiperSlide> <div className="swiper-slide"><img src="/assets/img/slider3.svg" alt="" /></div></SwiperSlide>
-                </Swiper>
-                <div className="swiper-pagination"></div>
-            
+            <Swiper
+                style={{
+                    "--swiper-navigation-color": "#fff",
+                    "--swiper-pagination-color": "#fff",
+                }}
+                // navigation={true}
+                modules={[Navigation, Pagination, Autoplay]}
+                loop={true}
+                autoplay={{ delay: 2000 }}
+                pagination={{
+                    clickable: true,
+                }}
+                className="mySwiper"
+
+            >
+                <SwiperSlide> <div className="swiper-slide "><img src="/assets/img/slider1.svg" alt="" /></div></SwiperSlide>
+                <SwiperSlide> <div className="swiper-slide"><img src="/assets/img/slider2.svg" alt="" /></div></SwiperSlide>
+                <SwiperSlide> <div className="swiper-slide"><img src="/assets/img/slider3.png" alt="" /></div></SwiperSlide>
+            </Swiper>
+            <div className="swiper-pagination"></div>
+
             {/* <!-- =================popular-products====================== --> */}
             <section className="container popular-products">
                 <h1 className="section-heading text-5xl font-semibold text-center text-[#560216]">Popular Products</h1>
@@ -85,47 +86,7 @@ export default function Home() {
                 </div>
             </section>
             {/* <!-- =================Work====================== --> */}
-            <section className="work container">
-                <h1 className="section-heading text-5xl font-semibold text-center p-7 text-[#560216]">How we work?</h1>
-                <div className="wrapper gap-3">
-                    <div className="item">
-                        <h5>Fill the form</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <h5>Make a payment</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <h5>Get a call from concerned lawyer</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <h5>Lawyer will analyse your case carefully</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <h5>You will get expert advice from the lawyer</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <h5>You will get expert advice from the lawyer</h5>
-                        <div className="item-inner">
-                            <p>--&gt;</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <HowWeWork />
             {/* <!-- =================clients====/================== --> */}
             <section className=" clients">
                 <div className="swiper mySwiper inner">
@@ -139,7 +100,7 @@ export default function Home() {
                             modules={[Navigation, Pagination, Autoplay]}
                             navigation={true}
                             loop={true}
-                            autoplay={{delay:2000}}
+                            autoplay={{ delay: 2000 }}
                             pagination={{
                                 clickable: true,
                             }}
@@ -242,18 +203,22 @@ export default function Home() {
             </section>
             {/* <!-- =================Partner====================== --> */}
             <section className="partner container w-4/5">
-                <div className="partner-inner">
+                <div className="partner-inner mb-5">
                     <div className="left">
                         <h1 className='font-black'>Let's Partner Up!</h1>
                         <p style={{ fontWeight: "bold" }}>Become our partner and drive your business to the next level.</p>
                         <h6>Connect with us now!</h6>
+                        <div className="flex justify-center">
                         <button className='border rounded-md mx-auto bg-mainColor hover:bg-rose-800'>Download Partner Success Stories</button>
+
+                        </div>
                     </div>
-                    <div className="right">
+                    <div className="right bg-[#570909]">
                         <img src="/assets/img/LetsPartnerImg/partnerUs.png" alt="" />
                     </div>
                 </div>
             </section>
+          
             {/* <!-- ======================Profile===="================== --> */}
             <section className="profile container w-4/5">
                 <div className="inner">
@@ -267,6 +232,10 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
+            </section>
+              {/* <!-- ================= Partner-bw-img====================== --> */}
+              <section className="partner-bw-img">
+                <div className="img h-[400px] my-6"></div>
             </section>
             {/* <!-- ======================Counter======================= --> */}
             <section className="counter container ">
@@ -297,7 +266,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            
+
         </>
 
     )

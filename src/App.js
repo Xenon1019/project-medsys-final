@@ -65,7 +65,7 @@ import Business_plan from "./components/pages/Business_plan/Business_plan";
 import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
 import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
 import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
-
+import HowWeWork from "./components/HowWeWork";
 import {
   BrowserRouter,
   Routes,
@@ -79,6 +79,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/tushar" element={<HowWeWork />}></Route>
           <Route path="/FCRA-registration" element={<BlogFCRARegistration />}></Route>
           <Route path="/CSR-1-Registration" element={<BlogCSRRegistration />}></Route>
           <Route path="/login" element={<LoginRegister/>}></Route>
