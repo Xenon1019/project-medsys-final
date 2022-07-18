@@ -13,12 +13,13 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div class="footer_upper d-flex">
-          <div class="footer_menu">
-            <h2 class="border-none">
-              <img src="/assets/img/mainLogo.png" alt="" width="100px" />
-            </h2>
+        <div className="footer_upper d-flex">
+          <div className="footer_menu pt-3">
+          <div className="border-none">
+                <img src="/assets/img/mainLogo.png" alt="" className="mb-4"/>
+              </div>
             <ul>
+            
               <li>
                 <Link to="/AboutUs" className="text-white">
                   About Us
@@ -42,7 +43,7 @@ export default function Footer() {
             </ul>
           </div>
           <div class="footer_menu">
-          <h2 className="font-semibold">POPULAR SERVICES</h2>
+            <h2 className="font-semibold">POPULAR SERVICES</h2>
             <ul>
               <li>
                 <Link to="/" className="text-white">
@@ -67,7 +68,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer_menu mb-auto">
-          <h2 className="flex font-semibold">
+            <h2 className="flex font-semibold">
               QUICK LINKS<div className="text-[#560216]">..........</div>
             </h2>
             <ul>
@@ -81,7 +82,6 @@ export default function Footer() {
                   Blog
                 </Link>
               </li>
-              
             </ul>
           </div>
           <div className="footer_menu mb-auto">
@@ -93,14 +93,20 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-              <a href="https://g.page/r/CcL_UBb54VReEBI/review" target={"_blank"} rel="noopener noreferrer" className="text-white">Customer Review</a>
-                
+                <a
+                  href="https://g.page/r/CcL_UBb54VReEBI/review"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                  className="text-white"
+                >
+                  Customer Review
+                </a>
               </li>
 
               <li>
                 <label className="block">
                   <button className="text-white" onClick={clicked}>
-                   Feedback
+                    Feedback
                   </button>
                 </label>
                 {/* {openModal && <Feedback closeModal={setOpenModal}/>} */}
@@ -111,29 +117,41 @@ export default function Footer() {
         <div class="footer_botton">
           <h3>OUR OFFICE</h3>
 
-          <div className="flex flex-row gap-4 justify-center p-2 w-4/5 mx-auto">
+          <div className="flex text-sm gap-4 justify-center p-3">
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Mumbai</h1>
             </div>
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Navi-Mumbai</h1>
             </div>
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Pune</h1>
             </div>
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Nashik</h1>
             </div>
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Delhi</h1>
             </div>
             <div className="py-2">
-              <i class="lni lni-map-marker text-2xl"></i>
+              <span class="material-symbols-outlined text-[#d06666]">
+                pin_drop
+              </span>
               <h1>Noida</h1>
             </div>
           </div>
@@ -156,45 +174,44 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid p-3 bg-[#25050c] ">
-            <div className="flex mx-auto gap-7">
+          <div className="grid bg-[#25050c] ">
+            <div className="flex items-center my-5 justify-center gap-3">
+              <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
+                <i class="lni lni-facebook"></i>
+              </Link>
+              <Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk ">
+                <i class="lni lni-twitter"></i>
+              </Link>
+              <Link to="https://www.instagram.com/medsysconsultancy/">
+                <i class="lni lni-instagram"></i>
+              </Link>
+              <Link to="https://www.linkedin.com/company/30242565/admin/  ">
+                <i class="lni lni-linkedin"></i>
+              </Link>
+            </div>
+            <div className="flex mx-auto text-sm gap-7">
               <h1 className="tracking-wider uppercase my-auto text-[#af999e]">
                 ⓒ 2017-{date} Medsys Consultancy Services LLP
               </h1>
-              <div className="sm:flex py-3 my-auto uppercase gap-4">
-                <div className="py-3">
+              <div className="sm:flex py-2 my-auto uppercase gap-6">
+                <div className="py-2">
                   <Link to="/terms&conditions" className="text-rose-200">
                     Terms and Conditions
                   </Link>
                 </div>
-                <div className="py-3">
+                <div className="py-2">
                   <Link to="/privacypolicy" className="text-rose-200">
                     Privacy Policy
                   </Link>
                 </div>
-                <div className="py-3">
+                <div className="py-2">
                   <Link to="/refundpolicy" className="text-rose-200">
                     Refund Policy
                   </Link>
                 </div>
               </div>
             </div>
-            <div className=" gap-2">
-            <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
-              <i class="lni lni-facebook"></i>
-            </Link>
-            <Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk ">
-              <i class="lni lni-twitter"></i>
-            </Link>
-            <Link to="https://www.instagram.com/medsysconsultancy/">
-              <i class="lni lni-instagram"></i>
-            </Link>
-            <Link to="https://www.linkedin.com/company/30242565/admin/  ">
-              <i class="lni lni-linkedin"></i>
-            </Link>
           </div>
-          </div>
-          
         </div>
 
         {modalOn && <Feedback setModalOn={setModalOn} />}

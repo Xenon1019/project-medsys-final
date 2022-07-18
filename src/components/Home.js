@@ -57,7 +57,7 @@ export default function Home() {
                     </div>
                     <div className="item shadow-md">
                         <div><img src="/assets/img/Digital Branding.svg" alt="" /></div>
-                        <h1 className='font-bold'>Digital Branding</h1>
+                        <h1 className='font-bold'>Marketing Solution</h1>
                         <img className="inner-img border rounded-lg" src="/assets/img/Digital Branding.png" alt="" />
                     </div>
                 </div>
