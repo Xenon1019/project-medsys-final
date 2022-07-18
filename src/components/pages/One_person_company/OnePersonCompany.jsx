@@ -13,6 +13,8 @@ import BoardImg from "./imgs/Board Meeting.svg"
 import Bookkeeping from "./imgs/Bookkeeping.svg"
 import { TabTitle } from "../../Utillity";
 import "./OnePersonCompany.css";
+import ContactForm from "../../ContactForm";
+
 
 import {
     Accordion,
@@ -579,6 +581,7 @@ const OnePersonCompany = () => {
                         </Accordion>
                     </div>
                 </div>
+      <ContactForm/>
             </div>
         </>
     );

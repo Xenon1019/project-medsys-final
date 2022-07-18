@@ -19,7 +19,11 @@ export const links = [
         Head: "Business Incorporation",
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
+// <<<<<<< HEAD
+          { name: "Limited Liability Partnership - LLP", link: "/" },
+// =======
           { name: "Limited Liability Partnership - LLP", link: "/llp" },
+// >>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
           { name: "One Person Company - OPC", link: "/one-person-company" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
@@ -35,6 +39,13 @@ export const links = [
           { name: "Shop Act License", link: "/shop" },
           { name: "GST Registration", link: "/gst" },
           { name: "PASARA License", link: "/psara" },
+// <<<<<<< HEAD
+// <<<<<<< HEAD
+          { name: "APEDA License", link: "/apeda-license" },
+// =======
+          { name: "APEDA License", link: "/apeda-registration" },
+// >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+// =======
           { name: "APEDA License", link: "/apeda-license" },
           { name: "RERA Agent/Developer", link: "/rera" },
         ],
@@ -83,6 +94,10 @@ export const links = [
           { name: "12A & 80G Registration", link: "/ngo-registration" },
           { name: "FCRA Registration", link: "/fcraregistration" },
           { name: "CSR-1 Registration", link: "/csr1" },
+// >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
+// =======
+          { name: "CSR-1 Registration", link: "/csr1" },
+// >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },

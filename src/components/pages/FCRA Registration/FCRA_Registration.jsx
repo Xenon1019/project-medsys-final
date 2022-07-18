@@ -608,6 +608,8 @@ const FCRA_Registration = () => {
                         </Accordion>
                     </div>
                 </div>
+      <ContactForm/>
+
             </div>
         <ContactForm />
         </>

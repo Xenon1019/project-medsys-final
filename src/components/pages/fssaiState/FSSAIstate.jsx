@@ -6,6 +6,7 @@ import bg from '../imgs/bg.png'
 import Scrollspy from 'react-scrollspy';
 import { TabTitle } from '../../Utillity';
 import "./FSSAIstate.css"
+import ContactForm from "../../ContactForm";
 
 
 import {
@@ -14,58 +15,96 @@ import {
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
+} from "react-accessible-accordion";
 
-import 'react-accessible-accordion/dist/fancy-example.css';
-
+import "react-accessible-accordion/dist/fancy-example.css";
+const points = [
+  {
+    head: "Business Served",
+    icon: bussinessLogo,
+  },
+  {
+    head: "9.6/10 Unfiltered Customer ratings",
+    icon: starLogo,
+  },
+  {
+    head: "Satisfaction or Money Back Guarantee",
+    icon: smileLogo,
+  },
+];
 const FSSAIstate = () => {
   TabTitle('FSSAI State License - medsysconsultancy.com');
 
   return (
-    <div className='font-serif'>
-      <div className='h-[34rem] flex py-24 px-16 bg-cover didot' style={{ backgroundImage: `url(${bg})` }}>
-        <div className='text-white flex flex-col justify-between' >
-          <h2 className='text-5xl font-bold '>FSSAI State License</h2>
-          <p className='text-lg mr-20'>Food license is a mandatory compliance for the manufacturers dealing in the food business and restaurant business that certifies the safety of food products supplied or manufactured by various organizations in India. Get your food business registered by availing of our premium offers at the least cost, certifying the successful completion of the process.</p>
-          <div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={bussinessLogo} alt="" />
-              <h2>Business Served</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={starLogo} alt="" />
-              <h2> 9.6/10 Unfiltered Customer ratings</h2>
-            </div>
-            <div className='flex my-2'>
-              <img className='h-6 mr-2' src={smileLogo} alt="" />
-              <h2>Satisfaction or Money Back Guarntee</h2>
-            </div>
+    <>
+    <pagesHeader />
+    <div
+      className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+      <div className="">
+        <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+          <h1 className="text-5xl font-semibold">FSSAI State License</h1>
+          </div>
+          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+            <p>Food license is a mandatory compliance for the manufacturers dealing in the food business and restaurant business that certifies the safety of food products supplied or manufactured by various organizations in India. Get your food business registered by availing of our premium offers at the least cost, certifying the successful completion of the process.</p>
+          </div>
+          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+            {points.map((p) => (
+              <div className="flex gap-3 py-2">
+                <div>
+                  <img className="h-7 w-7" src={p.icon} alt="" />
+                </div>
+                <div>{p.head}</div>
+              </div>
+            ))}
           </div>
         </div>
-        <div className='bg-white border rounded-3xl '>
-          <form className='flex flex-col  p-8 w-[30rem]' action="">
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Full Name' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Email ID' type="text" />
-            <input className='border-b text-black border-black my-2 px-2 py-1' placeholder='Phone No.' type="text" />
-            <div className='text-center my-12'>
-              <button className='border bg-[#560216] text-white px-2 py-2 rounded-lg'>Request a Callback</button>
+        <div className="px-3 py-9">
+          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Full Name</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="text"
+              />
             </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Phone Number</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="number"
+              />
+            </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>E-mail</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="e-mail"
+              />
+            </div>
+            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+              Request a Callback
+            </button>
           </form>
         </div>
       </div>
-      <div className='flex justify-between items-center px-16 bg-black text-white h-20'>
-        <div className='text-2xl'>Get in touch with us acquire various licenses, registrations, and certifications</div>
-        <div>
-          <button className='bg-[#560216] text-white px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CALL NOW!</button>
-        </div>
-      </div>
-     
-      <div className='flex h-full w-full'>
-        <div className='w-3/12'>
-          <div className='flex flex-col sticky top-40 ml-4 my-12'>
-            <div className='bg-white rounded-xl  p-2 '>
-              <h2 className='text-3xl text-[#560216] font-bold'>Table Of Contents</h2>
-              <hr className='bg-[#560216]' />
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">Get in touch with us acquire various licenses, registrations, and certifications</div>
+
+<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+  <a href="tel:+91 70204 38881">Call Now!</a>
+</button>
+</div>
+
+<div className="flex  h-full w-full">
+<div className="sm:w-1/4 hidden md:block">
+  <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
+    <div className="bg-white rounded-xl p-5">
+      <h2 className="text-2xl text-[#560216] font-bold text-center">
+        Table Of Contents
+      </h2>
+      <hr className="bg-[#560216]" />
               <Scrollspy items={[
                 'Overview',
                 'Role',
@@ -76,7 +115,7 @@ const FSSAIstate = () => {
                 'Process',
                 'Penalties',
                 'FAQs',
-              ]} className="flex flex-col p-8" currentClassName="content-scroll-view" >
+              ]} className="flex flex-col p-2 gap-3 text-center" currentClassName="content-scroll-view" >
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Overview'>Overview</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Role'>Role of FSSAI</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Advantages'>Advantages</a></li>
@@ -86,19 +125,17 @@ const FSSAIstate = () => {
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Penalties'>Penalties</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
-              </Scrollspy>
+                </Scrollspy>
             </div>
-            <button className='bg-[#560216] text-white my-4 text-center px-3 py-1 rounded-lg text-lg hover:bg-green-600'>CONTACT US</button>
           </div>
         </div>
-        <div className=' h-full w-9/12 px-12 py-2 '>
-
-          <div className='my-12' id="Overview">
-            <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
-          <p>FSSAI (Food Safety Standard Authority of India) is a prominent government-backed entity that regulates the food sector in India. It has outlined countless guidelines and provisions to foster food safety across the nation. Presently, every food business in India is mandated to secure an applicable food license to conduct its business operation. Functioning without a valid food license is a punishable offence for FBOs as per FSS Act, 2006. FSSAI conducts all its operations in view of the said Act and also follows the direction of the Ministry of Health and Family Welfare.</p>
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
+          <div className="my-12" id="Overview">
+            <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
+            <p>FSSAI (Food Safety Standard Authority of India) is a prominent government-backed entity that regulates the food sector in India. It has outlined countless guidelines and provisions to foster food safety across the nation. Presently, every food business in India is mandated to secure an applicable food license to conduct its business operation. Functioning without a valid food license is a punishable offence for FBOs as per FSS Act, 2006. FSSAI conducts all its operations in view of the said Act and also follows the direction of the Ministry of Health and Family Welfare.</p>
           </div>
-          
-          
+
+
 
 
           <div className='my-12' id="Role">
@@ -174,7 +211,7 @@ const FSSAIstate = () => {
             </ul>
             <p>The requisite fees must be paid by an applicant seeking State Food license via:</p>
 
-            <div className='flex '>
+            <div className='hidden sm:flex '>
               <div className='w-4/6 flex flex-col '>
                 <div className='border border-[#560216] h-16 pl-2 pt-2 bg-[#560216] text-white'>Manufacturer (Production Capacity)</div>
                 <h2 className=' border border-[#560216] h-16 pl-2 pt-2 ' >More than One million tons/day 10001 to 50,000 L/day of milk or 501 to 2500 Million tons of milk solids/annum.</h2>
@@ -211,7 +248,7 @@ const FSSAIstate = () => {
 
           <div className='my-12' id="Penalties">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>
-            Penalties
+              Penalties
             </h2>
             <p className='my-4' >In general, the penalties for FBOs in India are pretty stringent, and they are bound to face severe consequences in case of non-compliance.</p>
             <p className='my-4' >FSSAI officials can conduct a surprise audit of the business premises without informing the owner. If they find some loopholes on account of compliance management, the concerned entity has to face penalties as cited in FSS Act, 2006. The table below manifests the type of penalties imposed in case of non-compliance;</p>
@@ -219,14 +256,14 @@ const FSSAIstate = () => {
             <div className='flex '>
 
               <div className='w-1/12 flex flex-col '>
-              <div className='border border-[#560216] h-16 pl-2 pt-2 bg-[#560216] text-white'>S.No</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>1</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>2</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>3</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>4</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>5</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>6</div>
-              <div className='border border-[#560216] h-16 pl-2 pt-2'>7</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2 bg-[#560216] text-white'>S.No</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>1</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>2</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>3</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>4</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>5</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>6</div>
+                <div className='border border-[#560216] h-16 pl-2 pt-2'>7</div>
               </div>
               <div className='w-6/12 flex flex-col '>
                 <div className='border border-[#560216] h-16 pl-2 pt-2 bg-[#560216] text-white'>Particulars</div>
@@ -251,7 +288,7 @@ const FSSAIstate = () => {
             </div>
           </div>
 
-          
+
 
           <div className='my-12' id="FAQs">
             <h2 className='text-3xl text-[#560216] font-bold my-8'>FAQs</h2>
@@ -259,55 +296,55 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  a. What is an FSSAI state license?
+                    a. What is an FSSAI state license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                  A state license is granted by the State Authorities functioning in each state. This is in accordance with the FSS Regulations, 2011. Based on the eligibility, food business operators may fall under State License or Registration. Generally, FBOs with annual turnover ranging from 12 lakhs-20 crores is required to get this license.
+                    A state license is granted by the State Authorities functioning in each state. This is in accordance with the FSS Regulations, 2011. Based on the eligibility, food business operators may fall under State License or Registration. Generally, FBOs with annual turnover ranging from 12 lakhs-20 crores is required to get this license.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  b. How can I get FSSAI state license?
+                    b. How can I get FSSAI state license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                  Application for State FSSAI license is supposed to be filed in form B as per prevailing Act. The application is available on the concerned authority's portal.
+                    Application for State FSSAI license is supposed to be filed in form B as per prevailing Act. The application is available on the concerned authority's portal.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  c. Who all required FSSAI license?
+                    c. Who all required FSSAI license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                  Every food business operator is liable to obtain an applicable food license based on underlying criteria underpinned by FSSAI, the apex food regulator of India. This even include exporter and importer of food items.
+                    Every food business operator is liable to obtain an applicable food license based on underlying criteria underpinned by FSSAI, the apex food regulator of India. This even include exporter and importer of food items.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  d. What is central and state Fssai Licence?
+                    d. What is central and state Fssai Licence?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>
-                  Central FSSAI license is obtained by more prominent businesses; meanwhile, a state license is supposed to be secured by business earning within the specified threshold limit, set at 12 lakh-20 crores.
+                    Central FSSAI license is obtained by more prominent businesses; meanwhile, a state license is supposed to be secured by business earning within the specified threshold limit, set at 12 lakh-20 crores.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  e. Can FSSAI impose a penalty?
+                    e. Can FSSAI impose a penalty?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -317,7 +354,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  f.What happens if the FSSAI license expires?
+                    f.What happens if the FSSAI license expires?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -327,7 +364,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  g. What is the Importance of FSSAI License?
+                    g. What is the Importance of FSSAI License?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -337,7 +374,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  h. Name the Act considered by FSSAI for formulating guidelines for FBOs?
+                    h. Name the Act considered by FSSAI for formulating guidelines for FBOs?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -347,7 +384,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  i. Is it possible for the FBOs to conduct food business without FSSAI License?
+                    i. Is it possible for the FBOs to conduct food business without FSSAI License?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -357,7 +394,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  j. What happens after the submission of food license application?
+                    j. What happens after the submission of food license application?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -367,18 +404,19 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                  k. Still Confused?
+                    k. Still Confused?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <p>Speak to our experts who shall solve all your doubts. Call us at +91 70204 38881 or Mail us at medsysconsultancy@gmail.com</p>
                 </AccordionItemPanel>
-              </AccordionItem>    
+              </AccordionItem>
             </Accordion>
           </div>
         </div>
       </div>
-    </div>
+      <ContactForm />
+    </>
   )
 }
 

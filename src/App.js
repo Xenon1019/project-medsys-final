@@ -44,7 +44,13 @@ import SocietyReg from "./components/pages/societyRegistration/SocietyReg";
 import PrivateCompany from "./components/pages/privateCompany/PrivateCompany";
 import Trust from "./components/pages/trustRegistration/Trust";
 import NidhiCompany from "./components/pages/NidhiCompony/NidhiCompany";
-import Apeda from "./components/pages/Apenda_Licese/Apeda";
+import Business_plan from "./components/pages/Business_plan/Business_plan";
+import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
+import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
+import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
+// <<<<<<< HEAD
+// <<<<<<< HEAD
+import Apeda from "./components/pages/Apeda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
 import LLP from "./components/pages/llp/LLP";
@@ -61,10 +67,10 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
-import Business_plan from "./components/pages/Business_plan/Business_plan";
-import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
-import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
-import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
+// import Business_plan from "./components/pages/Business_plan/Business_plan";
+// import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
+// import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
+// import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
 import HowWeWork from "./components/HowWeWork";
 import {
   BrowserRouter,
@@ -119,9 +125,23 @@ function App() {
           <Route path="/private-company" element={ <PrivateCompany /> }></Route>
           <Route path="/trust-registration" element={ <Trust /> }></Route>
           <Route path="/nidhi-company-registration" element={ <NidhiCompany /> }></Route>
+          <Route path="/business-plan" element={ <Business_plan /> }></Route>
+          <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
+          <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
+          <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
+          
+{/* <<<<<<< HEAD
+          <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
+          <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
+          <Route path="/csr1" element={<Csr1/>}></Route>
+{/* >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36 */}
+=======
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcraregistration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
+{/* <<<<<<< HEAD */}
+{/* >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8 */}
+=======
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
           <Route path="/barcode" element={ <Barcode /> }></Route>
