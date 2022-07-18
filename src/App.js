@@ -20,11 +20,13 @@ import Profile from "./profilepages/Profile";
 import Documents from "./profilepages/Documents";
 import DocumentsCompany from "./profilepages/DocumentsCompany";
 import DocumentsTrust from "./profilepages/DocumentsTrust";
+import HowWeWork from "./components/HowWeWork";
 // ++++++++++++++++++++++++++++++++++ BLog paages +++++++++++++++++++++++++++++++++++++++++
 import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARegistration";
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
+import CommingSoon from "./components/pages/Commingsoon"
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
@@ -48,8 +50,6 @@ import Business_plan from "./components/pages/Business_plan/Business_plan";
 import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
 import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
 import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
-// <<<<<<< HEAD
-// <<<<<<< HEAD
 import Apeda from "./components/pages/Apeda_Licese/Apeda";
 import FCRA_Registration from "./components/pages/FCRA Registration/FCRA_Registration";
 import Csr1 from "./components/pages/CSR_1_Reg/CSR_1";
@@ -67,11 +67,7 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
-// import Business_plan from "./components/pages/Business_plan/Business_plan";
-// import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
-// import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
-// import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
-import HowWeWork from "./components/HowWeWork";
+
 import {
   BrowserRouter,
   Routes,
@@ -86,6 +82,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/tushar" element={<HowWeWork />}></Route>
+          <Route path="/commingSoon" element={<CommingSoon/>}></Route>
           <Route path="/FCRA-registration" element={<BlogFCRARegistration />}></Route>
           <Route path="/CSR-1-Registration" element={<BlogCSRRegistration />}></Route>
           <Route path="/login" element={<LoginRegister/>}></Route>
@@ -129,19 +126,9 @@ function App() {
           <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
           <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
           <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
-          
-{/* <<<<<<< HEAD
-          <Route path="/fcra-registration" element={ <FCRAReg /> }></Route>
-          <Route path="/apeda-registration" element={ <ApedaLicense /> }></Route>
-          <Route path="/csr1" element={<Csr1/>}></Route>
-{/* >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36 */}
-=======
           <Route path="/apeda-license" element={ <Apeda /> }></Route>
           <Route path="/fcraregistration" element={ <FCRA_Registration /> }></Route>
           <Route path="/csr1" element={<Csr1/>}></Route>
-{/* <<<<<<< HEAD */}
-{/* >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8 */}
-=======
           <Route path="/llp" element={ <LLP /> }></Route>
           <Route path="/msme" element={ <MSME /> }></Route>
           <Route path="/barcode" element={ <Barcode /> }></Route>

@@ -70,7 +70,7 @@ const Navbar = () => {
               About Us
             </Link>
           </div>
-          <NavLinks />
+          <NavLinks setopen={setOpen} open={open} />
           <div className="hover:bg-rose-900" onClick={() => setOpen(!open)}>
             <Link to="/marketingSolutions" className="p-7 cursor-pointer inline-block uppercase font-semibold">
               Marketing Solution

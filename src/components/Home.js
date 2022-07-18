@@ -202,7 +202,7 @@ export default function Home() {
                 </div>
             </section>
             {/* <!-- =================Partner====================== --> */}
-            <section className="partner container w-4/5">
+            <section className="partner container lg:w-4/5">
                 <div className="partner-inner mb-5">
                     <div className="left">
                         <h1 className='font-black'>Let's Partner Up!</h1>
@@ -234,8 +234,8 @@ export default function Home() {
                 </div>
             </section>
               {/* <!-- ================= Partner-bw-img====================== --> */}
-              <section className="partner-bw-img">
-                <div className="img h-[400px] my-6"></div>
+              <section className="partner-bw-img hidden sm:block mb-9">
+                <div className="img h-[500px]"></div>
             </section>
             {/* <!-- ======================Counter======================= --> */}
             <section className="counter container ">

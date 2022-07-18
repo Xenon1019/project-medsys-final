@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { links } from "./Mylinks";
 import { Link } from "react-router-dom";
 
-const NavLinks = () => {
+const NavLinks = ({open, setopen}) => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
+
   return (
     <>
       {links.map((link) => (
@@ -79,6 +80,7 @@ const NavLinks = () => {
                         ? "lg:hidden bg-rose-800"
                         : "hidden"
                     }`}
+                    onClick={()=>setopen(!open)}
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">

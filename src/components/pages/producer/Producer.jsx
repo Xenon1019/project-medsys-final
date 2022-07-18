@@ -35,7 +35,7 @@ const points = [
 const Producer = () => {
   TabTitle('Farmer Producer Organisation Registration - medsysconsultancy.com');
   return (
-    <div className='font-serif'>
+    <div className=''>
     <div
         className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
@@ -114,7 +114,7 @@ const Producer = () => {
       </div>
       <div className="flex  h-full w-full">
         <div className="sm:w-1/4 hidden md:block">
-          <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
+          <div className="flex flex-col text-center sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
               <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
               <hr className='bg-[#560216]' />

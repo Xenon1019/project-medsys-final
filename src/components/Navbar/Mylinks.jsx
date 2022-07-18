@@ -6,9 +6,9 @@ export const links = [
       {
         Head: "Startup",
         sublink: [
-          { name: "Startup Recognition", link: "/" },
+          { name: "Startup Recognition", link: "/commingSoon" },
           { name: "Business Plan", link: "/business-plan" },
-          { name: "Startup Proposal", link: "/" },
+          { name: "Startup Proposal", link: "/commingSoon" },
           { name: "Pitch Deck", link: "/pitch" },
           { name: "Fund Raising", link: "/fundraising" },
           { name: "Startup Schemes/grants", link: "/startup" },
@@ -19,15 +19,11 @@ export const links = [
         Head: "Business Incorporation",
         sublink: [
           { name: "Private Limited Company", link: "/private-company" },
-// <<<<<<< HEAD
-          { name: "Limited Liability Partnership - LLP", link: "/" },
-// =======
           { name: "Limited Liability Partnership - LLP", link: "/llp" },
-// >>>>>>> 0afb96fca0ecb917ebd4ba05f131314df03f3ec0
           { name: "One Person Company - OPC", link: "/one-person-company" },
           { name: "NIDHI Company", link: "/nidhi-company-registration" },
           { name: "Producer Company", link: "/producer" },
-          { name: "Partnership Firm", link: "/" },
+          { name: "Partnership Firm", link: "/commingSoon" },
           { name: "Sole Proprietorship", link: "/sole-proprietorship" },
         ],
       },
@@ -39,13 +35,6 @@ export const links = [
           { name: "Shop Act License", link: "/shop" },
           { name: "GST Registration", link: "/gst" },
           { name: "PASARA License", link: "/psara" },
-// <<<<<<< HEAD
-// <<<<<<< HEAD
-          { name: "APEDA License", link: "/apeda-license" },
-// =======
-          { name: "APEDA License", link: "/apeda-registration" },
-// >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
-// =======
           { name: "APEDA License", link: "/apeda-license" },
           { name: "RERA Agent/Developer", link: "/rera" },
         ],
@@ -60,7 +49,7 @@ export const links = [
           { name: "PAN Application", link: "/pan-applicaton" },
           { name: "Drug License", link: "/drugLicense" },
           { name: "Barcode License", link: "/barcode" },
-          { name: "RNI Registration", link: "/" },
+          { name: "RNI Registration", link: "/commingSoon" },
         ],
       },
       {
@@ -69,7 +58,7 @@ export const links = [
           { name: "FSSAI Registration", link: "/fssai-registration" },
           { name: "FSSAI State License", link: "/fssai-state" },
           { name: "FSSAI Central License", link: "/fssai-central" },
-          { name: "FSSAI Renewal", link: "/" },
+          { name: "FSSAI Renewal", link: "/commingSoon" },
           { name: "FSSAI Annual Return", link: "/fssai-annual" },
         ],
       },
@@ -94,29 +83,25 @@ export const links = [
           { name: "12A & 80G Registration", link: "/ngo-registration" },
           { name: "FCRA Registration", link: "/fcraregistration" },
           { name: "CSR-1 Registration", link: "/csr1" },
-// >>>>>>> 2f2764842cc5595430324c4a810cbd841616bc36
-// =======
-          { name: "CSR-1 Registration", link: "/csr1" },
-// >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
           { name: "NGO Advocacy", link: "/ngo-advocacy" },
         ],
       },
       {
         Head: "Reports",
         sublink: [
-          { name: "Annual Report", link: "/" },
-          { name: "Audit Report", link: "/" },
-          { name: "CSR Project Proposal", link: "/" },
-          { name: "Trust Change Report", link: "/" },
+          { name: "Annual Report", link: "/commingSoon" },
+          { name: "Audit Report", link: "/commingSoon" },
+          { name: "CSR Project Proposal", link: "/commingSoon" },
+          { name: "Trust Change Report", link: "/commingSoon" },
         ],
       },
       {
         Head: "Funding",
         sublink: [
-          { name: "Government Funding/Grants", link: "/" },
-          { name: "CSR Funding", link: "/" },
-          { name: "Foreign Funding", link: "/" },
-          { name: "Crowd Funding", link: "/" },
+          { name: "Government Funding/Grants", link: "/commingSoon" },
+          { name: "CSR Funding", link: "/commingSoon" },
+          { name: "Foreign Funding", link: "/commingSoon" },
+          { name: "Crowd Funding", link: "/commingSoon" },
         ],
       },
     ],
@@ -127,7 +112,7 @@ export const links = [
     sublinks: [
       {
           sublink: [
-          { name: "Trademark Registration", link: "/" },
+          { name: "Trademark Registration", link: "/commingSoon" },
           { name: "Patent Registration", link: "/patent-registration" },
           { name: "Copyright Registration", link: "/copyright" },
           { name: "Design Registration", link: "/design" },
