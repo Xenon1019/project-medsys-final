@@ -38,17 +38,18 @@ const PSARA = () => {
     TabTitle('PSARA License - medsysconsultancy.com');
 
     return (
-        <div className='font-serif'>
-            <div
-                className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
-                style={{ backgroundImage: `url(${bg})` }}
-            >
-                <div className="">
-                    <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-                        <h2 className='text-5xl font-bold '>PSARA License</h2>
-                    </div>
-                    <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-                        <p className='text-lg mr-20'>Private security business is thriving rapidly. Connect with Medsys to know the legalities</p>
+        <>
+        <pagesHeader />
+        <div
+          className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+          style={{ backgroundImage: `url(${bg})` }}
+        >
+          <div className="">
+            <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+              <h1 className="text-5xl font-semibold">PSARA License</h1>
+          </div>
+          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+            <p>Private security business is thriving rapidly. Connect with Medsys to know the legalities</p>
                     </div>
                     <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
                         {points.map((p) => (
@@ -369,7 +370,8 @@ const PSARA = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            <ContactForm />
+    </>
     )
 }
 
