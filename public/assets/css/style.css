@@ -143,64 +143,6 @@ section.sustain .wrapper .item p {
     color: #8e8e8e;
     width: 223px;
 }
-
-/* ================work================= */
-section.work .section-heading {
-    position: relative;
-    width: fit-content;
-    text-align: center;
-    margin: auto;
-}
-
-
-section.work .wrapper {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 4rem;
-    justify-content: center;
-}
-
-section.work .wrapper .item {
-    background-color: #c1625d;
-    /* height: 250px; */
-    width: 200px;
-    margin: 0 10px;
-    border-radius: 10px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-section.work .wrapper .item h5 {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-section.work .wrapper .item:nth-child(5) h5 {
-    padding: 0 5px;
-}
-
-section.work .wrapper .item div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 180px;
-    color: white;
-}
-
-section.work .wrapper .item:nth-child(3) .item-inner p {
-    padding-bottom: 3rem;
-}
-
-section.work .wrapper .item:nth-child(4) .item-inner p {
-    padding-bottom: 3rem;
-}
-
-section.work .wrapper .item:nth-child(5) .item-inner p {
-    padding-bottom: 6rem;
-}
-
 /* ================clients================= */
 section.clients {
     padding: 23px 1px;
@@ -290,6 +232,7 @@ section.partner .partner-inner .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 500px;
 }
 
 section.partner .partner-inner .left h1 {
@@ -300,7 +243,6 @@ section.partner .partner-inner .left h1 {
 
 section.partner .partner-inner .left p {
     font-size: 1.6rem;
-    width: 490px;
     padding: 15px 0;
 }
 
@@ -316,6 +258,11 @@ section.partner .partner-inner .left button {
     margin-left: 5px;
     cursor: pointer;
     transition: all .3s ease;
+}
+
+/* ================Parnter bw img ====================== */
+.partner-bw-img div{
+    background: url("/assets/img/parnterBw.png")no-repeat center center/cover;
 }
 
 /* ====================Profile================== */
@@ -1124,13 +1071,13 @@ section.contact .contact-mid .right div img {
 
     section.partner .partner-inner .left h1 {
         margin: auto;
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
 
     section.partner .partner-inner .left p {
         margin: auto;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     section.partner .partner-inner .left h6 {
@@ -1141,6 +1088,7 @@ section.contact .contact-mid .right div img {
     section.partner .partner-inner .left {
         display: flex;
         flex-direction: column;
+        width: fit-content;
         align-items: center;
     }
 
