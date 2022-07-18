@@ -41,17 +41,18 @@ const Design = () => {
   TabTitle('Design Registration - medsysconsultancy.com');
 
   return (
-    <div className='font-serif'>
+    <>
+      <pagesHeader />
       <div
         className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="">
           <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-            <h2 className='text-5xl font-bold '>Design Registration</h2>
+            <h1 className="text-5xl font-semibold">Design Registration </h1>
           </div>
           <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-            <p className='text-lg mr-20'>We can help you obtain a Design Registration for your unique product design within a few clicks of a mouse.</p>
+            <p>We can help you obtain a Design Registration for your unique product design within a few clicks of a mouse. </p>
           </div>
           <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
             {points.map((p) => (
@@ -94,14 +95,13 @@ const Design = () => {
         </div>
       </div>
       <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
-        <div className="text-xl my-auto">Contact us to know more about how we can help you with Design Registration</div>
+        <div className="text-xl my-auto">Contact us to know more about how we can help you with Design Registration </div>
 
-        <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
-          <a href="tel:+91 70204 38881">Call Now!</a>
-        </button>
-
-      </div>
-      <div className='mx-40 my-20'>
+<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+  <a href="tel:+91 70204 38881">Call Now!</a>
+</button>
+</div>
+      <div className='mx-4 sm:mx-40 my-20'>
         <h2 className='text-3xl text-[#560216] font-bold my-8'>What Is Design Registration?</h2>
         <div>
           Various industrial designs are registered and protected through the process of Design Registration in India. The procedure of Design Registration is administered under the Designs Act-2000 and the corresponding Designs Rules-2001.
@@ -113,8 +113,10 @@ const Design = () => {
         <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
-              <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
-              <hr className='bg-[#560216]' />
+              <h2 className="text-2xl text-[#560216] font-bold text-center">
+                Table Of Contents
+              </h2>
+              <hr className="bg-[#560216]" />
               <Scrollspy items={[
                 'Overview',
                 'Advantages',
@@ -129,14 +131,13 @@ const Design = () => {
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
-              </Scrollspy>
+                </Scrollspy>
             </div>
           </div>
         </div>
-        <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
-
-          <div className='my-12' id="Overview">
-            <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
+          <div className="my-12" id="Overview">
+            <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
             <p>Various industrial designs are registered and protected through the process of Design Registration in India. The procedure of Design Registration is administered under the Designs Act-2000 and the corresponding Designs Rules-2001.</p>
           </div>
          
@@ -386,7 +387,7 @@ const Design = () => {
       </div>
       <ContactForm/>
 
-    </div>
+      </>
   )
 }
 

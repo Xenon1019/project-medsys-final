@@ -6,6 +6,7 @@ import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import ContactForm from "../../ContactForm";
+import { RelatedRead } from "../common";
 import "./fssai.css";
 
 
@@ -103,7 +104,7 @@ export default function FSSAI() {
 
             </div>
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
@@ -193,7 +194,7 @@ export default function FSSAI() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="Overview">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
                         <p className="my-2">
@@ -241,10 +242,9 @@ export default function FSSAI() {
                             of their scope of operation and annual turnover to register with FSSAI.
                         </p>
 
-                        <div class="plc my-2">
-                            <p>Related Read:How To Register A Company In India: A Step By Step Guide</p>
-                            <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read:How To Register A Company In India: A Step By Step Guide
+                        </RelatedRead>
 
                     </div>
 
@@ -277,7 +277,7 @@ export default function FSSAI() {
                             criterion, the following businesses are also mandatory to secure this registration.
                         </p>
 
-                        <table border="1" cellspacing="0" class="non-huf-table my-6" id="table1">
+                        <table border="1" cellspacing="0" class="non-huf-table my-6 hidden sm:block" id="table1">
                             <tr>
                                 <th>Items/Dealers</th>
                                 <th>Capacity</th>

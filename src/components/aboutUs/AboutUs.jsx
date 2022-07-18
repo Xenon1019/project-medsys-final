@@ -1,5 +1,5 @@
 import mainImage from "./bg1.png";
-import React, { useState } from "react";
+import React from "react";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import img1 from "./Budding_Entrepreneurs.png";
 import img2 from "./One_India_One_Service_Rate.png";
@@ -19,9 +19,8 @@ import three from "./Ganesh Chinchole_20220712_230010_0001.png";
 import four from "./Kaamini Suhas_20220712_230010_0003.png";
 import five from "./Deepali Pawar_20220712_230010_0004.png";
 
-
 function App() {
-  const team =[
+  const team = [
     {
       name: "Bhushan Shirude",
       title: "Founder & CEO",
@@ -48,7 +47,7 @@ function App() {
       img: five,
     },
   ];
-  
+
   const backgroundImageStyle = {
     background: `url("${mainImage}")no-repeat center center/cover`,
   };
@@ -83,17 +82,6 @@ function App() {
     backgroundSize: "contain",
   };
 
-  const whoare = {
-    backgroundImage: `url("${whoimg}")`,
-    backgroundSize: "contain",
-  };
-
-  const whymed = {
-    backgroundImage: `url("${whymedsys}")`,
-    backgroundSize: "contain",
-  };
-
-  
   const OurVision = {
     backgroundImage: `url("${vision}")`,
     backgroundSize: "contain",
@@ -131,40 +119,39 @@ function App() {
     },
   ];
 
-  const [sideData, setSideData] = useState(data[0].val);
 
   return (
     <>
       <div
         className="  h-[550px] w-full items-center hidden lg:block justify-center "
         style={backgroundImageStyle}
-      >
-      </div>
+      ></div>
 
-      <h2 className="pt-5 text-7xl lg:hidden text-center font-semibold text-[#560216]">About Us</h2>
+      <h2 className="my-7 text-7xl lg:hidden text-center font-semibold text-[#560216]">
+        About Us
+      </h2>
 
       
-        <div className="py-11">
-
-          <div className="flex items-center justify-center w-11/12 lg:w-1/2 mx-auto">
-            <p className="md:text-2xl text-rose-900 items-center text-justify font-semibold">
-              Consultancy Services is a social organization aiming at
-              sustainability, performing well, and creating social change.
-              <br></br>
-              <br></br>
-              Since 2017, Medsys Consultancy Services has been a one-stop
-              solution for any business or entrepreneur looking for a Chartered
-              Accountant, Company Secretary, or a Lawyer and even social
-              presence management solution. <br></br>
-              <br></br>
-              We have already served over +500 customers and have a steadily
-              growing network of over +15 professionals from different cities in
-              Maharashtra.
-            </p>
-          </div>
+        <div className="flex items-center my-7 justify-center w-11/12 lg:w-1/2 mx-auto">
+          <p className="md:text-2xl text-rose-900 items-center text-justify font-semibold">
+            Consultancy Services is a social organization aiming at
+            sustainability, performing well, and creating social change.
+            <br></br>
+            <br></br>
+            Since 2017, Medsys Consultancy Services has been a one-stop solution
+            for any business or entrepreneur looking for a Chartered Accountant,
+            Company Secretary, or a Lawyer and even social presence management
+            solution. <br></br>
+            <br></br>
+            We have already served over +500 customers and have a steadily
+            growing network of over +15 professionals from different cities in
+            Maharashtra.
+          </p>
         </div>
+     
 
-      <div className="bg-[#560216] py-9 px-3 mt-11 mx-auto w-3/4 rounded-lg shadow-md">
+      
+      <div className="bg-[#560216] py-9 px-3 mt-11 mx-auto lg:w-3/4 w-4/5 rounded-lg shadow-md">
         <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Vision</h2>
@@ -186,9 +173,9 @@ function App() {
           </div>
         </div>
       </div>
-    
-      <div className="bg-[#560216] py-9 px-3 mt-11 mx-auto w-3/4 rounded-lg shadow-md">
-        <div className="flex items-center justify-center mt-7">
+
+      <div className="bg-[#560216] py-9 px-3 mt-5 mx-auto lg:w-3/4 w-4/5 rounded-lg shadow-md">
+        <div className="flex items-center justify-center">
           <div className="flex flex-col items-center justify-center max-w-md mb-16 ">
             <h2 className="text-5xl text-rose-100 font-bold">Our Mission</h2>
           </div>
@@ -209,13 +196,14 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-[#f6d5dd] p-7 mt-11 mx-auto w-11/12 rounded-lg shadow-md">
-        <div className="sm:px-9">
-          <h2 className=" text-5xl text-[#560216]">Who are we?</h2>
-          {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5"></div> */}
-        </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto mt-6">
-          <p className="text-rose-900 text-xl font-medium text-justify my-auto pr-6">
+
+      <div className="p-7 lg:grid lg:grid-cols-2 sm:w-5/6 gap-24 mx-auto bg-rose-50 mt-11 rounded-lg w-11/12 drop-shadow-lg">
+        <div className="my-auto">
+          <h2 className=" text-4xl font-semibold text-[#560216]">
+            Who are we?
+          </h2>
+          <div className="mt-1 ml-1 w-1/3 h-1 bg-[#560216]"></div>
+          <p className="text-rose-900 font-medium py-5 text-lg text-justify">
             We provide a technology-motivated platform to impart management
             consultancy services in India. We assist startups in running their
             business. We offer CSR consultancy services to NGOs. We assist NGOs
@@ -223,33 +211,29 @@ function App() {
             companies and NGO to build impeccable social presence to tip the
             scales in their favour.
           </p>
-
-          <div
-            className="lg:h-96 md:w-full md:h-56 w-full h-72 mt-6 bg-no-repeat my-auto sm:ml-auto"
-            style={whoare}
-          ></div>
         </div>
+        <div className="h-fit w-fit my-auto bg-no-repeat bg-red-200 rounded-xl">
+          <img className="rounded-md" src={whoimg} alt="img" />
+        </div>
+      </div>
 
-        <div className="mt-9 px-4 sm:px-9 ">
-          <h2 className="text-5xl text-[#560216] flex justify-end">
+      <div className="p-7 lg:grid lg:grid-cols-2 sm:w-5/6 gap-24 mx-auto bg-rose-50 mt-5 rounded-lg w-11/12 drop-shadow-lg">
+        <div className="h-fit w-fit my-auto bg-no-repeat mb-5 bg-red-200 rounded-xl">
+          <img className="rounded-md" src={whymedsys} alt="img" />
+        </div>
+        <div className="my-auto">
+          <h2 className=" text-4xl font-semibold text-[#560216]">
             Why Medsys?
           </h2>
-          {/* <div className="bg-[#560216] mt-1 w-1/4 lg:w-36 h-1.5 ml-auto"></div> */}
-        </div>
-        <div className="sm:grid sm:grid-cols-2 sm:w-11/12 mx-auto mt-6">
-          <div
-            className="lg:h-96 md:w-full md:h-56 w-full h-72 bg-no-repeat my-auto sm:ml-auto"
-            style={whymed}
-          ></div>
-          <p className="text-rose-900 text-xl font-medium text-justify my-auto pr-6">
+          <div className="mt-1 ml-1 w-1/3 h-1 bg-[#560216]"></div>
+          <p className="text-rose-900 font-medium py-5 text-lg text-justify">
             Success comes from working with a partner you trust to provide the
             insight, support, and expertise that will propel your business
-            forward.<br></br> We have built and continue to build our teams to
-            cater specialized services and solutions that meet the distinct
-            needs of the start-ups.<br></br> Our deep-set commitment to our
-            customers defines how we do business, and our years of experience
-            working across industries underpin the vast array of services we
-            offer.
+            forward. We have built and continue to build our teams to cater
+            specialized services and solutions that meet the distinct needs of
+            the start-ups. Our deep-set commitment to our customers defines how
+            we do business, and our years of experience working across
+            industries underpin the vast array of services we offer.
           </p>
         </div>
       </div>
@@ -297,7 +281,7 @@ function App() {
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
       <div className="bg-[#560216] py-2 px-3 mt-11 mx-auto w-11/12 sm:w-5/6 rounded-lg shadow-md">
         <div className="p-1 sm:p-11 py-16">
@@ -353,35 +337,48 @@ function App() {
             </h2>
           </div>
           <div className="lg:grid lg:grid-cols-2 ">
-          <div className="w-11/12 mx-auto shadow-md bg-rose-100 rounded-md items-center justify-center ">
-            <img src={aim} alt=""/>
+            <div className="w-11/12 mx-auto shadow-md bg-rose-100 rounded-md items-center justify-center ">
+              <img src={aim} alt="" />
             </div>
 
             <ul className="my-auto px-3">
-              {data.map((d => (
+              {data.map((d) => (
                 <li className="list-disc ml-4 mr-3 font-semibold text-justify text-lg py-2 text-rose-900">
-                {d.val}
-              </li>
-              )))}
+                  {d.val}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       </div>
 
-      
-
       <div className="bg-rose-50 w-11/12 pb-7 rounded-lg shadow-md mx-auto my-9">
-          <div className="p-7 text-center"><h1 className="text-5xl font-semibold text-[#560216]">Meet The Team</h1></div>
-          <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
-            {team.map((t)=>(
-              <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
-                  <div className="p-3"><img className="border-4 border-rose-400 hover:border-rose-600 rounded-full" src={t.img} /></div>
-                  <div className="py-4"><h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">{t.name}</h1></div>
-                  <p className="text-xl md:text-lg text-rose-700 font-medium text-center">{t.title}</p>
-              </div>
-            ))}
-          </div>
+        <div className="p-7 text-center">
+          <h1 className="text-5xl font-semibold text-[#560216]">
+            Meet The Team
+          </h1>
         </div>
+        <div className="grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 w-11/12 mx-auto">
+          {team.map((t) => (
+            <div className="sm:p-3 p-5 bg-rose-100 m-2 rounded-md drop-shadow-lg">
+              <div className="p-3">
+                <img
+                  className="border-4 border-rose-400 hover:border-rose-600 rounded-full"
+                  src={t.img}
+                />
+              </div>
+              <div className="py-4">
+                <h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">
+                  {t.name}
+                </h1>
+              </div>
+              <p className="text-xl md:text-lg text-rose-700 font-medium text-center">
+                {t.title}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
 
       <div className="bg-[#560216ea] mb-11 mx-auto w-11/12 rounded-lg shadow-md">
         <div className="px-8 py-14">
@@ -422,7 +419,6 @@ function App() {
         </div>
       </div>
     </>
-    
   );
 }
 

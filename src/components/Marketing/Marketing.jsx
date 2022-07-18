@@ -95,7 +95,7 @@ function App() {
       </h2>
       
         {MsServices.map((s) => (
-          <div className="p-7 md:grid md:grid-cols-2 sm:w-5/6 gap-24 mx-auto bg-rose-50 my-11 rounded-lg w-11/12 drop-shadow-lg">
+          <div className="p-7 lg:grid lg:grid-cols-2 sm:w-5/6 gap-24 mx-auto bg-rose-50 my-11 rounded-lg w-11/12 drop-shadow-lg">
           <div className="my-auto">
             <h2 className=" text-4xl font-semibold text-[#560216]">{s.name}</h2>
             <div className="mt-1 ml-1 w-1/3 h-1 bg-[#560216]"></div>
@@ -103,13 +103,13 @@ function App() {
               {s.data}
             </p>
             <div className="py-3 flex justify-end ">
-              <button className="text-lg  text-white bg-[#560216] p-2 py-3 w-1/3 tracking-wider mr-auto rounded-md hover:bg-rose-900">
+              <button className="text-lg  text-white bg-[#560216] py-2 px-4 w-fit tracking-wider mr-auto rounded-md hover:bg-rose-900">
                 Get Started
               </button>
             </div>
           </div>
           <div
-            className="lg:h-96 md:w-full md:h-56 w-full h-72 my-auto bg-no-repeat bg-red-200 rounded-xl"
+            className="h-fit w-fit my-auto bg-no-repeat bg-red-200 rounded-xl"
           ><img src={s.backgroundImage} alt="img"/></div>
           </div>
         ))}

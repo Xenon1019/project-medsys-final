@@ -6,6 +6,7 @@ import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import ContactForm from "../../ContactForm";
+import { RelatedRead } from "../common";
 import "./pan.css";
 
 import commencement from "./imgs/Commencement of Business.svg";
@@ -108,7 +109,7 @@ export default function PAN() {
 
             </div>
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
@@ -163,7 +164,7 @@ export default function PAN() {
                     </div>
                 </div>
 
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="Benefit">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">Necessity & Benefit Of PAN</h2>
                         <ul>
@@ -218,11 +219,9 @@ export default function PAN() {
                                     </p>
                                 </div>
                             </li>
-                            <div class="plc my-4">
-                                <p>Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?</p>
-                                <button type="submit" class="button"> <a href="">CLICK HERE</a></button>
-                            </div>
-
+                            <RelatedRead>
+                                Related Read:Income Tax Returns (ITR) AY 2021-22: Which ITR Form Should You File?
+                            </RelatedRead>
                             <li className="my-3 flex flex-row">
                                 <img src={commencement} alt="" className="inline aspect-square w-18 mr-5" />
                                 <div>
@@ -341,15 +340,13 @@ export default function PAN() {
                                 </td>
                             </tr>
                         </table>
-                        <div class="plc">
-                            <p>Related Read:How To Choose Between A Private Ltd. Company And LLP?</p>
-                            <button type="submit" class="button"> <a
-                                href="">CLICK HERE</a></button>
-                        </div>
+                        <RelatedRead>
+                            Related Read:How To Choose Between A Private Ltd. Company And LLP?
+                        </RelatedRead>
                     </div>
 
 
-                    <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                    <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
                         <div className="my-12" id="Help">
                             <h2 className="text-3xl text-[#560216] font-bold my-4">How We Can Help You?</h2>
 

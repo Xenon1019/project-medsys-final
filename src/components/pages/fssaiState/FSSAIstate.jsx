@@ -36,17 +36,18 @@ const FSSAIstate = () => {
   TabTitle('FSSAI State License - medsysconsultancy.com');
 
   return (
-    <div className='font-serif'>
-      <div
-        className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
-        style={{ backgroundImage: `url(${bg})` }}
-      >
-        <div className="">
-          <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-            <h2 className='text-5xl font-bold '>FSSAI State License</h2>
+    <>
+    <pagesHeader />
+    <div
+      className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+      <div className="">
+        <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+          <h1 className="text-5xl font-semibold">FSSAI State License</h1>
           </div>
           <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-            <p className='text-lg mr-20'>Food license is a mandatory compliance for the manufacturers dealing in the food business and restaurant business that certifies the safety of food products supplied or manufactured by various organizations in India. Get your food business registered by availing of our premium offers at the least cost, certifying the successful completion of the process.</p>
+            <p>Food license is a mandatory compliance for the manufacturers dealing in the food business and restaurant business that certifies the safety of food products supplied or manufactured by various organizations in India. Get your food business registered by availing of our premium offers at the least cost, certifying the successful completion of the process.</p>
           </div>
           <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
             {points.map((p) => (
@@ -91,18 +92,19 @@ const FSSAIstate = () => {
       <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
         <div className="text-xl my-auto">Get in touch with us acquire various licenses, registrations, and certifications</div>
 
-        <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
-          <a href="tel:+91 70204 38881">Call Now!</a>
-        </button>
+<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+  <a href="tel:+91 70204 38881">Call Now!</a>
+</button>
+</div>
 
-      </div>
-
-      <div className="flex  h-full w-full">
-        <div className="sm:w-1/4 hidden md:block">
-          <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
-            <div className="bg-white rounded-xl p-5">
-              <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
-              <hr className='bg-[#560216]' />
+<div className="flex  h-full w-full">
+<div className="sm:w-1/4 hidden md:block">
+  <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
+    <div className="bg-white rounded-xl p-5">
+      <h2 className="text-2xl text-[#560216] font-bold text-center">
+        Table Of Contents
+      </h2>
+      <hr className="bg-[#560216]" />
               <Scrollspy items={[
                 'Overview',
                 'Role',
@@ -123,14 +125,13 @@ const FSSAIstate = () => {
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Process'>Process Flow</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Penalties'>Penalties</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
-              </Scrollspy>
+                </Scrollspy>
             </div>
           </div>
         </div>
-        <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
-
-          <div className='my-12' id="Overview">
-            <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
+          <div className="my-12" id="Overview">
+            <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
             <p>FSSAI (Food Safety Standard Authority of India) is a prominent government-backed entity that regulates the food sector in India. It has outlined countless guidelines and provisions to foster food safety across the nation. Presently, every food business in India is mandated to secure an applicable food license to conduct its business operation. Functioning without a valid food license is a punishable offence for FBOs as per FSS Act, 2006. FSSAI conducts all its operations in view of the said Act and also follows the direction of the Ministry of Health and Family Welfare.</p>
           </div>
 
@@ -415,7 +416,7 @@ const FSSAIstate = () => {
         </div>
       </div>
       <ContactForm />
-    </div>
+    </>
   )
 }
 

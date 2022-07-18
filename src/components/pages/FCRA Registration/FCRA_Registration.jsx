@@ -103,7 +103,7 @@ const FCRA_Registration = () => {
 
 
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12">
                         <div className="bg-white rounded-xl p-5">
@@ -227,12 +227,9 @@ const FCRA_Registration = () => {
                                 </li>
                             </Scrollspy>
                         </div>
-                        <button className="bg-[#560216] text-white text-center w-3/4 sm:w-1/2 p-2 mx-auto mt-2 rounded-md text-lg hover:bg-green-600">
-                            CONTACT US
-                        </button>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 py-4 ">
+                <div className=" h-full sm:w-3/4 px-5 py-4 ">
                     <div className="my-12" id="Overview">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
                         <p className="my-2">
@@ -300,7 +297,7 @@ const FCRA_Registration = () => {
                             Procedure
                         </h2>
                         <p>To apply for FCRA Registration, below- mentioned steps are required:-</p>
-                        <img src={apendaImg} alt="" />
+                        <img className="mx-auto my-3" src={apendaImg} alt="" />
                         <ul className="">
                             <div className="my-2">
                                 <li className="arrow">CRA Online Portal</li>
@@ -415,7 +412,7 @@ const FCRA_Registration = () => {
                         <p>
                         Following entities are not allowed to be granted FCRA registration:-
                         </p>
-                        <img src={apendaImg} alt="" />
+                        <img className="mx-auto my-3" src={apendaImg} alt="" />
                         <ul className="">
                             <li className="arrow">The applicant is fictitious or Benami.</li>
                             <li className="arrow">Applicant against whom prosecution is conducted for indulging in any unfair activity</li>
@@ -447,7 +444,7 @@ const FCRA_Registration = () => {
                         <p>
                         In case authorities are of the view that registered entity is not operating as per the provisions of law and its license needs to be cancelled, such authority can do so by giving the notice to the concerned entity. Following are the few reasons that can be considered while cancelling the license:
                         </p>
-                        <img src={apendaImg} alt="" />
+                        <img className="mx-auto my-3" src={apendaImg} alt="" />
                         <ul className="">
                             <li className="arrow">NGO fails to comply with the provisions of the Foreign Contribution (Regulation) Act.</li>
                             <li className="arrow">If the entity fails to submit an annual return within the due date</li>
@@ -614,6 +611,7 @@ const FCRA_Registration = () => {
       <ContactForm/>
 
             </div>
+        <ContactForm />
         </>
     );
 }

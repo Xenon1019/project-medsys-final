@@ -41,67 +41,67 @@ const IECRegistration = () => {
     TabTitle('Design Registration - medsysconsultancy.com');
 
     return (
-        <div className='font-serif'>
-            <div
-                className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
-                style={{ backgroundImage: `url(${bg})` }}
-            >
-                <div className="">
-                    <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-                        <h2 className='text-5xl font-bold '>IEC Registration</h2>
-                    </div>
-                    <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-                        <p className='text-lg mr-20 mt-2'>Do you want to bring goods or services into or out of India?</p>
+        <>
+          <pagesHeader />
+          <div
+            className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
+            style={{ backgroundImage: `url(${bg})` }}
+          >
+            <div className="">
+              <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
+                <h1 className="text-5xl font-semibold">IEC Registration </h1>
+          </div>
+          <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
+            <p>Do you want to bring goods or services into or out of India?</p>
                         <p className='text-lg mr-20 mt-2'>Get IEC now to begin your import/export business!</p>
-                    </div>
-                    <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
-                        {points.map((p) => (
-                            <div className="flex gap-3 py-2">
-                                <div>
-                                    <img className="h-7 w-7" src={p.icon} alt="" />
-                                </div>
-                                <div>{p.head}</div>
-                            </div>
-                        ))}
-                    </div>
+          </div>
+          <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
+            {points.map((p) => (
+              <div className="flex gap-3 py-2">
+                <div>
+                  <img className="h-7 w-7" src={p.icon} alt="" />
                 </div>
-                <div className="px-3 py-9">
-                    <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
-                        <div className="flex flex-col text-gray-600 py-2">
-                            <label>Full Name</label>
-                            <input
-                                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                                type="text"
-                            />
-                        </div>
-                        <div className="flex flex-col text-gray-600 py-2">
-                            <label>Phone Number</label>
-                            <input
-                                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                                type="number"
-                            />
-                        </div>
-                        <div className="flex flex-col text-gray-600 py-2">
-                            <label>E-mail</label>
-                            <input
-                                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
-                                type="e-mail"
-                            />
-                        </div>
-                        <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
-                            Request a Callback
-                        </button>
-                    </form>
-                </div>
+                <div>{p.head}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="px-3 py-9">
+          <form className="mx-auto sm:w-2/3 bg-white p-6 px-6 rounded-md">
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Full Name</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="text"
+              />
             </div>
-            <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
-                <div className="text-xl my-auto">Our IEC Registration Packages Start From ₹4,500/- All-Inclusive</div>
-
-                <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
-                    <a href="tel:+91 70204 38881">Call Now!</a>
-                </button>
-
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>Phone Number</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="number"
+              />
             </div>
+            <div className="flex flex-col text-gray-600 py-2">
+              <label>E-mail</label>
+              <input
+                className="rounded-md bg-gray-100 mt-2 p-2 focus:bg-gray-200 focus:outline-none"
+                type="e-mail"
+              />
+            </div>
+            <button className="w-3/4 py-2 mt-5 bg-mainColor text-rose-100 font-semibold rounded-md hover:bg-rose-900">
+              Request a Callback
+            </button>
+          </form>
+        </div>
+      </div>
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+        <div className="text-xl my-auto">Our IEC Registration Packages Start From ₹4,500/- All-Inclusive</div>
+
+<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+  <a href="tel:+91 70204 38881">Call Now!</a>
+</button>
+</div>
             <div className='mx-4 md:mx-40 my-20'>
                 <h2 className='text-3xl text-[#560216] font-bold my-8'>What Is IEC Registration?</h2>
                 <div>
@@ -114,8 +114,10 @@ const IECRegistration = () => {
         <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
-              <h2 className="text-2xl text-[#560216] font-bold text-center">Table Of Contents</h2>
-                            <hr className='bg-[#560216]' />
+              <h2 className="text-2xl text-[#560216] font-bold text-center">
+                Table Of Contents
+              </h2>
+              <hr className="bg-[#560216]" />
                             <Scrollspy items={[
                                 'Overview',
                                 'Benefits',
@@ -128,14 +130,13 @@ const IECRegistration = () => {
                                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Documents'>Documents Required</a></li>
                                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#How'>How Will We Help You?</a></li>
                                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
-                            </Scrollspy>
-                        </div>
-                    </div>
-                </div>
-                <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
-
-                    <div className='my-12' id="Overview">
-                        <h2 className='text-3xl text-[#560216] font-bold my-4'>Overview</h2>
+                                </Scrollspy>
+            </div>
+          </div>
+        </div>
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
+          <div className="my-12" id="Overview">
+            <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
                         <p>India has witnessed a huge growth in the export and import sector in recent years. Indian businesses are looking to expand their base from domestic to international markets, whereas multinational companies like Google, Amazon, Emirates, etc. are entering the Indian marketplace. An importer requires an IEC certificate to clear his shipment from the customs and also to make payment to the foreign party. Exporters use the IEC code to send shipments to foreign countries and receive payments from their foreign clients.</p>
                         <p>All types of business structures such as proprietorship, partnership firms, LLPs, Companies and charitable organizations are eligible to apply for IEC certificate. IEC certificate is not required if the goods or services imported or exported are for personal use or for traders who are registered under GST.</p>
                     </div>
@@ -328,7 +329,7 @@ const IECRegistration = () => {
                 </div>
             </div>
       <ContactForm/>
-        </div>
+        </>
     )
 }
 

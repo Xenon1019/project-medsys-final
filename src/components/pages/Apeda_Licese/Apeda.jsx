@@ -103,7 +103,7 @@ const Apeda = () => {
 
 
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12">
                         <div className="bg-white rounded-xl p-5">
@@ -209,12 +209,9 @@ const Apeda = () => {
                                 </li>
                             </Scrollspy>
                         </div>
-                        <button className="bg-[#560216] text-white text-center w-3/4 sm:w-1/2 p-2 mx-auto mt-2 rounded-md text-lg hover:bg-green-600">
-                            CONTACT US
-                        </button>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="About">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">About APEDA Registration</h2>
                         <p className="my-2">

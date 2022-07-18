@@ -64,12 +64,14 @@ import FSSAI from "./components/pages/fssai/FSSAI";
 import Fundraising from "./components/pages/fundraising/Fundraising";
 import GEm from "./components/pages/gemRegistration/GEm";
 import PAN from "./components/pages/pan/PAN";
+import Startup from "./components/pages/startup/Startup";
+import GST from "./components/pages/gst/GST";
+import Shop from "./components/pages/shop/Shop";
 // import Business_plan from "./components/pages/Business_plan/Business_plan";
 // import Ngo_Registration from "./components/pages/Ngo_12A_80G_Reg/Ngo_Registration";
 // import OnePersonCompany from "./components/pages/One_person_company/OnePersonCompany";
 // import Sole_Proprietorship from "./components/pages/Sole Proprietorship/Sole_Proprietorship";
-
-// >>>>>>> 0992127f5f73a80a9b079dd4d2dcedeba852b6a8
+import HowWeWork from "./components/HowWeWork";
 import {
   BrowserRouter,
   Routes,
@@ -83,6 +85,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/tushar" element={<HowWeWork />}></Route>
           <Route path="/FCRA-registration" element={<BlogFCRARegistration />}></Route>
           <Route path="/CSR-1-Registration" element={<BlogCSRRegistration />}></Route>
           <Route path="/login" element={<LoginRegister/>}></Route>
@@ -150,6 +153,9 @@ function App() {
           <Route path="/fundraising" element={ <Fundraising/> }></Route>
           <Route path="/gem-registration" element={ <GEm /> }></Route>
           <Route path="/pan-applicaton" element={ <PAN /> }></Route>
+          <Route path="/startup" element={ <Startup /> }></Route>
+          <Route path="/gst" element={ <GST /> }></Route>
+          <Route path="/shop" element={ <Shop /> }></Route>
           <Route path="/business-plan" element={ <Business_plan /> }></Route>
           <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
           <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>

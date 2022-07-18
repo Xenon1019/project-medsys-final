@@ -38,17 +38,18 @@ const FSSAIannual = () => {
   TabTitle('FSSAI State License - medsysconsultancy.com');
 
   return (
-    <div className='font-serif'>
+    <>
+      <pagesHeader />
       <div
         className=" sm:grid sm:grid-cols-2 p-7  bg-cover didot"
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="">
           <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-            <h2 className='text-5xl font-bold '>FSSAI Annual Return</h2>
+            <h1 className="text-5xl font-semibold">FSSAI Annual Return </h1>
           </div>
           <div className="text-2xl py-3 px-2 sm:w-3/4 mx-auto text-rose-100">
-            <p className='text-lg mr-20'>Every Food Business operator having an FSSAI license shall file FSSAI Annual Return once a year. Non-compliances of the same can be burdensome. Hurry up, what are you waiting for? Get your FSSAI return file in a hassle-free manner. Medsys can make your way of filing FSSAI Returns very easy by ensuring the successful completion of the process.</p>
+            <p>Every Food Business operator having an FSSAI license shall file FSSAI Annual Return once a year. Non-compliances of the same can be burdensome. Hurry up, what are you waiting for? Get your FSSAI return file in a hassle-free manner. Medsys can make your way of filing FSSAI Returns very easy by ensuring the successful completion of the process.</p>
           </div>
           <div className="sm:w-2/3 mx-auto text-lg p-5 text-rose-200">
             {points.map((p) => (
@@ -131,8 +132,8 @@ const FSSAIannual = () => {
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Penalties'>Penalties</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#Additional'>Additional Regulations</a></li>
                 <li><a className=' text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 ' href='#FAQs'>FAQs</a></li>
-                </Scrollspy>
-              </div>
+              </Scrollspy>
+            </div>
           </div>
         </div>
         <div className='h-full sm:w-3/4 px-5 sm:px-9 py-2 '>
@@ -150,7 +151,9 @@ const FSSAIannual = () => {
             <h2 className='text-3xl text-[#560216] font-bold my-8'>What are the Kinds of Annual Return?</h2>
             <p className='my-4'>The kinds of FSSAI Annual Return laid down under the FSSAI Act are-</p>
 
-            <img src={fssaiPageImage} alt="" />
+            <div className='flex justify-center w-full'>
+              <img className='w-96' src={fssaiPageImage} alt="" />
+            </div>
             <ul className=''>
               <div className='my-4'>
                 <li className=" arrow text-lg font-semibold text-[#9D3E55]">FSSAI Form D1</li>
@@ -421,8 +424,8 @@ const FSSAIannual = () => {
           </div>
         </div>
       </div>
-      <ContactForm/>
-    </div>
+      <ContactForm />
+    </>
   )
 }
 
