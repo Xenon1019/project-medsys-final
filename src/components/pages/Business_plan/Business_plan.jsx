@@ -121,7 +121,7 @@ const Business_plan = () => {
                                     "Procedure",
                                     "Compliances",
                                     "Applicability",
-                                    "FAQs",
+                                    "FAQs"
                                 ]}
                                 className="flex flex-col p-2 gap-3 text-center"
                                 currentClassName="content-scroll-view"
@@ -248,30 +248,30 @@ const Business_plan = () => {
                         </h2>
                         <ul className="">
                             <div className="my-2">
-                                <li className="arrow">Product</li>
+                                <li className="text-[#9D3E55] arrow mb-2 text-lg font-semibold">Product</li>
                                 <p>1. What Customer's want?</p>
                                 <p>2. What other products or services capitalize on your existing network of relationships?</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Promotion</li>
+                                <li className="text-[#9D3E55] arrow mb-2 text-lg font-semibold">Promotion</li>
                                 <p>1. How can you grow your existing customer’s awareness of your product, so they help you grow?</p>
                                 <p>2. How can you Network your way to new people and new potential Customers?</p>
                                 <p>3. Can you Make use of social media and other new online tools for outreach and conversation?</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Place</li>
+                                <li className="text-[#9D3E55] arrow mb-2 text-lg font-semibold">Place</li>
                                 <p>1. What other geographic areas make sense to serve own business?</p>
                                 <p>2. Do you have personal international contacts that would help you to explore a global market?</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Presentation</li>
+                                <li className="text-[#9D3E55] arrow mb-2 text-lg font-semibold">Presentation</li>
                                 <p>1. Paper Presentation of plans.</p>
                                 <p>2. Reliable Model</p>
                                 <p>3. Terminal Value( Show plan to investors)</p>
                                 <p>4. Plan of different types of Customers</p>
                             </div>
                             <div className="my-2">
-                                <li className="text-[#9D3E55] arrow text-lg font-semibold">Always Put Customer first in any Business Plan</li>
+                                <li className="text-[#9D3E55] arrow mb-2 text-lg font-semibold">Always Put Customer first in any Business Plan</li>
                                 <p>Put the customer first and know your customer needs and benefits as you offer your product or service, this will give your business plan new wings to fly.</p>
                                 <p>Always consider How much the product or service costs, and how you deliver it to the customer in their favor.</p>
                             </div>
@@ -354,7 +354,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    a. How many people are required to form a private ltd company?
+                                     How many people are required to form a private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -366,7 +366,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    b. How much time it will take to form private ltd company?
+                                     How much time it will take to form private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -378,7 +378,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    c. Who can be a director of a company?
+                                     Who can be a director of a company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -390,7 +390,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    d. Is there any address proof required/mandatory for private ltd company?
+                                     Is there any address proof required/mandatory for private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -402,7 +402,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    e. How many shareholders can be there in a private ltd company?
+                                     How many shareholders can be there in a private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -414,7 +414,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    f. How many directors can be there in private ltd company?
+                                     How many directors can be there in private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -426,7 +426,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    g. What is a DSC?
+                                     What is a DSC?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -438,7 +438,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    h. What are MOA and AOA?
+                                     What are MOA and AOA?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -450,7 +450,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    i. Will you provide this service in my town?
+                                     Will you provide this service in my town?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -462,7 +462,7 @@ const Business_plan = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                    j. I am into a job? Can I start my own company?
+                                     I am into a job? Can I start my own company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>

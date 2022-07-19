@@ -5,12 +5,12 @@ export default function TermsConditions() {
     return (
         <>
         <section className="tAndC">
-        <div className="header-img h-[550px] "></div>
-            <h1 className="section-heading text-3xl font-semibold text-center text-mainColor">Terms & Conditions</h1>
+        <div className="header-img h-[550px] hidden lg:block"></div>
+            <h1 className="section-heading text-4xl pt-5 font-semibold text-center mb-5 text-mainColor">Terms & Conditions</h1>
             <div className="container policies w-11/12 px-12">
-                <h2 className="text-3xl mb font-semibold" >ABOUT US</h2>
-                <h6>Welcome to <a href="/">www.medsysconsultancy.com</a> </h6>
-                <p className="mb-8">Medsys is an online business registration portal for newbie startups, MSME's & NGOs in India. Medsys
+                <h2 className="text-3xl mb font-semibold mb-2" >ABOUT US</h2>
+                <h2 className='text-lg'>Welcome to <a className='text-lg' href="/">www.medsysconsultancy.com</a> </h2>
+                <p className="mb-8 mt-5">Medsys is an online business registration portal for newbie startups, MSME's & NGOs in India. Medsys
                     renders a wide range of services in the area of company incorporation, NGO Registration, 12A 80G
                     Registration, NGO Advocacy, GST registration, FSSAI registration, obtaining import-export code,
                     preparing a business plan, helping in protecting brand/intellectual property including trademark,
@@ -18,18 +18,18 @@ export default function TermsConditions() {
                     businesses.</p>
                 <p className="site-detail"><a href="/">www.medsysconsultancy.com</a> “website” is owned and maintained by Medsys
                     Consultancy.</p>
-                <h2 className="text-3xl font-semibold" >AGREEMENT</h2>
+                <h2 className="text-3xl font-semibold mb-2" >AGREEMENT</h2>
                 <p className="mb-8">Please read the terms and conditions set out below carefully before ordering any product or service from
                     our website or mobile application or any other mode. By using or ordering any product or service from
                     our website or mobile application or any other mode including by any computer equipment or by
                     phone/mobile or by any electronic device you agree to be bound by these Terms and Conditions.</p>
-                <h2 className="text-3xl font-semibold" >GENERAL</h2>
+                <h2 className="text-3xl font-semibold mb-2" >GENERAL</h2>
                 <p className="mb-8">In terms of the Information Technology Act, 2000, this document is an electronic record. Being generated
                     by a computer system it does not require any physical or digital signatures.
                 </p>
                 <p className="mb-8">The domain name <a href="/">www.medsysconsultancy.com</a> (hereinafter referred to as “the Website”) is
                     owned by Medsys Consultancy. </p>
-                <h2 className="text-3xl font-semibold" >USER OBLIGATIONS
+                <h2 className="text-3xl font-semibold mb-2" >USER OBLIGATIONS
                 </h2>
                 <p className="mb-8">-By visiting our website and accessing the information, resources, services, products, and tools we
                     provide, you understand and agree to accept and adhere to the terms and conditions as stated in this
@@ -118,7 +118,7 @@ export default function TermsConditions() {
                     responsible for any delay or failure in removing such content. If you post content that we choose to
                     remove, you hereby consent to such removal and consent to waive any claim against us.
                 </p>
-                <h2 className="text-3xl font-semibold" >INDEMNIFICATION AND LIMITATION OF LIABILITY
+                <h2 className="text-3xl font-semibold mb-2" >INDEMNIFICATION AND LIMITATION OF LIABILITY
                 </h2>
                 <p className="mb-8">YOU AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS THIS WEBSITE INCLUDING BUT NOT LIMITED TO ITS PARENT
                     COMPANY/LLP, PARTNERS, OWNERS, AFFILIATE VENDORS, AGENTS AND EMPLOYEES FROM AND AGAINST ANY AND ALL
@@ -131,12 +131,12 @@ export default function TermsConditions() {
                     CAUSED DAMAGE TO A THIRD PARTY, YOUR VIOLATION OF THE TERMS OF USE, OR YOUR VIOLATION OF ANY RIGHTS OF
                     ANOTHER, INCLUDING ANY INTELLECTUAL PROPERTY RIGHTS.
                 </p>
-                <h2 className="text-3xl font-semibold" >GUARANTEE</h2>
+                <h2 className="text-3xl font-semibold mb-2" >GUARANTEE</h2>
                 <p className="mb-8">UNLESS OTHERWISE EXPRESSED, <a href="/">www.medsysconsultancy.com </a> EXPRESSLY DISCLAIMS ALL WARRANTIES
                     AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED
                     WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
                 </p>
-                <h2 className="text-3xl font-semibold" >TERMINATION OF USE
+                <h2 className="text-3xl font-semibold mb-2" >TERMINATION OF USE
                 </h2>
                 <p className="mb-8">You agree that we may, at our sole discretion, reserve the rights to suspend or terminate your access to
                     all or part of our website and resources with or without notice and for any reason, including, without
@@ -144,7 +144,7 @@ export default function TermsConditions() {
                     any services or termination of services if the terms are not complied with or are contravene or
                     violation suspected.
                 </p>
-                <h2 className="text-3xl font-semibold" >DATA PROVIDED BY US
+                <h2 className="text-3xl font-semibold mb-2" >DATA PROVIDED BY US
                 </h2>
                 <p className="mb-8">1.From time to time, our team may post comments or articles. These articles are the Intellectual Property
                     of the Company and you are prohibited from posting, reproducing, publishing, changing, or editing such
@@ -165,7 +165,7 @@ export default function TermsConditions() {
                     websites may have their own policies and us in no way are responsible for any loss or damage caused by
                     the same to you. You are advised to use your own discretion in the navigation and use of external sites.
                 </p>
-                <h2 className="text-3xl font-semibold" >THIRD PARTY INFORMATION
+                <h2 className="text-3xl font-semibold mb-2" >THIRD PARTY INFORMATION
                 </h2>
                 <p className="mb-8">All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music and
                     artwork (collectively, "Content"), apart from the ones owned by Us, is a third-party user generated
@@ -183,16 +183,16 @@ export default function TermsConditions() {
                     known or hereafter devised, including the creation of derivative works that may include the Content You
                     provide and are not entitled to any payment or other compensation for such use.
                 </p>
-                <h2 className="text-3xl font-semibold" >DISPUTE RESOLUTION
+                <h2 className="text-3xl font-semibold mb-2" >DISPUTE RESOLUTION
                 </h2>
                 <p className="mb-8">This Agreement, the construction, enforcement and the interpretation of its terms and any disputes
                     arising out of it shall be governed by the Laws of India and shall be subject to the courts located in
                     Mumbai, and You hereby submit to the personal jurisdiction of such courts.
                 </p>
-                <h2 className="text-3xl font-semibold" >CONTACT US
+                <h2 className="text-3xl font-semibold mb-2" >CONTACT US
                 </h2>
-                If you have any questions regarding the Agreement, the practices of Medsys Consultancy or any complaints
-                with the service, you can e-mail us at <a href="/">medsysconsultancy@gmail.com</a>
+                <p className='pb-5'>If you have any questions regarding the Agreement, the practices of Medsys Consultancy or any complaints
+                with the service, you can e-mail us at <a href="/">medsysconsultancy@gmail.com</a></p>
             </div>
             </section>
         </>

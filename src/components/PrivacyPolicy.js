@@ -6,9 +6,11 @@ export default function PrivacyPolicy() {
     return (
         <>
             <section className="privacy-policy">
-            <div className="privacy-header h-[550px]"></div>
+            <div className="privacy-header h-[550px] hidden lg:block"></div>
                 <div className="container policies px-12">
-                    <h1 className="font-bold">1. GENERAL</h1>
+            <h1 className="section-heading text-4xl pt-5 font-semibold text-center mb-5 text-mainColor">Privacy Policy</h1>
+
+                    <h1 className="font-bold mt-5 mb-2">1. GENERAL</h1>
                     <p className="mb-8">a) This document is an electronic record in terms of Information Technology Act, 2000 and rules there under
                         as
                         applicable and the amended provisions pertaining to electronic records in various statutes as amended by the
@@ -84,7 +86,7 @@ export default function PrivacyPolicy() {
                         personal, non-exclusive, non-transferable, revocable, limited privilege to enter, access, and use the
                         Website.
                     </p>
-                    <h1 className="font-bold">2. COLLECTION OF PERSONAL AND OTHER INFORMATION
+                    <h1 className="font-bold mb-2">2. COLLECTION OF PERSONAL AND OTHER INFORMATION
                     </h1>
                     <p className='mb-6'>a) The User expressly agrees and acknowledges that the Company collects and stores the user’s personal
                         information,
@@ -165,7 +167,7 @@ export default function PrivacyPolicy() {
                         display in any manner content/reviews/surveys/feedback submitted by the User, and the User hereby expressly
                         authorizes the Website/Company to remove from the Website any such content, review, survey, or feedback
                         submitted by the User, without cause or being required to notify the</p>
-                    <h1 className="font-bold">3. COOKIES</h1>
+                    <h1 className="font-bold mb-2">3. COOKIES</h1>
                     <p className="mb-8">a) The User is aware that a cookie is a small piece of information stored by a web server on a web
                         browser so it can later be traced back from that particular browser, and that cookies are useful for
                         enabling the browser to remember information specific to a given user, including but not limited to a
@@ -183,7 +185,7 @@ export default function PrivacyPolicy() {
                         User expressly agrees and acknowledges that the Company/Website does not control the use of such
                         cookies/other devices by third parties, that the Company/Website is in no way responsible for the same,
                         and that the User assumes any and all risks in this regard.</p>
-                    <h1 className="font-bold">4. DIVULGING/SHARING OF PERSONAL INFORMATION
+                    <h1 className="font-bold mb-2">4. DIVULGING/SHARING OF PERSONAL INFORMATION
                     </h1>
                     <p className='mb-6'>a) The User is aware that the Website/Company may share the User’s personal information with other
                         corporate entities and affiliates to help detect and prevent identity theft, fraud and other potentially
@@ -203,7 +205,7 @@ export default function PrivacyPolicy() {
                         plan to merge with, or be acquired by such business entity, or in the event of re-organization,
                         amalgamation, or restructuring of the Company’s business. Such business entity or new entity will
                         continue to be bound by the Terms and Policy, as may be amended from time to time.</p>
-                    <h1 className="font-bold">5. SECURITY</h1>
+                    <h1 className="font-bold mb-2">5. SECURITY</h1>
                     <p className="mb-8">
                         Transactions on the Website are secure and protected. Any information entered by the User when
                         transacting on the Website is encrypted to protect the User against unintentional disclosure to third
@@ -213,7 +215,7 @@ export default function PrivacyPolicy() {
                         regulations and requirements of various banks and institutions and payment franchisees that it is
                         associated with.
                     </p>
-                    <h1 className="font-bold">6. THIRD-PARTY ADVERTISEMENTS / PROMOTIONS
+                    <h1 className="font-bold mb-2">6. THIRD-PARTY ADVERTISEMENTS / PROMOTIONS
                     </h1>
                     <p className='mb-6'>The User is aware that the Company/Website uses third-party advertising companies to serve ads to the
                         users of the Website. The User is aware that these companies may use information relating to the User’s
@@ -222,18 +224,18 @@ export default function PrivacyPolicy() {
                         information about the User. The Company/Website is not responsible for the privacy practices or the
                         content of any of the aforementioned linked websites, and the User expressly acknowledges the same and
                         agrees that any and all risks associated will be borne entirely by the User.</p>
-                    <h1 className="font-bold">7. USER’S CONSENT</h1>
+                    <h1 className="font-bold mb-2">7. USER’S CONSENT</h1>
                     <p className='mb-6'>By using the Website and/ or by providing information to the Company through the Website, the User
                         consents to the collection and use of the information disclosed by the User on the Website in accordance
                         with this Policy, including but not limited to the User’s consent the Company/Website sharing/divulging
                         the User’s information, as per the terms contained hereinabove in Section 4 of the Policy.
                     </p>
-                    <h1 className="font-bold">8. GRIEVANCE OFFICER
+                    <h1 className="font-bold mb-2">8. GRIEVANCE OFFICER
                     </h1>
                     <p className="mb-8">In accordance with Information Technology Act, 2000 and rules made thereunder, the name and contact
                         details of the Grievance Officer are provided below: Nishant Shah (E-mail: medsysconsultancy@gmail.com)
                     </p>
-                    <h1 className="font-bold">9. DISPUTE RESOLUTION AND JURISDICTION</h1>
+                    <h1 className="font-bold mb-2">9. DISPUTE RESOLUTION AND JURISDICTION</h1>
                     <p className="mb-8">It is expressly agreed to by the Parties hereto that the formation, interpretation, and performance of
                         this Policy and any disputes arising therefrom will be resolved through a two-step Alternate Dispute
                         Resolution (“ADR”) mechanism. It is further agreed to by the Parties that the contents of this Section

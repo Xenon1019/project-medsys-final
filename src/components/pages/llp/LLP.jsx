@@ -590,7 +590,7 @@ export default function LLP() {
                             </RelatedRead>
 
                             <li className="my-3 flex flex-row">
-                                <img src={form8} alt="" className="hidden sm:inline aspect-square w-18 mr-5 mx-auto" />
+                                <img src={form8} alt="" className="hidden sm:inline aspect-square w-18 mr-5" />
                                 <div>
                                     <h3 className="font-bold text-[#560216] my-2">
                                         Form 8

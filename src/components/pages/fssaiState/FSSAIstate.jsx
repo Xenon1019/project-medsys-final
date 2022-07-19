@@ -89,10 +89,10 @@ const FSSAIstate = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white py-h-26 sm:h-20">
         <div className="text-xl my-auto">Get in touch with us acquire various licenses, registrations, and certifications</div>
 
-<button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+<button className="bg-[#560216] text-white w-1/2 my-auto h-3/4 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
   <a href="tel:+91 70204 38881">Call Now!</a>
 </button>
 </div>
@@ -296,7 +296,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    a. What is an FSSAI state license?
+                     What is an FSSAI state license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -308,7 +308,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    b. How can I get FSSAI state license?
+                     How can I get FSSAI state license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -320,7 +320,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    c. Who all required FSSAI license?
+                     Who all required FSSAI license?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -332,7 +332,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    d. What is central and state Fssai Licence?
+                     What is central and state Fssai Licence?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -344,7 +344,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    e. Can FSSAI impose a penalty?
+                     Can FSSAI impose a penalty?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -354,7 +354,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    f.What happens if the FSSAI license expires?
+                    What happens if the FSSAI license expires?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -364,7 +364,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    g. What is the Importance of FSSAI License?
+                     What is the Importance of FSSAI License?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -374,7 +374,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    h. Name the Act considered by FSSAI for formulating guidelines for FBOs?
+                     Name the Act considered by FSSAI for formulating guidelines for FBOs?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -384,7 +384,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    i. Is it possible for the FBOs to conduct food business without FSSAI License?
+                     Is it possible for the FBOs to conduct food business without FSSAI License?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -394,7 +394,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    j. What happens after the submission of food license application?
+                     What happens after the submission of food license application?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -404,7 +404,7 @@ const FSSAIstate = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    k. Still Confused?
+                     Still Confused?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

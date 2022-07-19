@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/" className="text-white">
-                  Pay US
+                  Pay Us
                 </Link>
               </li>
             </ul>
