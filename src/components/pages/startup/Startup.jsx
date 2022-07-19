@@ -95,13 +95,13 @@ export default function Startup() {
                     </form>
                 </div>
             </div>
-            <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+            <div className="flex justify-center items-center gap-11 px-4 bg-black text-white py-2 h-27  sm:h-20">
                 <div className="text-xl my-auto">
                     Get in touch with us acquire various licenses, registrations,
                     and certifications
                 </div>
 
-                <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+                <button className="bg-[#560216] text-white w-1/2 my-auto h-3/4 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
                     <a href="tel:+91 70204 38881">Call Now!</a>
                 </button>
 
@@ -120,7 +120,7 @@ export default function Startup() {
                 </p>
             </div>
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex  h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
@@ -192,7 +192,7 @@ export default function Startup() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="Overview">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
                         <p className="my-2">

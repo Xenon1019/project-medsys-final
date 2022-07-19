@@ -261,7 +261,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        a.How many days will it take to get my IEC certificate?
+                                        How many days will it take to get my IEC certificate?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -273,7 +273,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        b. I have 5 different branches of my business. Do I need to separately take an IEC certificate for each branch?
+                                         I have 5 different branches of my business. Do I need to separately take an IEC certificate for each branch?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -285,7 +285,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        c. Are there any compliances after the IEC certificate is obtained?
+                                         Are there any compliances after the IEC certificate is obtained?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -295,7 +295,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        d. Can I update my IEC code after registration?
+                                         Can I update my IEC code after registration?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -307,7 +307,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        e. Can I cancel my IEC certificate?
+                                         Can I cancel my IEC certificate?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -317,7 +317,7 @@ const IECRegistration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        f. Still Confused?
+                                         Still Confused?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>

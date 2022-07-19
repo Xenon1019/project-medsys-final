@@ -45,7 +45,7 @@ export default function GEm() {
             >
                 <div className="">
                     <div className="py-7 flex sm:w-3/4 mx-auto text-rose-100">
-                        <h1 className="text-5xl font-semibold">Government e-marketplace</h1>
+                        <h1 className="text-5xl font-semibold">Government E-Market Place</h1>
                     </div>
                     <div className="h-[90px]">
                     </div>

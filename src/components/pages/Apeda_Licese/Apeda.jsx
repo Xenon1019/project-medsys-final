@@ -389,7 +389,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        a. How many people are required to form a private ltd company?
+                                         How many people are required to form a private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -401,7 +401,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        b. How much time it will take to form private ltd company?
+                                         How much time it will take to form private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -413,7 +413,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        c. Who can be a director of a company?
+                                         Who can be a director of a company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -425,7 +425,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        d. Is there any address proof required/mandatory for private ltd company?
+                                         Is there any address proof required/mandatory for private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -437,7 +437,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        e. How many shareholders can be there in a private ltd company?
+                                         How many shareholders can be there in a private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -449,7 +449,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        f. How many directors can be there in private ltd company?
+                                         How many directors can be there in private ltd company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -461,7 +461,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        g. What is a DSC?
+                                         What is a DSC?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -473,7 +473,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        h. What are MOA and AOA?
+                                         What are MOA and AOA?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -485,7 +485,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        i. Will you provide this service in my town?
+                                         Will you provide this service in my town?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -497,7 +497,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        j. I am into a job? Can I start my own company?
+                                         I am into a job? Can I start my own company?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -509,7 +509,7 @@ const Apeda = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        k. Still Confused?
+                                         Still Confused?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>

@@ -91,10 +91,10 @@ const FSSAIannual = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+      <div className="flex justify-center items-center gap-11 px-4 bg-black text-white py-2 h-26 sm:h-20">
         <div className="text-xl my-auto">Get in touch with us acquire various licenses, registrations, and certifications</div>
 
-        <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+        <button className="bg-[#560216] text-white w-1/2 my-auto h-3/4 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
           <a href="tel:+91 70204 38881">Call Now!</a>
         </button>
 
@@ -300,7 +300,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    a. What is FSSAI Return?
+                     What is FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -311,7 +311,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    b. How can a person file FSSAI Return?
+                     How can a person file FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -323,7 +323,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    c.What details are required for FSSAI Return?
+                    What details are required for FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -337,7 +337,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    d. Elucidate the persons exempted from filing FSSAI Annual Return.
+                     Elucidate the persons exempted from filing FSSAI Annual Return.
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -347,7 +347,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    e. What are the consequences if a person fails to file FSSAI Return on time?
+                     What are the consequences if a person fails to file FSSAI Return on time?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -357,7 +357,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    f. What are the types of FSSAI Returns?
+                     What are the types of FSSAI Returns?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -370,7 +370,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    g. What is FORM-D 1 in FSSAI Return?
+                     What is FORM-D 1 in FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -381,7 +381,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    h.What is FORM-D 2 in FSSAI Return?
+                    What is FORM-D 2 in FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -392,7 +392,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    i. How can a person download the list of the supporting documents?
+                     How can a person download the list of the supporting documents?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -403,7 +403,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    j. What is the last date for filing FSSAI Return?
+                     What is the last date for filing FSSAI Return?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -413,7 +413,7 @@ const FSSAIannual = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    k. Still Confused?
+                     Still Confused?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

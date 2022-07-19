@@ -105,7 +105,7 @@ export default function Shop() {
 
             </div>
 
-            <div className="flex bg-[#f6d5dd] h-full w-full">
+            <div className="flex  h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
                     <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
@@ -177,7 +177,7 @@ export default function Shop() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+                <div className="h-full sm:w-3/4 px-5 sm:px-9 py-2">
                     <div className="my-12" id="Overview">
                         <h2 className="text-3xl text-[#560216] font-bold my-4">ABOUT SHOP ESTABLISHMENT REGISTRATION</h2>
                         <h3 className="my-2 text-[#9D3E55] font-bold text-lg">
