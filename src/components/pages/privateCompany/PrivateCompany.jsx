@@ -140,11 +140,11 @@ const Trust = () => {
                   "Overview",
                   "Advantages",
                   "Checklist",
-                  "Steps",
+                  "incorporate",
                   "Documents",
                   "Compliances",
                   "PLC",
-                  "FAQs",
+                  "FAQs"
                 ]}
                 className="flex flex-col p-2 gap-3 text-center"
                 currentClassName="content-scroll-view"
@@ -176,7 +176,7 @@ const Trust = () => {
                 <li>
                   <a
                     className=" text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 "
-                    href="#Steps"
+                    href="#incorporate"
                   >
                     Steps To Incorporate
                   </a>
@@ -209,7 +209,7 @@ const Trust = () => {
                 <li>
                   <a
                     className=" text-gray-500 hover:text-[#560216] hover:underline hover:font-bold my-1 "
-                    href="#FAQs"
+                    href="#How"
                   >
                     FAQs
                   </a>
@@ -237,7 +237,7 @@ const Trust = () => {
             </p>
           </div>
 
-          <div className="my-12" id="How">
+          <div className="my-12" id="Advantages">
             <h2 className="text-3xl text-[#560216] font-bold my-4">
               Advantages Of MSME
             </h2>
@@ -296,7 +296,7 @@ const Trust = () => {
             </ul>
           </div>
 
-          <div className="my-12" id="Content">
+          <div className="my-12" id="Checklist">
             <h2 className="text-3xl text-[#560216] font-bold my-4">
               Checklist
             </h2>
@@ -337,7 +337,7 @@ const Trust = () => {
             </section>
           </div>
 
-          <div className="my-12" id="Why">
+          <div className="my-12" id="incorporate">
             <h2 className="text-3xl text-[#560216] font-bold my-4">
               Steps To Incorporate A Private Limited Company
             </h2>
@@ -669,7 +669,7 @@ const Trust = () => {
             </p>
           </div>
 
-          <div className="my-12" id="Why">
+          <div className="my-12" id="PLC">
             <h2 className="text-3xl text-[#560216] font-bold my-4">
               Incorporating A Private Limited Company
             </h2>
@@ -693,7 +693,7 @@ const Trust = () => {
               </li>
 
               <li className="arrow">
-                nce your documents along with the checklist are submitted and
+                Once your documents along with the checklist are submitted and
                 verified, we shall proceed with the application of your DSC and
                 DIN. In parallel to the DSC application, the application for
                 name reservation shall be submitted to the MCA. Applications for

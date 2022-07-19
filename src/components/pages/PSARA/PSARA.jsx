@@ -147,7 +147,7 @@ const PSARA = () => {
 
 
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>1: In Terms Of The Type Of Business Organization</h2>
-                        <h2 className='text-lg font-bold my-2 text-black'>The Following Business Structures Can Apply For PSARA License</h2>
+                        <h2 className='text-md font-bold my-2 text-black'>The Following Business Structures Can Apply For PSARA License</h2>
                         <ul className=''>
                             <li className="arrow">Sole Proprietorship,</li>
                             <li className="arrow">One Person Company(OPC)</li>
@@ -159,7 +159,7 @@ const PSARA = () => {
 
 
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>2: In Terms Of The Role Of A Director/Principal Officer</h2>
-                        <h2 className='text-lg font-bold my-2 text-black'>The PSARA Act Has Underpinned Specific Criteria For Individuals Intending To Serve The Position Of Director/Principal Officer</h2>
+                        <h2 className='text-md font-bold my-2 text-black'>The PSARA Act Has Underpinned Specific Criteria For Individuals Intending To Serve The Position Of Director/Principal Officer</h2>
                         <ul className=''>
                             <li className="arrow">Individual must be an Indian national</li>
                             <li className="arrow">An individual should not be minor as far as age is concerned.</li>
@@ -169,7 +169,7 @@ const PSARA = () => {
 
 
                         <h2 className='text-lg font-bold my-2 text-[#9D3E55]'>3: In Terms Of The Role Of A Security Guard</h2>
-                        <h2 className='text-lg font-bold my-2 text-black'>Individuals intending to become security guards must fulfill the given conditions:</h2>
+                        <h2 className='text-md font-bold my-2 text-black'>Individuals intending to become security guards must fulfill the given conditions:</h2>
                         <ul className=''>
                             <li className="arrow">Individual must be an Indian national</li>
                             <li className="arrow">The person should not be a minor and neither over 65 years of age.</li>
@@ -232,9 +232,9 @@ const PSARA = () => {
                         <h2><span className='text-lg font-bold text-[#9D3E55]'>Note: </span> Authority usually takes around 60 days to grant this license from the date of application submission. Following are the parameters that affect the timeline of granting the license</h2>
 
                         <ul>
-                            <li className='text-lg font-bold my-2 text-black arrow'>Quantum Of Paperwork Compliance Level</li>
-                            <li className='text-lg font-bold my-2 text-black arrow'>Type Of License</li>
-                            <li className='text-lg font-bold my-2 text-black arrow'>Appointment Of Supervisors</li>
+                            <li className='text-md font-bold my-2 text-black arrow'>Quantum Of Paperwork Compliance Level</li>
+                            <li className='text-md font-bold my-2 text-black arrow'>Type Of License</li>
+                            <li className='text-md font-bold my-2 text-black arrow'>Appointment Of Supervisors</li>
 
                             <p>Applicants must appoint the supervisors to stay in line with the provisions of the PSARA, 2005. The supervisors are obligated to administer the agency's operation in relation to the work of the security guards. The supervisors so appointed must have at least three years of experience in the defence services.</p>
 
@@ -249,7 +249,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        a. How do I apply for a Psara license?
+                                         How do I apply for a Psara license?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -261,7 +261,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        b. Who can apply for Psara?
+                                         Who can apply for Psara?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -273,7 +273,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        c.Is Psara license mandatory for security agency?
+                                        Is Psara license mandatory for security agency?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -285,7 +285,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        d. What is the validity of the PSARA License?
+                                         What is the validity of the PSARA License?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -297,7 +297,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        e. What is the Government fee for PSARA Licence?
+                                         What is the Government fee for PSARA Licence?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -309,7 +309,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        f.What is the role of Supervisor so appointed by the Private security agency in India?
+                                        What is the role of Supervisor so appointed by the Private security agency in India?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -321,7 +321,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        g. What are the provisions regarding the License renewal?
+                                         What are the provisions regarding the License renewal?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -333,7 +333,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        h. Is the grant of PSARA license is done on the state-wise basis?
+                                         Is the grant of PSARA license is done on the state-wise basis?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -345,7 +345,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        i.List down some key documentations for obtaining PSARA license in India?
+                                        List down some key documentations for obtaining PSARA license in India?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -357,7 +357,7 @@ const PSARA = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        j. Still Confused?
+                                         Still Confused?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>

@@ -240,7 +240,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    a. What is meant by ‘Design’?
+                     What is meant by ‘Design’?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -253,7 +253,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    b.What is the objective of getting Design registration?
+                    What is the objective of getting Design registration?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -265,7 +265,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    c.Which articles are not applicable for Design registration?
+                    Which articles are not applicable for Design registration?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -282,7 +282,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    d. What is the use of design registration?
+                     What is the use of design registration?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -294,7 +294,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    e. How much is the vaildity of the registration of a design?
+                     How much is the vaildity of the registration of a design?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -304,7 +304,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    f.What is the date of registration?
+                    What is the date of registration?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -314,7 +314,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    g. How much time does it take to get the Design certificate after Design Registration?
+                     How much time does it take to get the Design certificate after Design Registration?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -324,7 +324,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    h. What is a Register of Designs?
+                     What is a Register of Designs?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -334,7 +334,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    i. Can we register a design again for which Copyright has expired?
+                     Can we register a design again for which Copyright has expired?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -344,7 +344,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    j. How much is the penalty for piracy of a registered Design?
+                     How much is the penalty for piracy of a registered Design?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -354,7 +354,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    k. Will you provide this service in my town?
+                     Will you provide this service in my town?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -364,7 +364,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    l. Do I need to physically present for the process?
+                     Do I need to physically present for the process?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -374,7 +374,7 @@ const Design = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    m. Still Confused?
+                     Still Confused?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

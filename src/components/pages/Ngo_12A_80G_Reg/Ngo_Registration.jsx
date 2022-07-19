@@ -265,7 +265,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        a. What is the timeline involved for the new 12A and 80G registration?
+                                         What is the timeline involved for the new 12A and 80G registration?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -277,7 +277,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        b. When can a trust apply for 12A and 80G?
+                                         When can a trust apply for 12A and 80G?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -289,7 +289,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        c. Do I have to be physically present during the process?
+                                         Do I have to be physically present during the process?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -301,7 +301,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        d. Can we apply for 12A and 80G separately?
+                                         Can we apply for 12A and 80G separately?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -313,7 +313,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        e. How to check if my NGO is eligible for 80G registration?
+                                         How to check if my NGO is eligible for 80G registration?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -325,7 +325,7 @@ const Ngo_Registration = () => {
                             <AccordionItem>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        f. What is the validity of the new 80G and 12A registration?
+                                         What is the validity of the new 80G and 12A registration?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
