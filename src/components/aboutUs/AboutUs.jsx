@@ -25,6 +25,9 @@ function App() {
       name: "Bhushan Shirude",
       title: "Founder & CEO",
       img: one,
+      social1:"",
+      social2:"",
+      social3:""
     },
     {
       name: "Mayuri Shirude",
@@ -368,13 +371,24 @@ function App() {
                 />
               </div>
               <div className="py-4">
-                <h1 className="md:text-2xl text-3xl font-semibold text-[#560216] text-center">
+                <h1 className="md:text-2xl text-3xl font-bold text-[#560216] text-center">
                   {t.name}
                 </h1>
               </div>
-              <p className="text-xl md:text-lg text-rose-700 font-medium text-center">
+              <p className="font-semibold text-lg text-rose-700 text-center">
                 {t.title}
               </p>
+              <div className="flex justify-center gap-3 p-2">
+              <div className="text-xl md:text-lg text-rose-700 font-medium text-center">
+                <i className="lni lni-linkedin-original"></i>
+              </div>
+              <div className="text-xl md:text-lg text-rose-700 font-medium text-center">
+                <i className="lni lni-instagram-original"></i>
+              </div>
+              <div className="text-xl md:text-lg text-rose-700 font-medium text-center">
+                <i className="lni lni-facebook-original"></i>
+              </div>
+              </div>
             </div>
           ))}
         </div>
