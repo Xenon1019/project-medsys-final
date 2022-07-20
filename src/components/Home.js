@@ -1,8 +1,8 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from "swiper";
 import { TabTitle } from './Utillity';
-// import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
