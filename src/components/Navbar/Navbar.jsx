@@ -50,7 +50,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:block hidden hover:bg-rose-900 py-4">
+        <div className="lg:block hidden hover:bg-rose-900 p-4">
           <Log />
         </div>
         {/* Mobile*/}

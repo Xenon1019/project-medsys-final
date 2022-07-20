@@ -20,12 +20,12 @@ import Documents from "./profilepages/Documents";
 import DocumentsCompany from "./profilepages/DocumentsCompany";
 import DocumentsTrust from "./profilepages/DocumentsTrust";
 import HowWeWork from "./components/HowWeWork";
+import Marketing from "./components/Marketing/Marketing";
 // ++++++++++++++++++++++++++++++++++ BLog paages +++++++++++++++++++++++++++++++++++++++++
 import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARegistration";
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
-import Marketing from "./components/Marketing/Marketing";
-import CommingSoon from "./components/pages/commingSoon"
+import CommingSoon from "./components/pages/commingSoon";
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";

@@ -1,18 +1,16 @@
-#ngo-darpan-info{
-    background-color: white;
-    margin-top: 0;
-    padding-bottom: 0.1rem;
-}
-
-#ngo-darpan-info h1{
+.content-scroll-view a {
+    text-decoration: underline;
     color: #560216;
-    margin-left: 5%;
-    font-size: 2rem;
-    padding-top: 2em;
-    padding-bottom: 0.7em;
+    font-weight: 550;
 }
 
-#ngo-darpan-info ul li b{
-    color: #9D3E55;
+.arrow::before {
+    content: "\00BB";
+    color: #560216;
+    font-size: 2em;
+    margin-right: 0.2em;
 }
 
+p.arrow {
+    margin-left: 2rem;
+}
