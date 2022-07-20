@@ -105,7 +105,7 @@ const FCRA_Registration = () => {
 
             <div className="flex h-full w-full">
                 <div className="sm:w-1/4 hidden md:block">
-                    <div className="flex flex-col sticky top-40 ml-4 my-12">
+                    <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
                         <div className="bg-white rounded-xl p-5">
                             <h2 className="text-3xl text-[#560216] font-bold text-center">
                                 Table Of Contents
@@ -300,35 +300,35 @@ const FCRA_Registration = () => {
                         <img className="mx-auto my-3" src={apendaImg} alt="" />
                         <ul className="">
                             <div className="my-2">
-                                <li className="arrow">CRA Online Portal</li>
+                                <li className="arrow text-[#9D3E55] font-bold">CRA Online Portal</li>
                                 <p>The first step is to access the online portal of FCRA.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Click On The Forms</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Click On The Forms</li>
                                 <p>Based on the type of registration, an applicant needs to click on:-</p>
                                 <p>1. Based on the type of registration, an applicant needs to click on:-</p>
                                 <p>2. Application for FCRA Prior Permission-Form FC – 3B.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Creating The Username And Password</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Creating The Username And Password</li>
                                 <p>The next step is to apply online. Once the applicant chooses ‘Apply Online’ option, the next step is to create a username and password by clicking on the ‘Sign-Up’ option.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Login Respective Account</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Login Respective Account</li>
                                 <p>Once an applicant creates a user ID and password, the message regarding the same is displayed on the screen, and the applicant may log in to the account. Once the account is logged in by the applicant, the screen will reflect “I am applying for” from which FCRA Registration has to be chosen. An applicant shall select ‘Apply Online’ following which “Proceed Registration” has to be selected.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Start The New Registration Procedure</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Start The New Registration Procedure</li>
                                 <p>The next step that will reflect, in the title bar is FC-3 that is to be clicked on to start the new registration procedure.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Providing The Relevant Details</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Providing The Relevant Details</li>
                                 <p>1. The next step is to fill in the relevant details in the form along with the requisite documents. Along with that below-mentioned criteria is required to follow-</p>
                                 <p>2. An applicant needs to select The Executive Committee option from the menu bar. The particulars will be filled in the Executive Committee form.</p>
                                 <p>3. The applicant can add/delete/edit the details by entering “Add details of Key Functionary”.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Providing The Relevant Details</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Providing The Relevant Details</li>
                                 <p>Once the above-mentioned criteria along with the details are filled, the applicant shall provide the bank details that includes:-</p>
                                 <p>1. Bank name,</p>
                                 <p>2. Account number,</p>
@@ -336,11 +336,11 @@ const FCRA_Registration = () => {
                                 <p>4. Address of the bank.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Uploading Documents In PDF Format</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Uploading Documents In PDF Format</li>
                                 <p>Once the applicant fills in the bank details, all the required documents are to be uploaded in PDF format. Also, the place and date need to be entered after which the final submission is done.</p>
                             </div>
                             <div className="my-2">
-                                <li className="arrow">Making The Payment</li>
+                                <li className="arrow text-[#9D3E55] font-bold">Making The Payment</li>
                                 <p>The next and final step is to make the online payment by clicking on the respective button. Further, no alterations can be made in the said form once the payment is made, and the form is submitted.</p>
                                 <p>Note-Once the FCRA registration is granted by the authority, the registration remains valid for 3 years.</p>
                             </div>
@@ -608,8 +608,6 @@ const FCRA_Registration = () => {
                         </Accordion>
                     </div>
                 </div>
-      <ContactForm/>
-
             </div>
         <ContactForm />
         </>
