@@ -35,7 +35,7 @@ const points = [
 ];
 
 export default function DSC() {
-    TabTitle("Digital Signature Certificate - medsysconsultancy.com");
+    TabTitle("NGO Darpan Registration - medsysconsultancy.com");
 
     return (
         <>
