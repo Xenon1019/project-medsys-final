@@ -25,7 +25,7 @@ import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARe
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
-import CommingSoon from "./components/pages/Commingsoon"
+import CommingSoon from "./components/pages/commingSoon"
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
@@ -66,6 +66,7 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
+import Copy from "./components/pages/Copy/Copy";
 
 import {
   BrowserRouter,
@@ -146,6 +147,7 @@ function App() {
           <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
           <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
           <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
+          <Route path="/copy" element={ <Copy /> }></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
