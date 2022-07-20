@@ -26,7 +26,7 @@ import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARe
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import CommingSoon from "./components/pages/commingSoon";
-import Copyright from "./components/pages/copyright/Copyright";
+import Copyright from "./components/pages/Copy/Copy";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
