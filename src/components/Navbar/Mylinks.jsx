@@ -112,7 +112,7 @@ export const links = [
     sublinks: [
       {
           sublink: [
-          { name: "Trademark Registration", link: "/commingSoon" },
+          { name: "Trademark Registration", link: "/trademark-registration" },
           { name: "Patent Registration", link: "/patent-registration" },
           { name: "Copyright Registration", link: "/copyright" },
           { name: "Design Registration", link: "/design" },
