@@ -176,18 +176,18 @@ export default function Footer() {
 
           <div className="grid bg-[#25050c] ">
             <div className="flex items-center my-5 justify-center gap-3">
-              <Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage">
+              <a href="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage" target="_blank">
                 <i class="lni lni-facebook"></i>
-              </Link>
-              <Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk ">
+              </a>
+              <a href="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk " target="_blank">
                 <i class="lni lni-twitter"></i>
-              </Link>
-              <Link to="https://www.instagram.com/medsysconsultancy/">
+              </a>
+              <a href="https://www.instagram.com/medsysconsultancy/" target="_blank">
                 <i class="lni lni-instagram"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/company/30242565/admin/  ">
+              </a>
+              <a href="https://www.linkedin.com/company/30242565/admin/  " target="_blank">
                 <i class="lni lni-linkedin"></i>
-              </Link>
+              </a>
             </div>
             <div className="flex mx-auto text-sm gap-7">
               <h1 className="tracking-wider uppercase my-auto text-[#af999e]">
