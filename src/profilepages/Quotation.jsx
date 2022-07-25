@@ -1,9 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import SideBar from "../components/Sidebar/SideBar";
 
 function EditProfile() {
-  const [incorporation, setincorporation] = useState();
   return (
     <>
       <div className="flex">

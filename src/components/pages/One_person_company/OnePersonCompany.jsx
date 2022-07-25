@@ -581,8 +581,8 @@ const OnePersonCompany = () => {
                         </Accordion>
                     </div>
                 </div>
-      <ContactForm/>
             </div>
+      <ContactForm/>
         </>
     );
 }

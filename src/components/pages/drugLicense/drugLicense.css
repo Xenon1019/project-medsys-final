@@ -1,68 +1,16 @@
-.header-left-content{
-    padding-top: 5rem;
-}
-
-.header-left-content h1{
-    font-size: 3.7rem;
-    color: white;
-}
-
-.header-left-content ul li b{
-    color: white;
-}
-
-.header-left-content ul li img{
-    aspect-ratio: 1;
-    width: 20px;
-    display: inline;
-    margin-right: 1em;
-}
-
-.header-right-content{
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header-right-content form{
-    background-color: #fff;
-    padding: 30px;
-    width: 80%;
-    border-radius: 2em;
-    padding-bottom: 5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Roboto', Times, serif;
-}
-.header-right-content form input{
-    width: 95%;
-    border-bottom: 2px solid grey;
-    padding: 0.1em;
-    color: #222
-}
-.header-right-content form button{
-    background-color: #560216;
-    width: fit-content;
-    padding: 0.5em;
-    border-radius: 0.5em;
-}
-
-.content-scroll-view a{
+.content-scroll-view a {
     text-decoration: underline;
-    color: #560216 !important;
+    color: #560216;
     font-weight: 550;
 }
 
-.accordion__item{
-    border-radius: 1rem;
-}
-.accordion__item--active{
-    background-color: white;
+.arrow::before {
+    content: "\00BB";
+    color: #560216;
+    font-size: 2em;
+    margin-right: 0.2em;
 }
 
-#activeTableContentaa > ul > li{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+p.arrow {
+    margin-left: 2rem;
 }

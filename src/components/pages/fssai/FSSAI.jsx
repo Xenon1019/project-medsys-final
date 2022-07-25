@@ -93,12 +93,12 @@ export default function FSSAI() {
                     </form>
                 </div>
             </div>
-            <div className="flex justify-center items-center gap-11 px-4 bg-black text-white h-20">
+            <div className="flex justify-center items-center gap-11 px-4 bg-black text-white py-2 h-26 sm:h-20">
                 <div className="text-xl my-auto">
                     Get in touch with us acquire various licenses, registrations, and certifications
                 </div>
 
-                <button className="bg-[#560216] text-white w-1/2 my-auto h-1/2 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
+                <button className="bg-[#560216] text-white w-1/2 my-auto h-3/4 sm:w-1/6 rounded-md text-lg hover:bg-green-600">
                     <a href="tel:+91 70204 38881">Call Now!</a>
                 </button>
 

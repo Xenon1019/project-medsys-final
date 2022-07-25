@@ -5,11 +5,11 @@ export default function RefundPolicy() {
     return (
         <>
             <section className='refund-policy'>
-                <div className="img-section h-[550px]"></div>
+                <div className="img-section h-[550px] hidden lg:block"></div>
                 <div className="container policies px-12">
                     <ul>
                         <li>
-                            <h1 className="footer-section-heading text-3xl font-bold text-center text-mainColor">Refund policy</h1>
+                            <h1 className="footer-section-heading text-4xl mt-5 font-bold text-center text-mainColor">Refund policy</h1>
                         </li>
                         <li>
                             <p className='mb-6'>We thank you and appreciate your service or product purchase with us on our website ⦁
@@ -55,7 +55,7 @@ export default function RefundPolicy() {
                             </ul>
                         </li>
                         <li>
-                            <p className='mb-4'>If the request for the refund has been approved by Medsys Consultancy, the same shall be
+                            <p className='mb-5 '>If the request for the refund has been approved by Medsys Consultancy, the same shall be
                                 processed
                                 and intimated to you via email. This refund process could take a minimum of 15 (fifteen)
                                 business

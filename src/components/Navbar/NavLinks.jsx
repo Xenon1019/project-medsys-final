@@ -10,7 +10,7 @@ const NavLinks = ({open, setopen}) => {
     <>
       {links.map((link) => (
         <div>
-          <div className=" text-left md:cursor-pointer hover:bg-rose-900 rounded-sm group">
+          <div className=" text-left md:cursor-pointer px-3 py-5 lg:p-0 hover:bg-rose-900 rounded-sm group">
             <div className="flex justify-between py-4 px-3" onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");

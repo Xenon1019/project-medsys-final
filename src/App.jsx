@@ -1,4 +1,3 @@
-"react-router-dom";
 import { TabTitle } from "./components/Utillity";
 import Footer from "./components/footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
@@ -20,12 +19,14 @@ import Profile from "./profilepages/Profile";
 import Documents from "./profilepages/Documents";
 import DocumentsCompany from "./profilepages/DocumentsCompany";
 import DocumentsTrust from "./profilepages/DocumentsTrust";
+import HowWeWork from "./components/HowWeWork";
+import Marketing from "./components/Marketing/Marketing";
 // ++++++++++++++++++++++++++++++++++ BLog paages +++++++++++++++++++++++++++++++++++++++++
 import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARegistration";
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
-import Marketing from "./components/Marketing/Marketing";
-import Copyright from "./components/pages/copyright/Copyright";
+import CommingSoon from "./components/pages/commingSoon";
+import Copyright from "./components/pages/Copy/Copy";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
 import Design from "./components/pages/Design/Design";
@@ -65,6 +66,8 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
+import Trademark from "./components/pages/trademark/Trademark";
+
 import {
   BrowserRouter,
   Routes,
@@ -142,6 +145,8 @@ function App() {
           <Route path="/ngo-registration" element={ <Ngo_Registration /> }></Route>
           <Route path="/one-person-company" element={ <OnePersonCompany /> }></Route>
           <Route path="/sole-proprietorship" element={ <Sole_Proprietorship /> }></Route>
+          <Route path="/trademark-registration" element={ <Trademark /> }></Route>
+
         </Routes>
         <Footer />
       </BrowserRouter>

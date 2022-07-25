@@ -9,7 +9,9 @@ export function RelatedRead(props) {
                     {props.children}
                 </p>
             </div>
-            <div className="min-w-fit px-4 py-2 bg-[#560216] text-white uppercase border rounded-full hover:bg-green-600"> Click Here</div>
+            <button type="submit" className="min-w-fit px-4 py-2 bg-[#560216] text-white uppercase border rounded-full hover:bg-green-600"> 
+            <a href="">Click Here</a>
+            </button>
         </div>
     </>);
 }

@@ -7,6 +7,8 @@ import bg from "./imgs/bg.png";
 import Scrollspy from "react-scrollspy";
 import { TabTitle } from "../../Utillity";
 import "./tan.css";
+import ContactForm from "../../ContactForm";
+
 import online from "./imgs/ONLINE.svg";
 import offline from "./imgs/OFFLINE.svg";
 
@@ -103,7 +105,7 @@ const Trust = () => {
         </button>
       </div>
 
-      <div className="flex bg-[#f6d5dd] h-full w-full">
+      <div className="flex  h-full w-full">
         <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
@@ -177,7 +179,7 @@ const Trust = () => {
           </div>
         </div>
 
-        <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
           <div className="my-12" id="TAN">
             <h2 className="text-3xl text-[#560216] font-bold my-4">
               What Is TAN?
@@ -417,6 +419,8 @@ const Trust = () => {
         </div>
         
       </div>
+
+      <ContactForm></ContactForm>
     </>
   );
 };

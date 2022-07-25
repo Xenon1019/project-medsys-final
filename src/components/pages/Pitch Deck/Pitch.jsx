@@ -17,6 +17,8 @@ import {
 } from "react-accessible-accordion";
 
 import "react-accessible-accordion/dist/fancy-example.css";
+import ContactForm from "../../ContactForm";
+
 const points = [
   {
     head: "Business Served",
@@ -101,12 +103,12 @@ const Trust = () => {
           <a href="tel:+91 70204 38881">Call Now!</a>
         </button>
       </div>
-
-      <div className="mt-auto sm:w-4/5 px-5 mx-auto">
-        <h2 className="text-3xl text-[#560216] font-bold my-8">
+      <div className="w-full h-full pt-3">
+      <div className="mt-auto sm:w-4/5 px-5 mx-auto ">
+        <h2 className="text-3xl pt-3 pb-3 text-[#560216] font-bold">
           What is Pitch Deck?
         </h2>
-        <p className="mb-10">
+        <p className="">
           A pitch deck is often a presentation of the company's business plan
           that demonstrates the company's business model, statistics,
           competitive analysis, team and funding requirements. It's a 15-20
@@ -126,8 +128,8 @@ const Trust = () => {
           is going in the long run.
         </p>
       </div>
-
-      <div className="flex bg-[#f6d5dd] h-full w-full">
+      </div>
+      <div className="flex h-full w-full">
         <div className="sm:w-1/4 hidden md:block">
           <div className="flex flex-col sticky top-40 ml-4 my-12 p-9">
             <div className="bg-white rounded-xl p-5">
@@ -209,7 +211,7 @@ const Trust = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#f6d5dd] h-full sm:w-3/4 px-5 sm:px-9 py-2">
+        <div className=" h-full sm:w-3/4 px-5 sm:px-9 py-2">
           <div className="my-12" id="Overview">
             <h2 className="text-3xl text-[#560216] font-bold my-4">Overview</h2>
             <p className="my-2">
@@ -550,7 +552,10 @@ const Trust = () => {
             </Accordion>
           </div>
         </div>
+        
+
       </div>
+      <ContactForm />
     </>
   );
 };
