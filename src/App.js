@@ -20,13 +20,11 @@ import Profile from "./profilepages/Profile";
 import Documents from "./profilepages/Documents";
 import DocumentsCompany from "./profilepages/DocumentsCompany";
 import DocumentsTrust from "./profilepages/DocumentsTrust";
-import HowWeWork from "./components/HowWeWork";
 // ++++++++++++++++++++++++++++++++++ BLog paages +++++++++++++++++++++++++++++++++++++++++
 import BlogFCRARegistration from "./components/ResponsiveBlogTemplate/BlogFCRARegistration";
 import BlogCSRRegistration from "./components/ResponsiveBlogTemplate/BlogCSRResgistration";
 // ++++++++++++++++++++++++++++++++++ services paages +++++++++++++++++++++++++++++++++++++++++
 import Marketing from "./components/Marketing/Marketing";
-import CommingSoon from "./components/pages/Commingsoon"
 import Copyright from "./components/pages/copyright/Copyright";
 import Producer from "./components/pages/producer/Producer";
 import Partner from "./components/Partner";
@@ -67,7 +65,6 @@ import PAN from "./components/pages/pan/PAN";
 import Startup from "./components/pages/startup/Startup";
 import GST from "./components/pages/gst/GST";
 import Shop from "./components/pages/shop/Shop";
-
 import {
   BrowserRouter,
   Routes,
@@ -81,8 +78,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/tushar" element={<HowWeWork />}></Route>
-          <Route path="/commingSoon" element={<CommingSoon/>}></Route>
           <Route path="/FCRA-registration" element={<BlogFCRARegistration />}></Route>
           <Route path="/CSR-1-Registration" element={<BlogCSRRegistration />}></Route>
           <Route path="/login" element={<LoginRegister/>}></Route>
